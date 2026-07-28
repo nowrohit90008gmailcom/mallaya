@@ -57,15 +57,12 @@ VIDEO_DURATION    = 8    # Total seconds per panel
 CROSSFADE_SEC     = 0.4  # Smooth crossfade between sub-clips
 
 VIDEO_WIDTH  = 1920
-VIDEO_HEIGHT = 1080
+VIDEO_HEIGHT = 1088
 
-# ── Style ─────────────────────────────────────
-STYLE_SUFFIX = (
-    ", 2D animated documentary illustration, Indian graphic novel style, "
-    "bold clean cel-shaded outlines, warm earthy color palette, "
-    "detailed hand-drawn illustrated backgrounds, anime-inspired Indian character design, "
-    "smooth fluid animation, professional TV documentary animation quality, "
-    "DOKIO documentary style, no watermarks, no text, 16:9"
+# DOKIO 2D documentary style prefix — PREPENDED at start so CLIP prioritises the art style
+STYLE_PREFIX = (
+    "2D animated documentary illustration, DOKIO style, Indian graphic novel, "
+    "bold clean cel-shaded outlines, warm earthy colors, hand-drawn background, "
 )
 
 NEGATIVE_PROMPT = (
@@ -270,7 +267,8 @@ def main():
     )
 
     pipe.enable_model_cpu_offload()
-    pipe.enable_vae_slicing()
+    if hasattr(pipe, "vae"):
+        pipe.vae.enable_slicing()
     log("Pipeline ready!\n")
 
     # ── Panel Loop ───────────────────────────
@@ -278,7 +276,8 @@ def main():
         panel_id    = panel["id"]
         base_prompt = panel.get("text_to_video_prompt", panel.get("video_prompt", ""))
         scene       = panel.get("scene", "")
-        full_prompt = base_prompt.rstrip(".") + STYLE_SUFFIX
+        # Prepend style prefix at START so CLIP tokenizer sees the 2D illustration style first
+        full_prompt = STYLE_PREFIX + base_prompt
 
         video_path = clips_dir / f"{panel_id}.mp4"
         if video_path.exists():
