@@ -46,14 +46,15 @@ BASE_MODEL_ID     = "emilianJR/epiCRealism"
 LORA_FILENAME     = "animatediff_lightning_4step_diffusers.safetensors"
 
 # ── Generation settings ───────────────────────
-NUM_FRAMES        = 16    # Frames per sub-clip (AnimateDiff-Lightning native)
-INFERENCE_STEPS   = 4     # AnimateDiff-Lightning 4-step (fast + high quality)
-GUIDANCE_SCALE    = 1.0   # Must be 1.0 for Lightning
-SUBCLIPS_PER_PANEL = 4    # 4 sub-clips × 2 sec = 8 seconds total
-SUBCLIP_FPS       = 8     # AnimateDiff native fps (16 frames ÷ 8fps = 2 sec each)
-OUTPUT_FPS        = 24    # Final export fps (smooth playback)
-VIDEO_DURATION    = 8     # Total seconds per panel
-CROSSFADE_SEC     = 0.3   # Crossfade duration between sub-clips
+NUM_FRAMES         = 16   # Frames per sub-clip (AnimateDiff-Lightning native)
+INFERENCE_STEPS   = 8    # 8 steps = better quality than 4-step
+GUIDANCE_SCALE    = 1.5  # Slightly above 1.0 for richer detail
+SUBCLIPS_PER_PANEL = 4   # 4 sub-clips × 2 sec = 8 seconds total, NO looping
+SUBCLIP_RAW_FPS   = 8    # AnimateDiff native output fps
+OUTPUT_FPS        = 24   # Final smooth fps after interpolation
+INTERPOL_FACTOR   = 3    # 8fps × 3 = 24fps via motion interpolation
+VIDEO_DURATION    = 8    # Total seconds per panel
+CROSSFADE_SEC     = 0.4  # Smooth crossfade between sub-clips
 
 VIDEO_WIDTH  = 1920
 VIDEO_HEIGHT = 1080
@@ -103,10 +104,16 @@ def upload_to_gdrive(local_path: str, remote_dir: str):
         return False
 
 
-def frames_to_subclip(frames: list, output_path: str, fps: int = 8):
-    """Save AnimateDiff frames as a high-quality subclip MP4."""
+def frames_to_subclip(frames: list, raw_path: str, smooth_path: str,
+                      raw_fps: int = 8, output_fps: int = 24):
+    """
+    Step 1: Save AnimateDiff frames as lossless raw subclip.
+    Step 2: Apply FFmpeg motion interpolation (minterpolate) to go from
+            8fps → 24fps producing silky smooth intermediate frames.
+    """
     import imageio
 
+    # Upscale to 1920×1080
     hd_frames = []
     for frame in frames:
         if isinstance(frame, Image.Image):
@@ -115,17 +122,39 @@ def frames_to_subclip(frames: list, output_path: str, fps: int = 8):
             img = Image.fromarray(np.array(frame)).resize((VIDEO_WIDTH, VIDEO_HEIGHT), Image.LANCZOS)
         hd_frames.append(np.array(img))
 
+    # Save raw 8fps clip (lossless)
     writer = imageio.get_writer(
-        output_path,
-        fps=fps,
-        codec="libx264",
-        quality=None,
-        pixelformat="yuv420p",
-        ffmpeg_params=["-crf", "15", "-preset", "slow"]
+        raw_path, fps=raw_fps, codec="libx264",
+        quality=None, pixelformat="yuv420p",
+        ffmpeg_params=["-crf", "0", "-preset", "ultrafast"]
     )
     for frame in hd_frames:
         writer.append_data(frame)
     writer.close()
+
+    # Apply motion interpolation: 8fps → 24fps using FFmpeg minterpolate
+    # mi_mode=mci + mc_mode=aobmc = highest quality motion-compensated interpolation
+    interp_filter = (
+        f"minterpolate=fps={output_fps}:"
+        "mi_mode=mci:mc_mode=aobmc:me_mode=bidir:"
+        "vsbmc=1:scd=fdiff"
+    )
+    cmd = [
+        "ffmpeg", "-y",
+        "-i", raw_path,
+        "-vf", interp_filter,
+        "-r", str(output_fps),
+        "-c:v", "libx264",
+        "-crf", "15",
+        "-preset", "slow",
+        "-pix_fmt", "yuv420p",
+        smooth_path
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        raise RuntimeError(f"Interpolation error: {result.stderr[-300:]}")
+    # Remove raw temp file
+    Path(raw_path).unlink(missing_ok=True)
 
 
 def stitch_subclips_with_crossfade(subclip_paths: list, output_path: str,
@@ -262,7 +291,6 @@ def main():
 
             try:
                 torch.cuda.empty_cache()
-                # Each sub-clip gets a unique seed for varied but related motion
                 seed = (hash(panel_id) * 31 + sub_i * 9973) % (2**32)
                 generator = torch.Generator("cpu").manual_seed(seed)
 
@@ -275,9 +303,16 @@ def main():
                     generator=generator,
                 )
                 frames = output.frames[0]
-                frames_to_subclip(frames, str(subclip_path), fps=SUBCLIP_FPS)
-                subclip_paths.append(str(subclip_path))
-                log(f"  ✓ sub-clip {sub_i+1}/{SUBCLIPS_PER_PANEL}")
+
+                # Save raw then interpolate 8fps → 24fps for silky smooth output
+                raw_path    = temp_dir / f"{panel_id}_sub{sub_i}_raw.mp4"
+                smooth_path = str(subclip_path)
+                frames_to_subclip(
+                    frames, str(raw_path), smooth_path,
+                    raw_fps=SUBCLIP_RAW_FPS, output_fps=OUTPUT_FPS
+                )
+                subclip_paths.append(smooth_path)
+                log(f"  ✓ sub-clip {sub_i+1}/{SUBCLIPS_PER_PANEL} (smoothed {SUBCLIP_RAW_FPS}→{OUTPUT_FPS}fps)")
 
             except Exception as e:
                 log(f"  ✗ sub-clip {sub_i+1} FAILED: {e}")
