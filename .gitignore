@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs
+*.log
+generation_log.txt
+svd_log.txt
+failed_panels.txt
+svd_failed.txt
+rclone.log
+
+# Large generated outputs (don't commit images/videos)
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.webp
+Generated Panels/
+Video Clips SVD/
+Video Clips/
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
