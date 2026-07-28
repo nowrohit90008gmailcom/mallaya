@@ -1,9 +1,10 @@
 """
 generate_text_to_video.py
 =========================
-Mallya Documentary — Pure Text-to-Video Generation Pipeline
-Generates 8-second AI video clips directly from text prompts using CogVideoX-2b / Diffusers.
-Directly uploads generated MP4 clips to Google Drive (rclone copyto).
+Mallaya Documentary — 2D Animated Documentary Text-to-Video Pipeline
+Generates 8-second animated video clips using CogVideoX-5b.
+Style: 2D animated illustration, DOKIO / Indian graphic novel documentary style.
+Uploads directly to Google Drive via rclone.
 """
 
 import json
@@ -22,8 +23,8 @@ os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 # CONFIGURATION
 # ─────────────────────────────────────────────
 
-LOCAL_CLIPS_DIR     = "/workspace/output/Video_Clips_T2V"
-GDRIVE_CLIPS_REMOTE = "gdrive:Mallya Documentary/Video Clips T2V"
+LOCAL_CLIPS_DIR     = "/workspace/output/Video_Clips_Animated"
+GDRIVE_CLIPS_REMOTE = "gdrive:Mallya Documentary/Video Clips Animated"
 
 SCRIPT_DIR = Path(__file__).parent
 if (SCRIPT_DIR / "prompts.json").exists():
@@ -34,13 +35,22 @@ else:
 LOG_FILE  = "/workspace/t2v_pipeline.log"
 FAIL_FILE = "/workspace/t2v_failed.txt"
 
-# Model: CogVideoX-5b — best quality open-source text-to-video model for 24 GB VRAM
-# Produces cinematic 6-8 second 720p clips with photorealistic motion
+# Model: CogVideoX-5b — best quality open-source T2V model for 24 GB VRAM
 MODEL_ID          = "THUDM/CogVideoX-5b"
-NUM_FRAMES        = 49          # Native CogVideoX frame count
-INFERENCE_STEPS   = 50          # Higher = better quality
+NUM_FRAMES        = 49    # Native CogVideoX frame count (~6 sec at native fps)
+INFERENCE_STEPS   = 50    # Higher = better quality & smoother motion
 GUIDANCE_SCALE    = 6.0
-TARGET_FPS        = 8           # CogVideoX native output FPS (upsampled in export)
+TARGET_FPS        = 16    # Output FPS — smoother playback
+
+# 2D Animated Documentary Style Prefix (DOKIO style)
+# Prepended to every prompt so CogVideoX generates in the correct art style
+STYLE_PREFIX = (
+    "2D animated documentary illustration, Indian graphic novel style, "
+    "bold clean cel-shaded outlines, warm earthy color palette, "
+    "detailed hand-drawn illustrated backgrounds, anime-inspired Indian character art, "
+    "smooth cinematic animation, professional documentary animation quality, "
+    "no photorealism, no 3D render, "
+)
 
 # ─────────────────────────────────────────────
 # HELPERS
@@ -136,11 +146,12 @@ def main():
 
     log("CogVideoX-5b pipeline ready. Generating 8-second clips from detailed text prompts...")
 
-    for panel in tqdm(panels, desc="CogVideoX-5b Text-to-Video"):
+    for panel in tqdm(panels, desc="CogVideoX-5b Animated T2V"):
         panel_id   = panel["id"]
-        # Use the richly detailed text-to-video prompt
-        v_prompt   = panel.get("text_to_video_prompt", panel.get("video_prompt", ""))
-        scene      = panel.get("scene", "")
+        # Prepend 2D animated style prefix to every prompt
+        base_prompt = panel.get("text_to_video_prompt", panel.get("video_prompt", ""))
+        v_prompt    = STYLE_PREFIX + base_prompt
+        scene       = panel.get("scene", "")
 
         video_name = f"{panel_id}.mp4"
         video_path = clips_dir / video_name
@@ -151,15 +162,17 @@ def main():
 
         try:
             torch.cuda.empty_cache()
-            log(f"Generating video for [{panel_id}]...")
+            log(f"[{panel_id}] Generating animated clip...")
 
+            # Unique seed per panel for variety
+            seed = (hash(panel_id) + 999) % (2**32)
             frames = pipe(
                 prompt=v_prompt,
                 num_videos_per_prompt=1,
                 num_inference_steps=INFERENCE_STEPS,
                 num_frames=NUM_FRAMES,
                 guidance_scale=GUIDANCE_SCALE,
-                generator=torch.Generator("cuda").manual_seed(42),
+                generator=torch.Generator("cuda").manual_seed(seed),
             ).frames[0]
 
             export_high_quality_video(frames, str(video_path), fps=TARGET_FPS)
