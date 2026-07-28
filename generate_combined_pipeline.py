@@ -1,17 +1,16 @@
 """
 generate_combined_pipeline.py
 ==============================
-Mallya Documentary — Complete Image + 8-Second Video Pipeline
-RTX 3090 (24GB VRAM) | FLUX.1-dev + SVD-XT | Direct Google Drive Upload
+Mallya Documentary — Sequential Memory-Safe Image + 8-Second Video Pipeline
+RTX 3090 | FLUX.1-dev + SVD-XT | Direct Google Drive Upload (rclone copyto)
 
-For EVERY panel:
-  1. Generates image PNG (FLUX.1-dev) → Uploads to Google Drive
-  2. Animates into 8.0-second MP4 clip (SVD-XT) → Uploads to Google Drive
-  3. Moves to next panel!
+Phase 1: Loads FLUX → Generates 77 PNG stills (1 per panel) → Uploads to Drive
+Phase 2: Unloads FLUX → Loads SVD-XT → Animates all 77 stills into 8.0-second MP4s → Uploads to Drive
 """
 
 import json
 import os
+import gc
 import subprocess
 import torch
 import random
@@ -94,32 +93,6 @@ def upload_to_gdrive(local_path: str, remote_dir: str):
         return False
 
 
-def load_flux_pipeline():
-    log("Loading FLUX.1-dev pipeline...")
-    torch.cuda.empty_cache()
-    pipe = FluxPipeline.from_pretrained(
-        FLUX_MODEL_ID,
-        torch_dtype=torch.bfloat16,
-    )
-    pipe.enable_model_cpu_offload()
-    pipe.vae.enable_slicing()
-    pipe.vae.enable_tiling()
-    return pipe
-
-
-def load_svd_pipeline():
-    log("Loading SVD-XT video pipeline...")
-    torch.cuda.empty_cache()
-    pipe = StableVideoDiffusionPipeline.from_pretrained(
-        "stabilityai/stable-video-diffusion-img2vid-xt",
-        torch_dtype=torch.float16,
-        variant="fp16",
-    )
-    pipe.enable_model_cpu_offload()
-    pipe.unet.enable_forward_chunking()
-    return pipe
-
-
 def create_8sec_loop(frames: list, target_duration: float = 8.0, target_fps: int = 30) -> list:
     total_needed_frames = int(target_duration * target_fps)
     ping_pong = frames + frames[-2:0:-1]
@@ -128,7 +101,7 @@ def create_8sec_loop(frames: list, target_duration: float = 8.0, target_fps: int
 
 
 # ─────────────────────────────────────────────
-# MAIN
+# MAIN PIPELINE
 # ─────────────────────────────────────────────
 
 def main():
@@ -144,16 +117,80 @@ def main():
     with open(PROMPTS_FILE, "r", encoding="utf-8") as f:
         panels = json.load(f)
 
-    log(f"Starting combined pipeline for {len(panels)} panels × {VARIATIONS} variations = {len(panels) * VARIATIONS} total items.")
+    log("=" * 60)
+    log(f"STARTING PIPELINE: {len(panels)} panels × {VARIATIONS} variation = {len(panels)} images & 8-sec video clips.")
+    log("=" * 60)
 
-    # Load FLUX model
-    flux_pipe = load_flux_pipeline()
-    svd_pipe  = None  # Lazy load SVD on first video step
+    # ─────────────────────────────────────────────
+    # PHASE 1: GENERATE ALL PNG STILLS (FLUX.1-dev)
+    # ─────────────────────────────────────────────
+    log("\n>>> PHASE 1: GENERATING STILL IMAGES (FLUX.1-dev)")
+    torch.cuda.empty_cache()
 
-    for panel in tqdm(panels, desc="Processing documentary panels"):
+    flux_pipe = FluxPipeline.from_pretrained(
+        FLUX_MODEL_ID,
+        torch_dtype=torch.bfloat16,
+    )
+    flux_pipe.enable_model_cpu_offload()
+    flux_pipe.vae.enable_slicing()
+    flux_pipe.vae.enable_tiling()
+
+    for panel in tqdm(panels, desc="Phase 1 - Rendering PNG Stills"):
         panel_id = panel["id"]
         prompt   = panel["prompt"]
         scene    = panel.get("scene", "")
+
+        for variation in range(1, VARIATIONS + 1):
+            image_name = f"{panel_id}_v{variation}.png"
+            image_path = panels_dir / image_name
+
+            if image_path.exists():
+                continue
+
+            try:
+                seed = random.randint(0, 2**32 - 1)
+                generator = torch.Generator("cuda").manual_seed(seed)
+                image = flux_pipe(
+                    prompt=prompt,
+                    width=IMAGE_WIDTH,
+                    height=IMAGE_HEIGHT,
+                    num_inference_steps=INFERENCE_STEPS,
+                    guidance_scale=GUIDANCE_SCALE,
+                    generator=generator,
+                ).images[0]
+
+                image.save(str(image_path), format="PNG", optimize=False)
+                uploaded = upload_to_gdrive(str(image_path), GDRIVE_PANELS_REMOTE)
+                up_str = "☁ Uploaded" if uploaded else "⚠ Local only"
+                log(f"✓ Saved {image_name} | {up_str} | {scene}")
+
+            except Exception as e:
+                log(f"✗ Image FAILED {image_name}: {e}")
+                log_fail(panel_id, variation, f"Image error: {e}")
+            finally:
+                torch.cuda.empty_cache()
+
+    # Free FLUX model completely from memory before loading SVD
+    log("Phase 1 Complete. Unloading FLUX.1-dev from VRAM...")
+    del flux_pipe
+    gc.collect()
+    torch.cuda.empty_cache()
+
+    # ─────────────────────────────────────────────
+    # PHASE 2: ANIMATE ALL PANELS TO 8-SEC MP4s (SVD-XT)
+    # ─────────────────────────────────────────────
+    log("\n>>> PHASE 2: GENERATING 8-SECOND VIDEO CLIPS (SVD-XT)")
+
+    svd_pipe = StableVideoDiffusionPipeline.from_pretrained(
+        "stabilityai/stable-video-diffusion-img2vid-xt",
+        torch_dtype=torch.float16,
+        variant="fp16",
+    )
+    svd_pipe.enable_model_cpu_offload()
+    svd_pipe.unet.enable_forward_chunking()
+
+    for panel in tqdm(panels, desc="Phase 2 - Animating 8-sec Video Clips"):
+        panel_id = panel["id"]
 
         for variation in range(1, VARIATIONS + 1):
             image_name = f"{panel_id}_v{variation}.png"
@@ -162,66 +199,45 @@ def main():
             image_path = panels_dir / image_name
             video_path = clips_dir / video_name
 
-            # ── 1. GENERATE IMAGE IF NOT EXISTS ──
+            if video_path.exists():
+                continue
+
             if not image_path.exists():
-                try:
-                    seed = random.randint(0, 2**32 - 1)
-                    generator = torch.Generator("cuda").manual_seed(seed)
-                    image = flux_pipe(
-                        prompt=prompt,
-                        width=IMAGE_WIDTH,
-                        height=IMAGE_HEIGHT,
-                        num_inference_steps=INFERENCE_STEPS,
-                        guidance_scale=GUIDANCE_SCALE,
-                        generator=generator,
-                    ).images[0]
+                log(f"SKIP {video_name} — source PNG missing")
+                continue
 
-                    image.save(str(image_path), format="PNG", optimize=False)
-                    upload_to_gdrive(str(image_path), GDRIVE_PANELS_REMOTE)
-                    log(f"✓ Image created: {image_name} | {scene}")
+            try:
+                raw_img = Image.open(str(image_path)).convert("RGB")
+                resized_img = raw_img.resize((SVD_WIDTH, SVD_HEIGHT), Image.LANCZOS)
 
-                except Exception as e:
-                    log(f"✗ Image FAILED: {image_name} | {e}")
-                    log_fail(panel_id, variation, f"Image error: {e}")
-                    continue
+                seed = (hash(panel_id) + variation * 1337) % (2**32)
+                generator = torch.manual_seed(seed)
 
-            # ── 2. GENERATE 8-SEC VIDEO CLIP IF NOT EXISTS ──
-            if not video_path.exists():
-                try:
-                    if svd_pipe is None:
-                        svd_pipe = load_svd_pipeline()
+                raw_frames = svd_pipe(
+                    resized_img,
+                    num_frames=SVD_FRAMES,
+                    num_inference_steps=25,
+                    motion_bucket_id=MOTION_BUCKET_ID,
+                    noise_aug_strength=NOISE_AUG_STRENGTH,
+                    decode_chunk_size=DECODE_CHUNK_SIZE,
+                    generator=generator,
+                ).frames[0]
 
-                    raw_img = Image.open(str(image_path)).convert("RGB")
-                    resized_img = raw_img.resize((SVD_WIDTH, SVD_HEIGHT), Image.LANCZOS)
+                frames_8sec = create_8sec_loop(raw_frames, TARGET_DURATION, TARGET_FPS)
+                export_to_video(frames_8sec, str(video_path), fps=TARGET_FPS)
 
-                    seed = (hash(panel_id) + variation * 1337) % (2**32)
-                    generator = torch.manual_seed(seed)
+                uploaded = upload_to_gdrive(str(video_path), GDRIVE_CLIPS_REMOTE)
+                up_str = "☁ Uploaded" if uploaded else "⚠ Local only"
+                log(f"✓ Video created: {video_name} | {up_str} (8.0 sec MP4)")
 
-                    raw_frames = svd_pipe(
-                        resized_img,
-                        num_frames=SVD_FRAMES,
-                        num_inference_steps=25,
-                        motion_bucket_id=MOTION_BUCKET_ID,
-                        noise_aug_strength=NOISE_AUG_STRENGTH,
-                        decode_chunk_size=DECODE_CHUNK_SIZE,
-                        generator=generator,
-                    ).frames[0]
-
-                    frames_8sec = create_8sec_loop(raw_frames, TARGET_DURATION, TARGET_FPS)
-                    export_to_video(frames_8sec, str(video_path), fps=TARGET_FPS)
-
-                    upload_to_gdrive(str(video_path), GDRIVE_CLIPS_REMOTE)
-                    log(f"✓ Video clip created: {video_name} (8.0 sec MP4)")
-
-                except Exception as e:
-                    log(f"✗ Video FAILED: {video_name} | {e}")
-                    log_fail(panel_id, variation, f"Video error: {e}")
-
-                finally:
-                    torch.cuda.empty_cache()
+            except Exception as e:
+                log(f"✗ Video FAILED {video_name}: {e}")
+                log_fail(panel_id, variation, f"Video error: {e}")
+            finally:
+                torch.cuda.empty_cache()
 
     log("=" * 60)
-    log("ALL PANELS & 8-SECOND VIDEO CLIPS GENERATED & UPLOADED TO DRIVE!")
+    log("ALL 77 PANELS & 8-SECOND VIDEO CLIPS GENERATED & UPLOADED TO DRIVE!")
     log("=" * 60)
 
 
