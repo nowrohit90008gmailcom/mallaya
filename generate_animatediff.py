@@ -226,7 +226,7 @@ def main():
     with open(PROMPTS_FILE, "r", encoding="utf-8") as f:
         panels = json.load(f)
 
-    subclip_sec = NUM_FRAMES / SUBCLIP_FPS
+    subclip_sec = NUM_FRAMES / SUBCLIP_RAW_FPS
     total_sec   = subclip_sec * SUBCLIPS_PER_PANEL
 
     log("=" * 65)
