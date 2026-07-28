@@ -69,9 +69,15 @@ def log_fail(panel_id: str, variation: int, err: str):
 def upload_to_gdrive(local_path: str):
     """Uploads a generated video directly to Google Drive via rclone API."""
     try:
-        cmd = ["rclone", "copy", local_path, GDRIVE_REMOTE_DIR]
-        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        return True
+        filename = os.path.basename(local_path)
+        remote_target = f"{GDRIVE_REMOTE_DIR}/{filename}"
+        cmd = ["rclone", "copyto", local_path, remote_target]
+        res = subprocess.run(cmd, capture_output=True, text=True)
+        if res.returncode == 0:
+            return True
+        else:
+            log(f"⚠ Drive upload error for {filename}: {res.stderr.strip()}")
+            return False
     except Exception as e:
         log(f"⚠ Warning: Drive upload failed for {os.path.basename(local_path)}: {e}")
         return False
