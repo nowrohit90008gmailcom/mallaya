@@ -240,20 +240,23 @@ def main():
     torch.cuda.empty_cache()
 
     from diffusers import AnimateDiffPipeline, MotionAdapter, EulerDiscreteScheduler
-
+    
+    # Step 1: Load the base AnimateDiff motion adapter (v1-5-2)
     adapter = MotionAdapter.from_pretrained(
-        MOTION_ADAPTER_ID,
+        "guoyww/animatediff-motion-adapter-v1-5-2",
         torch_dtype=torch.float16
     )
 
+    # Step 2: Load 2D cartoon-friendly SD1.5 base model
     pipe = AnimateDiffPipeline.from_pretrained(
         BASE_MODEL_ID,
         motion_adapter=adapter,
         torch_dtype=torch.float16,
     )
 
+    # Step 3: Load AnimateDiff-Lightning LoRA (4-step fast inference)
     pipe.load_lora_weights(
-        MOTION_ADAPTER_ID,
+        "ByteDance/AnimateDiff-Lightning",
         weight_name=LORA_FILENAME,
         adapter_name="lightning"
     )
