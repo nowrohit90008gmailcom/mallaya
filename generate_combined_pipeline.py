@@ -132,7 +132,7 @@ def main():
         FLUX_MODEL_ID,
         torch_dtype=torch.bfloat16,
     )
-    flux_pipe.enable_sequential_cpu_offload()
+    flux_pipe.enable_model_cpu_offload()  # keeps whole sub-modules in RAM, faster
     flux_pipe.vae.enable_slicing()
     flux_pipe.vae.enable_tiling()
 
@@ -143,7 +143,7 @@ def main():
         torch_dtype=torch.float16,
         variant="fp16",
     )
-    svd_pipe.enable_sequential_cpu_offload()
+    svd_pipe.enable_model_cpu_offload()  # keeps whole sub-modules in RAM, faster
     svd_pipe.unet.enable_forward_chunking()
 
     log("Both pipelines loaded with CPU offloading. Starting interleaved queue...")
