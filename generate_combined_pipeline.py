@@ -97,11 +97,46 @@ def upload_to_gdrive(local_path: str, remote_dir: str):
         return False
 
 
-def create_8sec_loop(frames: list, target_duration: float = 8.0, target_fps: int = 30) -> list:
-    total_needed_frames = int(target_duration * target_fps)
-    ping_pong = frames + frames[-2:0:-1]
-    repeats = (total_needed_frames // len(ping_pong)) + 2
-    return (ping_pong * repeats)[:total_needed_frames]
+def generate_continuous_video(svd_pipe, init_image: Image.Image, passes: int = 4) -> list:
+    """
+    Generates a continuous, non-repeating 8-second video by chaining SVD generations.
+    Pass 1: Image -> Frames 1-25
+    Pass 2: Frame 25 -> Frames 26-49
+    Pass 3: Frame 49 -> Frames 50-73
+    Pass 4: Frame 73 -> Frames 74-97
+    Total: ~97 unique, evolving motion frames (8 seconds at 12 FPS / smooth playback).
+    """
+    all_frames = []
+    current_img = init_image
+
+    for p in range(passes):
+        seed = random.randint(0, 2**32 - 1)
+        generator = torch.manual_seed(seed)
+
+        raw_frames = svd_pipe(
+            current_img,
+            num_frames=SVD_FRAMES,
+            num_inference_steps=25,
+            motion_bucket_id=MOTION_BUCKET_ID,
+            noise_aug_strength=NOISE_AUG_STRENGTH,
+            decode_chunk_size=DECODE_CHUNK_SIZE,
+            generator=generator,
+        ).frames[0]
+
+        if p == 0:
+            all_frames.extend(raw_frames)
+        else:
+            # Skip first frame to seamlessly stitch without freeze frame
+            all_frames.extend(raw_frames[1:])
+
+        # Next pass starts from the last generated frame
+        last_frame = raw_frames[-1]
+        if isinstance(last_frame, Image.Image):
+            current_img = last_frame
+        else:
+            current_img = Image.fromarray(last_frame)
+
+    return all_frames
 
 
 def export_high_quality_video(frames: list, output_path: str, fps: int = 30):
@@ -222,21 +257,9 @@ def main():
                     raw_img = Image.open(str(image_path)).convert("RGB")
                     resized_img = raw_img.resize((SVD_WIDTH, SVD_HEIGHT), Image.LANCZOS)
 
-                    seed = (hash(panel_id) + variation * 1337) % (2**32)
-                    generator = torch.manual_seed(seed)
-
-                    raw_frames = svd_pipe(
-                        resized_img,
-                        num_frames=SVD_FRAMES,
-                        num_inference_steps=25,
-                        motion_bucket_id=MOTION_BUCKET_ID,
-                        noise_aug_strength=NOISE_AUG_STRENGTH,
-                        decode_chunk_size=DECODE_CHUNK_SIZE,
-                        generator=generator,
-                    ).frames[0]
-
-                    frames_8sec = create_8sec_loop(raw_frames, TARGET_DURATION, TARGET_FPS)
-                    export_high_quality_video(frames_8sec, str(video_path), fps=TARGET_FPS)
+                    # Generate 97 continuous unique frames (~8 seconds of real evolving motion)
+                    frames_8sec = generate_continuous_video(svd_pipe, resized_img, passes=4)
+                    export_high_quality_video(frames_8sec, str(video_path), fps=12)
 
                     uploaded = upload_to_gdrive(str(video_path), GDRIVE_CLIPS_REMOTE)
                     up_str = "☁ Uploaded" if uploaded else "⚠ Local only"
