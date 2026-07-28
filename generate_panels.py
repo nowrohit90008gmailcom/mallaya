@@ -20,13 +20,20 @@ from diffusers import FluxPipeline
 from tqdm import tqdm
 
 # ─────────────────────────────────────────────
-# CONFIGURATION — Edit these before running
+# CONFIGURATION
 # ─────────────────────────────────────────────
 
 GDRIVE_OUTPUT_DIR = "/root/gdrive/Mallya Documentary/Generated Panels"
-PROMPTS_FILE      = "/root/prompts.json"
-LOG_FILE          = "/root/generation_log.txt"
-FAILED_FILE       = "/root/failed_panels.txt"
+
+# Resolve prompts.json location dynamically
+SCRIPT_DIR = Path(__file__).parent
+if (SCRIPT_DIR / "prompts.json").exists():
+    PROMPTS_FILE = str(SCRIPT_DIR / "prompts.json")
+else:
+    PROMPTS_FILE = "/root/prompts.json"
+
+LOG_FILE    = "/root/generation_log.txt"
+FAILED_FILE = "/root/failed_panels.txt"
 
 MODEL_ID          = "black-forest-labs/FLUX.1-dev"
 IMAGE_WIDTH       = 1920
@@ -34,7 +41,7 @@ IMAGE_HEIGHT      = 1080
 INFERENCE_STEPS   = 28          # 28 = good quality/speed balance on 3090
 GUIDANCE_SCALE    = 3.5         # FLUX default
 VARIATIONS        = 2           # Number of copies per panel
-USE_FP8           = False       # Set True if you get OOM errors (reduces quality slightly)
+USE_FP8           = False       # Set True if you get OOM errors
 
 NEGATIVE_PROMPT = (
     "photorealistic face, text, watermark, blurry, cartoon, anime, "
@@ -59,16 +66,12 @@ def log_failure(panel_id: str, variation: int, error: str):
 
 
 def already_done(output_dir: Path, panel_id: str, variation: int) -> bool:
-    """Skip panels already generated — safe to re-run script."""
     path = output_dir / f"{panel_id}_v{variation}.png"
     return path.exists()
 
 
 def load_pipeline():
     log("Loading FLUX.1-dev pipeline... (first run downloads ~23 GB)")
-
-    dtype = torch.float8_e4m3fn if USE_FP8 else torch.bfloat16
-
     pipe = FluxPipeline.from_pretrained(
         MODEL_ID,
         torch_dtype=torch.bfloat16,
@@ -76,10 +79,8 @@ def load_pipeline():
     pipe = pipe.to("cuda")
 
     if USE_FP8:
-        # Quantize to fp8 if VRAM is tight
         pipe.transformer = pipe.transformer.to(torch.float8_e4m3fn)
 
-    # Enable memory optimizations
     pipe.enable_model_cpu_offload()
     pipe.vae.enable_slicing()
     pipe.vae.enable_tiling()
@@ -90,7 +91,6 @@ def load_pipeline():
 
 def generate_image(pipe, prompt: str, seed: int) -> Image.Image:
     generator = torch.Generator("cuda").manual_seed(seed)
-
     result = pipe(
         prompt=prompt,
         width=IMAGE_WIDTH,
@@ -107,25 +107,19 @@ def generate_image(pipe, prompt: str, seed: int) -> Image.Image:
 # ─────────────────────────────────────────────
 
 def main():
-    # ── Validate paths ──
     if not os.path.exists(PROMPTS_FILE):
         print(f"ERROR: prompts.json not found at {PROMPTS_FILE}")
-        print("Upload prompts.json to /root/ on the instance first.")
         return
 
-    # ── Create output directory ──
     output_dir = Path(GDRIVE_OUTPUT_DIR)
     output_dir.mkdir(parents=True, exist_ok=True)
     log(f"Output directory: {output_dir}")
 
-    # ── Load prompts ──
     with open(PROMPTS_FILE, "r", encoding="utf-8") as f:
         panels = json.load(f)
 
     log(f"Loaded {len(panels)} panels. Generating {VARIATIONS} variations each.")
-    log(f"Total images to generate: {len(panels) * VARIATIONS}")
 
-    # ── Count already done ──
     already_count = sum(
         1 for p in panels
         for v in range(1, VARIATIONS + 1)
@@ -133,17 +127,15 @@ def main():
     )
     log(f"Already completed: {already_count} | Remaining: {len(panels) * VARIATIONS - already_count}")
 
-    # ── Load model ──
     pipe = load_pipeline()
 
-    # ── Generate ──
     total = len(panels) * VARIATIONS
     completed = 0
     failed = 0
 
     with tqdm(total=total, desc="Generating panels", unit="img") as pbar:
         for panel in panels:
-            panel_id   = panel["id"]       # e.g. "P01"
+            panel_id   = panel["id"]
             prompt     = panel["prompt"]
             scene      = panel.get("scene", "")
 
@@ -153,12 +145,10 @@ def main():
                     completed += 1
                     continue
 
-                # Different seed per variation for real diversity
                 seed = random.randint(0, 2**32 - 1)
 
                 try:
                     image = generate_image(pipe, prompt, seed)
-
                     filename = f"{panel_id}_v{variation}.png"
                     save_path = output_dir / filename
                     image.save(str(save_path), format="PNG", optimize=False)
@@ -183,13 +173,9 @@ def main():
                     pbar.update(1)
                     torch.cuda.empty_cache()
 
-    # ── Summary ──
     log("=" * 50)
     log(f"DONE. Completed: {completed} | Failed: {failed}")
     log(f"Images saved to: {GDRIVE_OUTPUT_DIR}")
-    if failed > 0:
-        log(f"Failed panels listed in: {FAILED_FILE}")
-        log("Re-run the script to retry failed panels only.")
     log("=" * 50)
 
 
