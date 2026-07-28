@@ -241,26 +241,19 @@ def main():
 
     from diffusers import AnimateDiffPipeline, MotionAdapter, EulerDiscreteScheduler
     
-    # Step 1: Load the base AnimateDiff motion adapter (v1-5-2)
+    # Step 1: Load AnimateDiff-Lightning MotionAdapter
     adapter = MotionAdapter.from_pretrained(
-        "guoyww/animatediff-motion-adapter-v1-5-2",
+        "ByteDance/AnimateDiff-Lightning",
+        weight_name="animatediff_lightning_4step_diffusers.safetensors",
         torch_dtype=torch.float16
     )
 
-    # Step 2: Load 2D cartoon-friendly SD1.5 base model
+    # Step 2: Load 2D cartoon-friendly SD1.5 base model with motion adapter
     pipe = AnimateDiffPipeline.from_pretrained(
         BASE_MODEL_ID,
         motion_adapter=adapter,
         torch_dtype=torch.float16,
     )
-
-    # Step 3: Load AnimateDiff-Lightning LoRA (4-step fast inference)
-    pipe.load_lora_weights(
-        "ByteDance/AnimateDiff-Lightning",
-        weight_name=LORA_FILENAME,
-        adapter_name="lightning"
-    )
-    pipe.fuse_lora()
 
     pipe.scheduler = EulerDiscreteScheduler.from_config(
         pipe.scheduler.config,
