@@ -1,6 +1,6 @@
 #!/bin/bash
 # =============================================================
-#  setup.sh — Mallya Documentary Pipeline
+#  setup.sh — Mallya Documentary | Pure Text-to-Video Pipeline
 # =============================================================
 
 set -e
@@ -18,6 +18,7 @@ fi
 
 export HF_TOKEN="$HF_TOKEN"
 export HUGGING_FACE_HUB_TOKEN="$HF_TOKEN"
+export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
 
 banner() {
     echo -e "\n${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
@@ -28,7 +29,7 @@ banner() {
 ok()   { echo -e "${GREEN}✓ $1${NC}"; }
 warn() { echo -e "${YELLOW}⚠ $1${NC}"; }
 
-banner "Mallya Documentary — Instance Setup"
+banner "Mallya Documentary — Text-to-Video Instance Setup"
 
 GPU_NAME=$(nvidia-smi --query-gpu=name --format=csv,noheader 2>/dev/null || echo "No GPU found")
 VRAM=$(nvidia-smi --query-gpu=memory.total --format=csv,noheader 2>/dev/null || echo "?")
@@ -53,28 +54,29 @@ fi
 # 2. PYTHON DEPENDENCIES
 banner "STEP 2/5 — Installing Python Packages"
 pip install -q --upgrade pip
+
 pip install -q \
-    diffusers>=0.30.0 \
-    transformers>=4.44.0 \
-    accelerate>=0.33.0 \
+    "diffusers>=0.31.0" \
+    "transformers>=4.44.0" \
+    "accelerate>=0.33.0" \
     safetensors \
     huggingface_hub \
     sentencepiece \
     Pillow \
     tqdm \
-    torch torchvision \
-    xformers
+    imageio \
+    imageio-ffmpeg \
+    numpy \
+    torch torchvision
 
 ok "All Python packages installed"
 
-# 3. AUTOMATIC HUGGINGFACE LOGIN
+# 3. HUGGINGFACE LOGIN
 banner "STEP 3/5 — Auto HuggingFace Authentication"
-hf auth login --token "$HF_TOKEN" > /dev/null 2>&1 || \
-huggingface-cli login --token "$HF_TOKEN" --add-to-git-credential > /dev/null 2>&1 || \
-huggingface-cli login --token "$HF_TOKEN" > /dev/null 2>&1 || true
-ok "Authenticated with HuggingFace (Token loaded)"
+huggingface-cli login --token "$HF_TOKEN" --add-to-git-credential > /dev/null 2>&1 || true
+ok "Authenticated with HuggingFace"
 
-# 4. RCLONE GOOGLE DRIVE VERIFICATION
+# 4. GOOGLE DRIVE VERIFICATION (rclone)
 banner "STEP 4/5 — Google Drive Verification"
 
 if rclone listremotes | grep -q "^gdrive:"; then
@@ -84,29 +86,25 @@ else
     rclone config
 fi
 
-# Test API connection
 if rclone lsd gdrive: > /dev/null 2>&1; then
     ok "Google Drive API connection verified! Direct upload enabled."
 else
     warn "Could not list gdrive remote. Please check rclone config."
 fi
 
-# Create local output directories
-mkdir -p "/workspace/output/Generated_Panels"
-mkdir -p "/workspace/output/Video_Clips_SVD"
-ok "Local output directories created"
+# Create local output directory
+mkdir -p "/workspace/output/Video_Clips_T2V"
+ok "Local output directory created: /workspace/output/Video_Clips_T2V"
 
-# 5. PREPARE SCRIPTS
-banner "STEP 5/5 — Preparing Scripts"
-cp -f prompts.json /root/ 2>/dev/null || true
-cp -f generate_panels.py /root/ 2>/dev/null || true
-cp -f generate_all_clips_svd.py /root/ 2>/dev/null || true
-ok "Scripts ready"
+# 5. PREPARE
+banner "STEP 5/5 — Finalising"
+ok "prompts.json is the single source of truth — no extra files needed"
 
 banner "✅ Setup Complete — Ready to Generate!"
 
-echo -e "  Run the pipeline:\n"
-echo -e "  ${GREEN}# Step 1 — Generate 154 PNG stills (FLUX.1-dev) — ~2 hours${NC}"
-echo -e "  python generate_panels.py\n"
-echo -e "  ${GREEN}# Step 2 — Animate all 154 stills (8.0 sec MP4s) — ~5 hours${NC}"
-echo -e "  python generate_all_clips_svd.py\n"
+echo -e "  Run the pure Text-to-Video pipeline:\n"
+echo -e "  ${GREEN}python generate_text_to_video.py${NC}"
+echo -e ""
+echo -e "  Videos will appear in your Google Drive at:"
+echo -e "  ${CYAN}📁 Mallya Documentary / Video Clips T2V${NC}"
+echo ""
