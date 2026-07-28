@@ -213,9 +213,9 @@ def main():
 
     # 3. Interleaved Queue Loop: 1 Image -> 1 Video
     for panel in tqdm(panels, desc="Interleaved Queue (Image -> Video)"):
-        panel_id = panel["id"]
-        prompt   = panel["prompt"]
-        scene    = panel.get("scene", "")
+        panel_id   = panel["id"]
+        img_prompt = panel.get("image_prompt", panel.get("prompt", ""))
+        scene      = panel.get("scene", "")
 
         for variation in range(1, VARIATIONS + 1):
             image_name = f"{panel_id}_v{variation}.png"
@@ -231,7 +231,7 @@ def main():
                     seed = random.randint(0, 2**32 - 1)
                     generator = torch.Generator("cuda").manual_seed(seed)
                     image = flux_pipe(
-                        prompt=prompt,
+                        prompt=img_prompt,
                         width=IMAGE_WIDTH,
                         height=IMAGE_HEIGHT,
                         num_inference_steps=INFERENCE_STEPS,
