@@ -175,7 +175,7 @@ def stitch_subclips_with_crossfade(subclip_paths: list, output_path: str,
         inputs += ["-i", p]
 
     # Calculate subclip duration
-    subclip_dur = NUM_FRAMES / SUBCLIP_FPS  # = 2.0 seconds each
+    subclip_dur = NUM_FRAMES / SUBCLIP_RAW_FPS  # = 2.0 seconds each
 
     # Build xfade filter chain
     filter_parts = []
