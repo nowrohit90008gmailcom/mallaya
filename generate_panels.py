@@ -2,15 +2,15 @@
 generate_panels.py
 ==================
 Mallya Documentary — Auto Image Generation Script
-RTX 3090 | FLUX.1-dev | Google Drive Output
+RTX 3090 | FLUX.1-dev | Direct Google Drive Upload (rclone copy)
 
 Generates 2 variations per panel (154 images total)
-Saves directly to Google Drive via rclone mount
+Uploads directly to Google Drive via rclone API as soon as each image is generated!
 """
 
 import json
 import os
-import time
+import subprocess
 import torch
 import random
 from pathlib import Path
@@ -23,25 +23,25 @@ from tqdm import tqdm
 # CONFIGURATION
 # ─────────────────────────────────────────────
 
-GDRIVE_OUTPUT_DIR = "/root/gdrive/Mallya Documentary/Generated Panels"
+LOCAL_OUTPUT_DIR  = "/workspace/output/Generated_Panels"
+GDRIVE_REMOTE_DIR = "gdrive:Mallya Documentary/Generated Panels"
 
-# Resolve prompts.json location dynamically
 SCRIPT_DIR = Path(__file__).parent
 if (SCRIPT_DIR / "prompts.json").exists():
     PROMPTS_FILE = str(SCRIPT_DIR / "prompts.json")
 else:
     PROMPTS_FILE = "/root/prompts.json"
 
-LOG_FILE    = "/root/generation_log.txt"
-FAILED_FILE = "/root/failed_panels.txt"
+LOG_FILE    = "/workspace/generation_log.txt"
+FAILED_FILE = "/workspace/failed_panels.txt"
 
 MODEL_ID          = "black-forest-labs/FLUX.1-dev"
 IMAGE_WIDTH       = 1920
 IMAGE_HEIGHT      = 1080
-INFERENCE_STEPS   = 28          # 28 = good quality/speed balance on 3090
-GUIDANCE_SCALE    = 3.5         # FLUX default
-VARIATIONS        = 2           # Number of copies per panel
-USE_FP8           = False       # Set True if you get OOM errors
+INFERENCE_STEPS   = 28
+GUIDANCE_SCALE    = 3.5
+VARIATIONS        = 2
+USE_FP8           = False
 
 NEGATIVE_PROMPT = (
     "photorealistic face, text, watermark, blurry, cartoon, anime, "
@@ -49,7 +49,7 @@ NEGATIVE_PROMPT = (
 )
 
 # ─────────────────────────────────────────────
-# SETUP
+# HELPERS
 # ─────────────────────────────────────────────
 
 def log(message: str):
@@ -65,8 +65,19 @@ def log_failure(panel_id: str, variation: int, error: str):
         f.write(f"{panel_id}_v{variation} | {error}\n")
 
 
-def already_done(output_dir: Path, panel_id: str, variation: int) -> bool:
-    path = output_dir / f"{panel_id}_v{variation}.png"
+def upload_to_gdrive(local_path: str):
+    """Uploads a generated file directly to Google Drive via rclone API."""
+    try:
+        cmd = ["rclone", "copy", local_path, GDRIVE_REMOTE_DIR]
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        return True
+    except Exception as e:
+        log(f"⚠ Warning: Drive upload failed for {os.path.basename(local_path)}: {e}")
+        return False
+
+
+def already_done(local_dir: Path, panel_id: str, variation: int) -> bool:
+    path = local_dir / f"{panel_id}_v{variation}.png"
     return path.exists()
 
 
@@ -111,9 +122,10 @@ def main():
         print(f"ERROR: prompts.json not found at {PROMPTS_FILE}")
         return
 
-    output_dir = Path(GDRIVE_OUTPUT_DIR)
+    output_dir = Path(LOCAL_OUTPUT_DIR)
     output_dir.mkdir(parents=True, exist_ok=True)
-    log(f"Output directory: {output_dir}")
+    log(f"Local output directory: {output_dir}")
+    log(f"Google Drive target: {GDRIVE_REMOTE_DIR}")
 
     with open(PROMPTS_FILE, "r", encoding="utf-8") as f:
         panels = json.load(f)
@@ -153,7 +165,11 @@ def main():
                     save_path = output_dir / filename
                     image.save(str(save_path), format="PNG", optimize=False)
 
-                    log(f"✓ Saved {filename} | seed={seed} | {scene}")
+                    # Upload to Google Drive immediately
+                    uploaded = upload_to_gdrive(str(save_path))
+                    up_str = "☁ Uploaded to Drive" if uploaded else "⚠ Local only"
+
+                    log(f"✓ Saved {filename} | {up_str} | {scene}")
                     completed += 1
 
                 except torch.cuda.OutOfMemoryError:
@@ -175,7 +191,8 @@ def main():
 
     log("=" * 50)
     log(f"DONE. Completed: {completed} | Failed: {failed}")
-    log(f"Images saved to: {GDRIVE_OUTPUT_DIR}")
+    log(f"Images saved locally: {LOCAL_OUTPUT_DIR}")
+    log(f"Images uploaded to Google Drive: {GDRIVE_REMOTE_DIR}")
     log("=" * 50)
 
 

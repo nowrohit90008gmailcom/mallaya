@@ -3,6 +3,7 @@ generate_all_clips_svd.py
 =========================
 Mallya Documentary — AI Video Clip Generator (ALL 77 Panels)
 Generates EXACTLY 8-SECOND AI-Animated MP4 Clips directly!
+Uploads directly to Google Drive via rclone API as soon as each clip is generated!
 
 Uses Stable Video Diffusion (SVD-XT) + automatic smooth ping-pong looping 
 to convert 25 AI motion frames into a complete 8.0-second MP4 clip (240 frames @ 30 FPS).
@@ -11,6 +12,7 @@ to convert 25 AI motion frames into a complete 8.0-second MP4 clip (240 frames @
 import torch
 import os
 import json
+import subprocess
 import numpy as np
 from pathlib import Path
 from PIL import Image
@@ -23,10 +25,9 @@ from tqdm import tqdm
 # CONFIGURATION
 # ─────────────────────────────────────────────
 
-INPUT_DIR  = "/root/gdrive/Mallya Documentary/Generated Panels"
-OUTPUT_DIR = "/root/gdrive/Mallya Documentary/Video Clips SVD"
-LOG_FILE   = "/root/svd_log.txt"
-FAIL_FILE  = "/root/svd_failed.txt"
+LOCAL_INPUT_DIR   = "/workspace/output/Generated_Panels"
+LOCAL_OUTPUT_DIR  = "/workspace/output/Video_Clips_SVD"
+GDRIVE_REMOTE_DIR = "gdrive:Mallya Documentary/Video Clips SVD"
 
 SCRIPT_DIR = Path(__file__).parent
 if (SCRIPT_DIR / "prompts.json").exists():
@@ -34,13 +35,16 @@ if (SCRIPT_DIR / "prompts.json").exists():
 else:
     PROMPTS_FILE = "/root/prompts.json"
 
+LOG_FILE   = "/workspace/svd_log.txt"
+FAIL_FILE  = "/workspace/svd_failed.txt"
+
 VARIATIONS         = 2
-SVD_FRAMES         = 25        # SVD-XT generates 25 distinct motion frames
-TARGET_DURATION    = 8.0       # Target clip length in SECONDS
-TARGET_FPS         = 30        # Target video FPS (8.0 sec * 30 fps = 240 frames total)
-DECODE_CHUNK_SIZE  = 8         # Reduce to 4 if VRAM is tight
-MOTION_BUCKET_ID   = 100       # 0=very subtle, 127=maximum motion, 100=cinematic
-NOISE_AUG_STRENGTH = 0.05      # Higher = more motion/variation
+SVD_FRAMES         = 25
+TARGET_DURATION    = 8.0
+TARGET_FPS         = 30
+DECODE_CHUNK_SIZE  = 8
+MOTION_BUCKET_ID   = 100
+NOISE_AUG_STRENGTH = 0.05
 
 SVD_WIDTH  = 1024
 SVD_HEIGHT = 576
@@ -60,6 +64,17 @@ def log(msg: str):
 def log_fail(panel_id: str, variation: int, err: str):
     with open(FAIL_FILE, "a", encoding="utf-8") as f:
         f.write(f"{panel_id}_v{variation} | {err}\n")
+
+
+def upload_to_gdrive(local_path: str):
+    """Uploads a generated video directly to Google Drive via rclone API."""
+    try:
+        cmd = ["rclone", "copy", local_path, GDRIVE_REMOTE_DIR]
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        return True
+    except Exception as e:
+        log(f"⚠ Warning: Drive upload failed for {os.path.basename(local_path)}: {e}")
+        return False
 
 
 def already_done(output_dir: Path, panel_id: str, variation: int) -> bool:
@@ -103,9 +118,9 @@ def main():
 
     panel_ids = [p["id"] for p in panels]
 
-    output_dir = Path(OUTPUT_DIR)
+    output_dir = Path(LOCAL_OUTPUT_DIR)
     output_dir.mkdir(parents=True, exist_ok=True)
-    input_dir = Path(INPUT_DIR)
+    input_dir = Path(LOCAL_INPUT_DIR)
 
     total = len(panel_ids) * VARIATIONS
     done  = sum(
@@ -117,6 +132,7 @@ def main():
 
     log(f"Total clips: {total} | Already done: {done} | Remaining: {remaining}")
     log(f"Clip spec: EXACTLY 8.0 SECONDS ({int(TARGET_DURATION * TARGET_FPS)} frames @ {TARGET_FPS} FPS)")
+    log(f"Google Drive target: {GDRIVE_REMOTE_DIR}")
 
     if remaining == 0:
         log("All 8-second clips already generated!")
@@ -137,7 +153,7 @@ def main():
                 input_path = input_dir / f"{panel_id}_v{variation}.png"
 
                 if not input_path.exists():
-                    log(f"SKIP {panel_id}_v{variation} — PNG not found yet")
+                    log(f"SKIP {panel_id}_v{variation} — PNG not found in local dir")
                     log_fail(panel_id, variation, "source PNG missing")
                     failed += 1
                     pbar.update(1)
@@ -163,7 +179,11 @@ def main():
                     output_path = str(output_dir / f"{panel_id}_v{variation}.mp4")
                     export_to_video(video_frames_8sec, output_path, fps=TARGET_FPS)
 
-                    log(f"✓ {panel_id}_v{variation}.mp4 saved (8.0 sec, {len(video_frames_8sec)} frames @ {TARGET_FPS}fps)")
+                    # Upload to Google Drive immediately
+                    uploaded = upload_to_gdrive(output_path)
+                    up_str = "☁ Uploaded to Drive" if uploaded else "⚠ Local only"
+
+                    log(f"✓ {panel_id}_v{variation}.mp4 saved | {up_str} (8.0 sec @ {TARGET_FPS}fps)")
                     completed += 1
 
                 except torch.cuda.OutOfMemoryError:
@@ -185,7 +205,8 @@ def main():
 
     log("=" * 60)
     log(f"DONE. Completed: {completed} | Failed: {failed}")
-    log(f"8-second MP4 clips saved to: {OUTPUT_DIR}")
+    log(f"8-second MP4 clips saved locally: {LOCAL_OUTPUT_DIR}")
+    log(f"8-second MP4 clips uploaded to Google Drive: {GDRIVE_REMOTE_DIR}")
     log("=" * 60)
 
 

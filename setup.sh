@@ -11,7 +11,6 @@ YELLOW='\033[1;33m'
 CYAN='\033[0;36m'
 NC='\033[0m'
 
-# Read Hugging Face token from environment variable HF_TOKEN, or prompt if not set
 if [ -z "$HF_TOKEN" ]; then
     echo -e "${YELLOW}Please enter your Hugging Face Token (starts with hf_...):${NC}"
     read -r HF_TOKEN
@@ -39,10 +38,10 @@ echo -e "  Python:       $(python3 --version 2>&1)"
 echo ""
 
 # 1. SYSTEM PACKAGES
-banner "STEP 1/6 — Installing System Packages"
+banner "STEP 1/5 — Installing System Packages"
 apt-get update -qq
-apt-get install -y ffmpeg fuse3 curl wget git > /dev/null 2>&1
-ok "ffmpeg, fuse3, curl, wget, git installed"
+apt-get install -y ffmpeg curl wget git > /dev/null 2>&1
+ok "ffmpeg, curl, wget, git installed"
 
 if ! command -v rclone &> /dev/null; then
     curl https://rclone.org/install.sh | sudo bash > /dev/null 2>&1
@@ -52,7 +51,7 @@ else
 fi
 
 # 2. PYTHON DEPENDENCIES
-banner "STEP 2/6 — Installing Python Packages"
+banner "STEP 2/5 — Installing Python Packages"
 pip install -q --upgrade pip
 pip install -q \
     diffusers>=0.30.0 \
@@ -69,58 +68,40 @@ pip install -q \
 ok "All Python packages installed"
 
 # 3. AUTOMATIC HUGGINGFACE LOGIN
-banner "STEP 3/6 — Auto HuggingFace Authentication"
+banner "STEP 3/5 — Auto HuggingFace Authentication"
 hf auth login --token "$HF_TOKEN" > /dev/null 2>&1 || \
 huggingface-cli login --token "$HF_TOKEN" --add-to-git-credential > /dev/null 2>&1 || \
 huggingface-cli login --token "$HF_TOKEN" > /dev/null 2>&1 || true
 ok "Authenticated with HuggingFace (Token loaded)"
 
-# 4. RCLONE GOOGLE DRIVE SETUP
-banner "STEP 4/6 — Google Drive Setup (rclone)"
-mkdir -p /root/gdrive
+# 4. RCLONE GOOGLE DRIVE VERIFICATION
+banner "STEP 4/5 — Google Drive Verification"
 
 if rclone listremotes | grep -q "^gdrive:"; then
-    warn "gdrive remote already configured — skipping interactive setup"
+    ok "gdrive remote is configured"
 else
     echo -e "  Setting up rclone remote for Google Drive."
-    echo -e "  Follow the on-screen prompts (name: ${YELLOW}gdrive${NC}, storage: ${YELLOW}17${NC})."
-    echo ""
     rclone config
 fi
 
-ok "rclone remote configured"
-
-# 5. MOUNT GOOGLE DRIVE
-banner "STEP 5/6 — Mounting Google Drive"
-pkill rclone 2>/dev/null || true
-sleep 2
-
-rclone mount gdrive: /root/gdrive \
-    --vfs-cache-mode writes \
-    --allow-non-empty \
-    --allow-other \
-    --daemon \
-    --log-file /root/rclone.log
-
-sleep 3
-
-if ls /root/gdrive > /dev/null 2>&1; then
-    ok "Google Drive mounted at /root/gdrive"
+# Test API connection
+if rclone lsd gdrive: > /dev/null 2>&1; then
+    ok "Google Drive API connection verified! Direct upload enabled."
 else
-    echo -e "${RED}✗ Mount failed. Run: rclone mount gdrive: /root/gdrive --vfs-cache-mode writes --daemon${NC}"
-    exit 1
+    warn "Could not list gdrive remote. Please check rclone config."
 fi
 
-mkdir -p "/root/gdrive/Mallya Documentary/Generated Panels"
-mkdir -p "/root/gdrive/Mallya Documentary/Video Clips SVD"
-ok "Output folders created on Google Drive"
+# Create local output directories
+mkdir -p "/workspace/output/Generated_Panels"
+mkdir -p "/workspace/output/Video_Clips_SVD"
+ok "Local output directories created"
 
-# 6. PREPARE SCRIPTS
-banner "STEP 6/6 — Preparing Scripts"
+# 5. PREPARE SCRIPTS
+banner "STEP 5/5 — Preparing Scripts"
 cp -f prompts.json /root/ 2>/dev/null || true
 cp -f generate_panels.py /root/ 2>/dev/null || true
 cp -f generate_all_clips_svd.py /root/ 2>/dev/null || true
-ok "Scripts ready in current folder and /root/"
+ok "Scripts ready"
 
 banner "✅ Setup Complete — Ready to Generate!"
 
