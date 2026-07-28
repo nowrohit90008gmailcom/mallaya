@@ -58,8 +58,8 @@ SVD_FRAMES         = 25
 TARGET_DURATION    = 8.0
 TARGET_FPS         = 30
 DECODE_CHUNK_SIZE  = 8
-MOTION_BUCKET_ID   = 100
-NOISE_AUG_STRENGTH = 0.05
+MOTION_BUCKET_ID   = 127
+NOISE_AUG_STRENGTH = 0.02
 SVD_WIDTH          = 1024
 SVD_HEIGHT         = 576
 
@@ -102,6 +102,34 @@ def create_8sec_loop(frames: list, target_duration: float = 8.0, target_fps: int
     ping_pong = frames + frames[-2:0:-1]
     repeats = (total_needed_frames // len(ping_pong)) + 2
     return (ping_pong * repeats)[:total_needed_frames]
+
+
+def export_high_quality_video(frames: list, output_path: str, fps: int = 30):
+    """Upscales SVD frames to 1080p and encodes with high-bitrate H.264 (CRF 17)."""
+    import imageio
+
+    # Upscale each frame back to crisp 1920x1080 using Lanczos
+    hd_frames = []
+    for frame in frames:
+        if isinstance(frame, Image.Image):
+            img = frame.resize((1920, 1080), Image.LANCZOS)
+            hd_frames.append(np.array(img))
+        else:
+            img = Image.fromarray(frame).resize((1920, 1080), Image.LANCZOS)
+            hd_frames.append(np.array(img))
+
+    # Export using imageio-ffmpeg with CRF 17 for broadcast-quality MP4
+    writer = imageio.get_writer(
+        output_path,
+        fps=fps,
+        codec="libx264",
+        quality=None,
+        pixelformat="yuv420p",
+        ffmpeg_params=["-crf", "17", "-preset", "slow"]
+    )
+    for frame in hd_frames:
+        writer.append_data(frame)
+    writer.close()
 
 
 # ─────────────────────────────────────────────
@@ -208,7 +236,7 @@ def main():
                     ).frames[0]
 
                     frames_8sec = create_8sec_loop(raw_frames, TARGET_DURATION, TARGET_FPS)
-                    export_to_video(frames_8sec, str(video_path), fps=TARGET_FPS)
+                    export_high_quality_video(frames_8sec, str(video_path), fps=TARGET_FPS)
 
                     uploaded = upload_to_gdrive(str(video_path), GDRIVE_CLIPS_REMOTE)
                     up_str = "☁ Uploaded" if uploaded else "⚠ Local only"
