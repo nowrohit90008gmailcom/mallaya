@@ -2,386 +2,463 @@
   {
     "id": "P01",
     "scene": "Scene 1 - Cold Open",
-    "prompt": "dramatic aerial view of an empty red-branded airline terminal, dust on the check-in counters, a single abandoned trolley bag, cold blue ambient light filtering through large windows, desolate and eerie atmosphere, wide establishing shot, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "dramatic aerial view of an empty red-branded airline terminal, dust on the check-in counters, a single abandoned trolley bag, cold blue ambient light filtering through large windows, desolate and eerie atmosphere, wide establishing shot, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow cinematic push in on an empty, desolate red-branded airport terminal at dawn, subtle atmospheric dust floating in soft blue light"
   },
   {
     "id": "P02",
     "scene": "Scene 1 - Cold Open",
-    "prompt": "nighttime airport departure terminal, a lone heavyset older man with a beard and dark-rimmed glasses, viewed from behind, walking through a glass-walled boarding gate, dramatic backlighting, long corridor receding into the distance, silhouette composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "nighttime airport departure terminal, a lone heavyset older man with a beard and dark-rimmed glasses, viewed from behind, walking through a glass-walled boarding gate, dramatic backlighting, long corridor receding into the distance, silhouette composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "A lone heavyset man with a beard and glasses walking slowly away down a long glass airport corridor, slow tracking shot from behind"
   },
   {
     "id": "P03",
     "scene": "Scene 1 - Cold Open",
-    "prompt": "extreme close-up of a passport being stamped by an immigration officer's hand, dramatic downward lighting, steel blue tones, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "extreme close-up of a passport being stamped by an immigration officer's hand, dramatic downward lighting, steel blue tones, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Extreme close-up of an immigration officer hand forcefully stamping a passport page, sharp downward motion, dramatic shadows"
   },
   {
     "id": "P04",
     "scene": "Scene 1 - Cold Open",
-    "prompt": "a heavyset older Indian man in his late 60s with a salt-and-pepper full beard and dark-rimmed glasses, seated confidently in an ornate leather chair, a glass of champagne on the armrest, half in shadow, stylized semi-realistic portrait, dramatic rim lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a heavyset older Indian man in his late 60s with a salt-and-pepper full beard and dark-rimmed glasses, seated confidently in an ornate leather chair, a glass of champagne on the armrest, half in shadow, stylized semi-realistic portrait, dramatic rim lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Heavyset bearded man in glasses leaning back in a leather armchair, slowly lifting a champagne glass with a confident expression, dramatic side lighting"
   },
   {
     "id": "P05",
     "scene": "Scene 1 - Cold Open",
-    "prompt": "a large corkboard covered in case files, printed articles, red string connecting documents and photographs, dramatic single lamp casting hard shadows, investigative journalism aesthetic, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a large corkboard covered in case files, printed articles, red string connecting documents and photographs, dramatic single lamp casting hard shadows, investigative journalism aesthetic, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow camera pan left to right across an investigative corkboard filled with case files, photos, and glowing red string connected across documents"
   },
   {
     "id": "P06",
     "scene": "Scene 2 - Who Is Mallya",
-    "prompt": "a sprawling industrial distillery complex in India, amber liquid filling giant vats, workers in hard hats, wide shot from above, warm golden tones, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a sprawling industrial distillery complex in India, amber liquid filling giant vats, workers in hard hats, wide shot from above, warm golden tones, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow tilt down aerial shot over a vast industrial distillery, golden liquid swirling in vats, steam rising, workers moving on catwalks"
   },
   {
     "id": "P07",
     "scene": "Scene 2 - Who Is Mallya",
-    "prompt": "a young Indian man in a business suit standing before a vast corporate headquarters building, looking up at it with ambition, 1983-era aesthetic, warm amber tones, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a young Indian man in a business suit standing before a vast corporate headquarters building, looking up at it with ambition, 1983-era aesthetic, warm amber tones, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow pull out from a young ambitious businessman in a suit gazing up at a towering corporate skyscraper, 1980s retro lighting"
   },
   {
     "id": "P08",
     "scene": "Scene 2 - Who Is Mallya",
-    "prompt": "a montage-style split panel: left side shows a cricket stadium at night with floodlights and cheering crowds, right side shows a Formula One racecar on a circuit, both rendered in bold graphic novel style, cinematic illustrated documentary panel, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a montage-style split panel: left side shows a cricket stadium at night with floodlights and cheering crowds, right side shows a Formula One racecar on a circuit, both rendered in bold graphic novel style, cinematic illustrated documentary panel, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Dynamic split screen: left side shows stadium floodlights flashing over a cheering crowd, right side shows an F1 racing car speeding past in a blur"
   },
   {
     "id": "P09",
     "scene": "Scene 2 - Who Is Mallya",
-    "prompt": "interior of an ornate Indian parliament chamber, circular rows of seats, high ceilings, a lone figure seated in the front rows, deep red and gold tones, wide establishing shot, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "interior of an ornate Indian parliament chamber, circular rows of seats, high ceilings, a lone figure seated in the front rows, deep red and gold tones, wide establishing shot, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in across the grand circular parliament hall, dust particles in sunbeams, a single politician seated prominently in red leather benches"
   },
   {
     "id": "P10",
     "scene": "Scene 2 - Who Is Mallya",
-    "prompt": "a lavish poolside party at a cliff-edge Goan villa at sunset, silhouetted guests in formal wear, string lights, a DJ booth, fireworks beginning over the Arabian Sea, opulent excess rendered in graphic novel style, cinematic illustrated documentary panel, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a lavish poolside party at a cliff-edge Goan villa at sunset, silhouetted guests in formal wear, string lights, a DJ booth, fireworks beginning over the Arabian Sea, opulent excess rendered in graphic novel style, cinematic illustrated documentary panel, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow pull out aerial view of a cliffside Goan party at twilight, fireworks exploding over the ocean, glowing pool reflections and dancing silhouettes"
   },
   {
     "id": "P11",
     "scene": "Scene 3 - Kingfisher Dream",
-    "prompt": "exterior of a gleaming red-and-gold branded commercial aircraft on a sunny airport tarmac, ground crew in red uniforms, bright optimistic morning light, 2005-era aesthetic, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "exterior of a gleaming red-and-gold branded commercial aircraft on a sunny airport tarmac, ground crew in red uniforms, bright optimistic morning light, 2005-era aesthetic, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on a brand new red commercial passenger jet gleaming on a sunlit tarmac, ground crew walking past in red uniforms"
   },
   {
     "id": "P12",
     "scene": "Scene 3 - Kingfisher Dream",
-    "prompt": "interior of a luxury airline cabin, plush red leather seats with gold trim, personal screens on every headrest, a flight attendant serving food, warm cabin lighting, premium atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "interior of a luxury airline cabin, plush red leather seats with gold trim, personal screens on every headrest, a flight attendant serving food, warm cabin lighting, premium atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Camera panning smoothly down the aisle of a luxury airline cabin with plush red seats, screens glowing, flight attendant serving champagne"
   },
   {
     "id": "P13",
     "scene": "Scene 3 - Kingfisher Dream",
-    "prompt": "two aircraft on a tarmac side by side: one sleek red premium jet and one older worn budget airline plane, a handshake between two suited figures in the foreground, dramatic composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "two aircraft on a tarmac side by side: one sleek red premium jet and one older worn budget airline plane, a handshake between two suited figures in the foreground, dramatic composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static dramatic hold on two executives shaking hands in front of a sleek red plane and a worn budget aircraft, subtle heat shimmer on tarmac"
   },
   {
     "id": "P14",
     "scene": "Scene 3 - Kingfisher Dream",
-    "prompt": "a cockpit instrument panel with warning lights illuminated, red and amber glow, flight gauges showing stress, a pilot's gloved hands gripping the controls, tense atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a cockpit instrument panel with warning lights illuminated, red and amber glow, flight gauges showing stress, a pilot's gloved hands gripping the controls, tense atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Cockpit interior with red warning lights flashing across instruments, pilot hands gripping control yoke tightly, subtle cockpit vibration"
   },
   {
     "id": "P15",
     "scene": "Scene 3 - Kingfisher Dream",
-    "prompt": "a dramatic downward-sloping financial chart rendered as a 3D landscape, a tiny airplane model falling off the edge of the chart cliff, dark storm clouds gathering, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a dramatic downward-sloping financial chart rendered as a 3D landscape, a tiny airplane model falling off the edge of the chart cliff, dark storm clouds gathering, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Dramatic tilt down following a miniature red airplane tumbling down a collapsing 3D financial chart cliff into dark storm clouds"
   },
   {
     "id": "P16",
     "scene": "Scene 3 - Kingfisher Dream",
-    "prompt": "a stark ledger book open on a table, red ink filling column after column under an overhead lamp, dark dramatic lighting, close-up detail shot, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a stark ledger book open on a table, red ink filling column after column under an overhead lamp, dark dramatic lighting, close-up detail shot, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Close-up static shot of a financial ledger under a single hanging light, red ink bleeding down numbers, subtle light flickering"
   },
   {
     "id": "P17",
     "scene": "Scene 4 - The Loans",
-    "prompt": "seventeen large stone bank buildings arranged in a semi-circle viewed from above, each with a different facade, connected by glowing lines converging on a single point at the center, aerial perspective, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "seventeen large stone bank buildings arranged in a semi-circle viewed from above, each with a different facade, connected by glowing lines converging on a single point at the center, aerial perspective, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Aerial pull out over seventeen bank facades, glowing amber lines of credit flowing from each bank into a single central point"
   },
   {
     "id": "P18",
     "scene": "Scene 4 - The Loans",
-    "prompt": "a grand neoclassical bank facade with massive stone pillars, architecture implying great institutional authority, a small figure standing at the entrance emphasizing scale, amber and steel blue tones, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a grand neoclassical bank facade with massive stone pillars, architecture implying great institutional authority, a small figure standing at the entrance emphasizing scale, amber and steel blue tones, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Low-angle tilt up shot along massive stone columns of a grand state bank building against a dramatic steel blue twilight sky"
   },
   {
     "id": "P19",
     "scene": "Scene 4 - The Loans",
-    "prompt": "extreme close-up of a hand signing a thick legal contract document, a fountain pen, official stamps and seals visible on the page, dramatic downward lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "extreme close-up of a hand signing a thick legal contract document, a fountain pen, official stamps and seals visible on the page, dramatic downward lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Extreme macro close-up of a fountain pen signing a personal guarantee contract, ink spreading on paper, dramatic overhead lighting"
   },
   {
     "id": "P20",
     "scene": "Scene 4 - The Loans",
-    "prompt": "a large red-branded airline office interior, empty desks, computer screens dark, personal items left behind, an abandoned red airline uniform jacket hanging on a chair, desolate and quiet, cool blue ambient light, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a large red-branded airline office interior, empty desks, computer screens dark, personal items left behind, an abandoned red airline uniform jacket hanging on a chair, desolate and quiet, cool blue ambient light, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow camera pan across a silent abandoned airline headquarters, dark computer monitors, papers scattered, cold blue ambient light"
   },
   {
     "id": "P21",
     "scene": "Scene 4 - The Loans",
-    "prompt": "a large crowd of South Asian men and women in airline uniforms gathered outside a closed office building, holding handwritten signs, expressions of distress and confusion, grey overcast sky, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a large crowd of South Asian men and women in airline uniforms gathered outside a closed office building, holding handwritten signs, expressions of distress and confusion, grey overcast sky, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow pull out shot of a crowd of airline employees in red uniforms protesting outside locked glass gates under a gloomy sky"
   },
   {
     "id": "P22",
     "scene": "Scene 4 - The Loans",
-    "prompt": "a towering stack of glowing amber coins gradually transforming into a crumbling tower as it rises, interest accruing visualized as the stack tips and cracks, dark background, dramatic lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a towering stack of glowing amber coins gradually transforming into a crumbling tower as it rises, interest accruing visualized as the stack tips and cracks, dark background, dramatic lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Tilt up along a colossal tower of glowing coins that begins to sway and crack under immense debt pressure"
   },
   {
     "id": "P23",
     "scene": "Scene 5 - Claim 1 Salary Freeze",
-    "prompt": "a modern podcast studio setup, two figures facing each other across microphones, ring light glow, casual atmosphere, one figure gesturing with hands, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a modern podcast studio setup, two figures facing each other across microphones, ring light glow, casual atmosphere, one figure gesturing with hands, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on two podcasters seated across a studio desk, microphones glowing under warm ring lights, subtle hand gestures"
   },
   {
     "id": "P24",
     "scene": "Scene 5 - Claim 1 Salary Freeze",
-    "prompt": "interior of a formal Indian courtroom, a judge in black robes holding a gavel, dramatic overhead lighting, deep red wooden benches, British colonial architecture detail, stern and serious atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "interior of a formal Indian courtroom, a judge in black robes holding a gavel, dramatic overhead lighting, deep red wooden benches, British colonial architecture detail, stern and serious atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static dramatic shot inside a wooden high courtroom, a judge lowering a wooden gavel, spotlight illuminating the bench"
   },
   {
     "id": "P25",
     "scene": "Scene 5 - Claim 1 Salary Freeze",
-    "prompt": "a large calendar page with specific dates circled in red, dramatic lighting from one side casting long shadows, investigative documentary aesthetic, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a large calendar page with specific dates circled in red, dramatic lighting from one side casting long shadows, investigative documentary aesthetic, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on a desktop calendar with dates marked in bright red ink, shadows moving across the pages"
   },
   {
     "id": "P26",
     "scene": "Scene 5 - Claim 1 Salary Freeze",
-    "prompt": "a horizontal glowing amber timeline bar with two markers at different positions, the gap between them glowing bright red, dark background, timeline visualization, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a horizontal glowing amber timeline bar with two markers at different positions, the gap between them glowing bright red, dark background, timeline visualization, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Camera pan left to right following a glowing timeline bar, an expanding red alert gap growing between two date markers"
   },
   {
     "id": "P27",
     "scene": "Scene 5 - Claim 1 Salary Freeze",
-    "prompt": "a large red X stamped over a legal document, a gloved hand doing the stamping, hard dramatic lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a large red X stamped over a legal document, a gloved hand doing the stamping, hard dramatic lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Hand slamming a bold red REJECTED stamp across a formal legal petition, paper vibrating under impact"
   },
   {
     "id": "P28",
     "scene": "Scene 5 - Claim 1 Salary Freeze",
-    "prompt": "a formal petition document with handwriting and a legal stamp, highlighted text implied by a glowing effect on one line, close-up documentary style, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a formal petition document with handwriting and a legal stamp, highlighted text implied by a glowing effect on one line, close-up documentary style, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Macro push in on a handwritten court petition document, a single sentence glowing bright gold while the rest dims"
   },
   {
     "id": "P29",
     "scene": "Scene 5 - Claim 1 Salary Freeze",
-    "prompt": "twelve identical coin stack columns on a dark surface, eleven of them tall and glowing amber, one is tiny and dim, a dramatic spotlight isolating the tiny one, cinematic illustrated data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "twelve identical coin stack columns on a dark surface, eleven of them tall and glowing amber, one is tiny and dim, a dramatic spotlight isolating the tiny one, cinematic illustrated data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Camera pan across twelve stacked coin pillars, eleven tall glowing columns collapsing down into a single small stack under a spotlight"
   },
   {
     "id": "P30",
     "scene": "Scene 5 - Claim 1 Salary Freeze",
-    "prompt": "a line of South Asian people in airline crew uniforms standing in a queue outside a closed office window with a CLOSED sign implied visually, grey sky, tired defeated expressions, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a line of South Asian people in airline crew uniforms standing in a queue outside a closed office window with a CLOSED sign implied visually, grey sky, tired defeated expressions, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow pull out from a line of exhausted airline crew members standing in silence outside a darkened closed office window"
   },
   {
     "id": "P31",
     "scene": "Scene 6 - Birthday Party",
-    "prompt": "aerial view of a massive beachside party on a Goan cliff estate at night, fireworks exploding over the sea, string lights covering the grounds, hundreds of silhouetted guests, luxury cars in a winding driveway, opulent and excessive, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "aerial view of a massive beachside party on a Goan cliff estate at night, fireworks exploding over the sea, string lights covering the grounds, hundreds of silhouetted guests, luxury cars in a winding driveway, opulent and excessive, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow pull out aerial shot over a vast luxury beach resort at night, fireworks bursting in gold and crimson over ocean waves"
   },
   {
     "id": "P32",
     "scene": "Scene 6 - Birthday Party",
-    "prompt": "a lavish stage with world-class lighting rigs, a live performance with a large audience of formally dressed guests, champagne towers, flower arrangements taller than people, warm golden light, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a lavish stage with world-class lighting rigs, a live performance with a large audience of formally dressed guests, champagne towers, flower arrangements taller than people, warm golden light, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Camera push in toward a glowing concert stage with laser lights, champagne pyros, and cheering tuxedo-clad guests"
   },
   {
     "id": "P33",
     "scene": "Scene 6 - Birthday Party",
-    "prompt": "a heavyset older man with a beard and dark-rimmed glasses, leaning back in a chair with arms spread wide, calm and unapologetic expression, studio lighting, stylized semi-realistic illustrated portrait, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a heavyset older man with a beard and dark-rimmed glasses, leaning back in a chair with arms spread wide, calm and unapologetic expression, studio lighting, stylized semi-realistic illustrated portrait, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static portrait shot of a bearded businessman shrugging casually with open palms, studio rim lighting"
   },
   {
     "id": "P34",
     "scene": "Scene 6 - Birthday Party",
-    "prompt": "split composition: left half shows a lavish party in warm amber gold tones, right half shows an exhausted airline worker in uniform against a cold blue wall, a hard divide line down the center, symbolic and stark, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "split composition: left half shows a lavish party in warm amber gold tones, right half shows an exhausted airline worker in uniform against a cold blue wall, a hard divide line down the center, symbolic and stark, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static split composition: left side glitters with golden party confetti, right side stays frozen in dark icy blue shadow"
   },
   {
     "id": "P35",
     "scene": "Scene 7 - Claim 2 Guarantor",
-    "prompt": "a legal document with two signature lines, one line empty labeled by visual implication as borrower, the other line has a glowing signature, dramatic downward lighting, close-up illustrated style, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a legal document with two signature lines, one line empty labeled by visual implication as borrower, the other line has a glowing signature, dramatic downward lighting, close-up illustrated style, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on a contract where one signature line glows brightly while the primary borrower line remains blank"
   },
   {
     "id": "P36",
     "scene": "Scene 7 - Claim 2 Guarantor",
-    "prompt": "a formal corporate structure diagram rendered as a glowing holographic chart, a company entity at the top, an individual name below as guarantor, cinematic illustrated documentary data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a formal corporate structure diagram rendered as a glowing holographic chart, a company entity at the top, an individual name below as guarantor, cinematic illustrated documentary data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Pan right across a floating 3D holographic organizational tree, glowing data streams connecting company to individual guarantor"
   },
   {
     "id": "P37",
     "scene": "Scene 7 - Claim 2 Guarantor",
-    "prompt": "interior of a courtroom, a judge pointing firmly at a stack of documents, dramatic lighting, deep shadows, an empty defendant's chair in the foreground, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "interior of a courtroom, a judge pointing firmly at a stack of documents, dramatic lighting, deep shadows, an empty defendant's chair in the foreground, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static dramatic courtroom shot: judge pointing sternly toward an empty wooden defendant chair in the spotlight"
   },
   {
     "id": "P38",
     "scene": "Scene 7 - Claim 2 Guarantor",
-    "prompt": "two courtroom gavels side by side on a dark surface, one with Indian flag colors in the background, one with a Union Jack backdrop, both casting hard shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "two courtroom gavels side by side on a dark surface, one with Indian flag colors in the background, one with a Union Jack backdrop, both casting hard shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on two official gavels resting side by side, illuminated under Indian flag and UK Union Jack lighting"
   },
   {
     "id": "P39",
     "scene": "Scene 7 - Claim 2 Guarantor",
-    "prompt": "a thick legal document with a large official judgment stamp implied through visual design, a gavel resting beside it, hard dramatic lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a thick legal document with a large official judgment stamp implied through visual design, a gavel resting beside it, hard dramatic lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static dramatic close-up of a bound legal ruling document resting beside a judicial gavel, shadow shifting across paper"
   },
   {
     "id": "P40",
     "scene": "Scene 8 - Claim 3 No Criminal",
-    "prompt": "a heavyset older man with beard and glasses seated calmly, gesturing with one hand as if making a rational argument, stylized portrait, soft studio light from the side, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a heavyset older man with beard and glasses seated calmly, gesturing with one hand as if making a rational argument, stylized portrait, soft studio light from the side, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on a seated bearded executive speaking calmly in a podcast interview setting, soft side lighting"
   },
   {
     "id": "P41",
     "scene": "Scene 8 - Claim 3 No Criminal",
-    "prompt": "exterior of a large government investigative agency building, official-looking architecture, Indian flag, serious-looking officers entering through glass doors, grey and steel blue tones, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "exterior of a large government investigative agency building, official-looking architecture, Indian flag, serious-looking officers entering through glass doors, grey and steel blue tones, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static wide shot of a government financial investigation headquarters, officers walking up stone steps into dark glass doors"
   },
   {
     "id": "P42",
     "scene": "Scene 8 - Claim 3 No Criminal",
-    "prompt": "a large evidence board with printed bank statements, highlighted transaction records, red arrows drawn between different account names, investigative documentary aesthetic, dramatic lamp lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a large evidence board with printed bank statements, highlighted transaction records, red arrows drawn between different account names, investigative documentary aesthetic, dramatic lamp lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Pan left to right across a detailed crime investigation board with red string connecting offshore shell company accounts"
   },
   {
     "id": "P43",
     "scene": "Scene 8 - Claim 3 No Criminal",
-    "prompt": "two luxury sporting venues side by side: left shows a Formula One pit lane with a racing car, right shows a floodlit cricket stadium, connected by glowing red transaction lines flowing between them, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "two luxury sporting venues side by side: left shows a Formula One pit lane with a racing car, right shows a floodlit cricket stadium, connected by glowing red transaction lines flowing between them, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on glowing red transfer arrows flowing from an airline vault into an F1 pit lane and an IPL cricket stadium"
   },
   {
     "id": "P44",
     "scene": "Scene 8 - Claim 3 No Criminal",
-    "prompt": "two weighing scales side by side dramatically unbalanced, one side bearing a massive golden weight, the other side a tiny weight, dark background, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "two weighing scales side by side dramatically unbalanced, one side bearing a massive golden weight, the other side a tiny weight, dark background, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static dramatic shot of brass scales tipping heavily as a giant loan weight drops on one pan, lifting the collateral pan high"
   },
   {
     "id": "P45",
     "scene": "Scene 8 - Claim 3 No Criminal",
-    "prompt": "a thick criminal charge sheet bound in red tape, an investigator's hands placing it on a desk, multiple file boxes stacked in the background, hard dramatic lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a thick criminal charge sheet bound in red tape, an investigator's hands placing it on a desk, multiple file boxes stacked in the background, hard dramatic lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on a criminal charge sheet bound in red ribbon being placed firmly on an investigator's wooden desk"
   },
   {
     "id": "P46",
     "scene": "Scene 9 - Claim 4 Debt Numbers",
-    "prompt": "a single tall glowing amber data column standing alone against a dark background, height implying a large value, cinematic illustrated data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a single tall glowing amber data column standing alone against a dark background, height implying a large value, cinematic illustrated data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Tilt up along a single glowing amber 3D debt column rising against a dark virtual background"
   },
   {
     "id": "P47",
     "scene": "Scene 9 - Claim 4 Debt Numbers",
-    "prompt": "three tall glowing columns of dramatically different heights on a dark stage, the leftmost column shorter in amber, the middle and right columns progressively taller in steel blue, cinematic illustrated data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "three tall glowing columns of dramatically different heights on a dark stage, the leftmost column shorter in amber, the middle and right columns progressively taller in steel blue, cinematic illustrated data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow pull out displaying three 3D debt columns growing upward at different rates to highlight competing financial figures"
   },
   {
     "id": "P48",
     "scene": "Scene 9 - Claim 4 Debt Numbers",
-    "prompt": "a glowing clock face merged with a rising financial chart, time and money intertwined visually, amber tones warming as the chart rises, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a glowing clock face merged with a rising financial chart, time and money intertwined visually, amber tones warming as the chart rises, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on a glowing clockwork mechanism spinning inside a rising financial interest graph"
   },
   {
     "id": "P49",
     "scene": "Scene 9 - Claim 4 Debt Numbers",
-    "prompt": "a legal document with a highlighted clause glowing amber, a percentage symbol implied through visual design, close-up of fine print being illuminated, documentary investigative aesthetic, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a legal document with a highlighted clause glowing amber, a percentage symbol implied through visual design, close-up of fine print being illuminated, documentary investigative aesthetic, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on legal document fine print, an 11.5% interest rate clause lighting up with a bright amber glow"
   },
   {
     "id": "P50",
     "scene": "Scene 9 - Claim 4 Debt Numbers",
-    "prompt": "an exponential growth curve rendered as a glowing 3D surface rising steeply, amber glow at the base transitioning to deep red at the peak, dramatic dark background, cinematic illustrated data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "an exponential growth curve rendered as a glowing 3D surface rising steeply, amber glow at the base transitioning to deep red at the peak, dramatic dark background, cinematic illustrated data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Tilt up along a steep 3D exponential curve shooting upward as compound interest accumulates over time"
   },
   {
     "id": "P51",
     "scene": "Scene 9 - Claim 4 Debt Numbers",
-    "prompt": "a document with a hand covering the bottom half of the page, only the top portion visible and highlighted, the covered portion glowing through the paper trying to escape, symbolic composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a document with a hand covering the bottom half of the page, only the top portion visible and highlighted, the covered portion glowing through the paper trying to escape, symbolic composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static shot of a hand covering the lower interest clause of a document while the upper figure stays in bright spotlight"
   },
   {
     "id": "P52",
     "scene": "Scene 10 - Claim 5 Settlements",
-    "prompt": "a negotiating table with two sides, one side with stacked documents and an extended hand, the other side with arms crossed and heads turned away, dramatic lighting splitting the scene, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a negotiating table with two sides, one side with stacked documents and an extended hand, the other side with arms crossed and heads turned away, dramatic lighting splitting the scene, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in across a split negotiation table, bankers turning away with folded arms as a settlement paper is pushed forward"
   },
   {
     "id": "P53",
     "scene": "Scene 10 - Claim 5 Settlements",
-    "prompt": "a journalist at a desk with a newspaper archive on multiple screens, searching through old headlines, documentary investigative aesthetic, warm lamp light, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a journalist at a desk with a newspaper archive on multiple screens, searching through old headlines, documentary investigative aesthetic, warm lamp light, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Pan right across an investigator reviewing old newspaper archives on multiple illuminated computer monitors"
   },
   {
     "id": "P54",
     "scene": "Scene 10 - Claim 5 Settlements",
-    "prompt": "a search result screen showing empty results, a magnifying glass held over blank space, a large question mark emerging from the empty area, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a search result screen showing empty results, a magnifying glass held over blank space, a large question mark emerging from the empty area, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static shot of a digital news archive database displaying 'NO RESULTS FOUND' with a magnifying glass hovering over blank space"
   },
   {
     "id": "P55",
     "scene": "Scene 10 - Claim 5 Settlements",
-    "prompt": "a timeline visualization with a clear dividing line, left side dark and empty, right side showing a single glowing event marker, cinematic illustrated data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a timeline visualization with a clear dividing line, left side dark and empty, right side showing a single glowing event marker, cinematic illustrated data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Camera pan left to right along a timeline, 2012-2015 section remains dark until a single bright node sparks at 2016"
   },
   {
     "id": "P56",
     "scene": "Scene 10 - Claim 5 Settlements",
-    "prompt": "a man silhouetted at a distance across a wide body of water looking back from the far shore, a formal negotiation table visible on the near shore, symbolic composition, steel blue tones, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a man silhouetted at a distance across a wide body of water looking back from the far shore, a formal negotiation table visible on the near shore, symbolic composition, steel blue tones, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow pull out showing a lonely figure standing on the far misty shore of the English Channel looking back toward India"
   },
   {
     "id": "P57",
     "scene": "Scene 11 - The Escape",
-    "prompt": "exterior of the Supreme Court of India building at dawn, Indian flag, grand stone circular architecture, dramatic low-angle shot, deep blue sky, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "exterior of the Supreme Court of India building at dawn, Indian flag, grand stone circular architecture, dramatic low-angle shot, deep blue sky, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on the domed Supreme Court building in New Delhi at dawn, early morning light gilding the pillars"
   },
   {
     "id": "P58",
     "scene": "Scene 11 - The Escape",
-    "prompt": "interior of a first-class aircraft cabin at night, a heavyset older man with beard and glasses settling into a wide seat, window showing city lights receding below, calm expression, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "interior of a first-class aircraft cabin at night, a heavyset older man with beard and glasses settling into a wide seat, window showing city lights receding below, calm expression, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow pull out inside a quiet first-class plane cabin at night, city airport lights shrinking outside the jet window"
   },
   {
     "id": "P59",
     "scene": "Scene 11 - The Escape",
-    "prompt": "a heavy iron door closing on one side with a figure on the other side standing in London rain, looking back through the closing gap, symbolic composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a heavy iron door closing on one side with a figure on the other side standing in London rain, looking back through the closing gap, symbolic composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static symbolic shot: heavy iron gates slowly swinging shut, sealing a figure standing in rain on the outside"
   },
   {
     "id": "P60",
     "scene": "Scene 11 - The Escape",
-    "prompt": "a courtroom calendar on a wall with one date circled in red, a departure board on the facing wall with a flight listed the day before, the two images connected by a red dotted line, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a courtroom calendar on a wall with one date circled in red, a departure board on the facing wall with a flight listed the day before, the two images connected by a red dotted line, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in showing a red dotted line connecting a March 3 courtroom calendar date to a March 2 flight departure board"
   },
   {
     "id": "P61",
     "scene": "Scene 12 - UK Extradition",
-    "prompt": "exterior of a British court building in grey winter light, stone columns, UK flag, a formal official envelope floating symbolically in the foreground, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "exterior of a British court building in grey winter light, stone columns, UK flag, a formal official envelope floating symbolically in the foreground, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in toward a grey London court facade in winter rain, a diplomatic extradition request envelope suspended in fog"
   },
   {
     "id": "P62",
     "scene": "Scene 12 - UK Extradition",
-    "prompt": "interior of a British magistrates courtroom, oak-panelled walls, a judge in formal robes and white collar reviewing documents, a gavel about to come down, dramatic overhead lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "interior of a British magistrates courtroom, oak-panelled walls, a judge in formal robes and white collar reviewing documents, a gavel about to come down, dramatic overhead lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static shot inside a Westminster court, a UK judge signing an extradition order under heavy oak panelling"
   },
   {
     "id": "P63",
     "scene": "Scene 12 - UK Extradition",
-    "prompt": "a tall tower of stacked court documents with rejection stamps, each successive level marked and dismissed, the tower growing with each level more definitive, cinematic illustrated documentary data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a tall tower of stacked court documents with rejection stamps, each successive level marked and dismissed, the tower growing with each level more definitive, cinematic illustrated documentary data visualization, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Tilt up along a rising stack of legal appeals, each level getting stamped with a bold red APPEAL DISMISSED seal"
   },
   {
     "id": "P64",
     "scene": "Scene 12 - UK Extradition",
-    "prompt": "a large door with a heavy padlock on it, paper chains of legal documents wrapped around the handles, a courtroom interior visible through a crack, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a large door with a heavy padlock on it, paper chains of legal documents wrapped around the handles, a courtroom interior visible through a crack, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on a heavy courthouse door chained shut with layers of legal stays and bankruptcy injunctions"
   },
   {
     "id": "P65",
     "scene": "Scene 12 - UK Extradition",
-    "prompt": "a bank vault door open, inside showing stacks of recovered assets including property deeds, share certificates, luxury car keys, warm amber light, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a bank vault door open, inside showing stacks of recovered assets including property deeds, share certificates, luxury car keys, warm amber light, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow pull out from an open bank vault filled with seized assets, share certificates, and property titles under warm light"
   },
   {
     "id": "P66",
     "scene": "Scene 13 - Current Status 2026",
-    "prompt": "a large world map with two glowing dots one over London one over New Delhi, a dotted red line of tension connecting them, dark background, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a large world map with two glowing dots one over London one over New Delhi, a dotted red line of tension connecting them, dark background, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow pull out over a dark tactical world map, a pulsing red laser line connecting London to New Delhi"
   },
   {
     "id": "P67",
     "scene": "Scene 13 - Current Status 2026",
-    "prompt": "a figure in a dark coat walking along a rainy London street, grey stone buildings, a black umbrella overhead, looking ahead with a neutral expression, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a figure in a dark coat walking along a rainy London street, grey stone buildings, a black umbrella overhead, looking ahead with a neutral expression, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Pan left to right following a silhouetted figure with a black umbrella walking down a rainy London street at dusk"
   },
   {
     "id": "P68",
     "scene": "Scene 13 - Current Status 2026",
-    "prompt": "a set of official legal notices pinned to a board, red seizure stamps on property documents, an expired passport visible at the bottom of the pile, dramatic lamp lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a set of official legal notices pinned to a board, red seizure stamps on property documents, an expired passport visible at the bottom of the pile, dramatic lamp lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static shot of a bulletin board with property seizure notices and an expired Indian passport pinned under a desk lamp"
   },
   {
     "id": "P69",
     "scene": "Scene 13 - Current Status 2026",
-    "prompt": "a long empty corridor with a single older South Asian figure sitting on a bench alone, waiting, a closed office door at the end of the hall, grey and cold lighting, deeply melancholic atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a long empty corridor with a single older South Asian figure sitting on a bench alone, waiting, a closed office door at the end of the hall, grey and cold lighting, deeply melancholic atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in down a long quiet government corridor toward a single retired airline worker sitting on a bench waiting"
   },
   {
     "id": "P70",
     "scene": "Scene 14 - Recovery Logic",
-    "prompt": "a heavyset older man with beard and glasses, both palms extended outward in an exasperated gesture, confident expression, stylized illustrated portrait, dramatic side lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a heavyset older man with beard and glasses, both palms extended outward in an exasperated gesture, confident expression, stylized illustrated portrait, dramatic side lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static portrait of a bearded businessman holding out his hands in an expressive gesture of innocence"
   },
   {
     "id": "P71",
     "scene": "Scene 14 - Recovery Logic",
-    "prompt": "a police officer handing a bag of recovered money back to a bank teller while in the background a handcuffed figure is still being led away by officers, the act and the crime shown as separate events, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a police officer handing a bag of recovered money back to a bank teller while in the background a handcuffed figure is still being led away by officers, the act and the crime shown as separate events, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on a police officer returning stolen cash to a bank vault while officers lead a suspect away in handcuffs in the background"
   },
   {
     "id": "P72",
     "scene": "Scene 14 - Recovery Logic",
-    "prompt": "a scale of justice with two pans deliberately separated and unconnected, each pan hanging independently, dark background, symbolic composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a scale of justice with two pans deliberately separated and unconnected, each pan hanging independently, dark background, symbolic composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static symbolic shot of brass scales of justice severed in half, each side hanging independently in dramatic shadow"
   },
   {
     "id": "P73",
     "scene": "Scene 14 - Recovery Logic",
-    "prompt": "two hands in symbolic contrast: one willingly offering a coin forward open-palmed, the other with something being forcibly pulled from a closed fist, dramatic lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "two hands in symbolic contrast: one willingly offering a coin forward open-palmed, the other with something being forcibly pulled from a closed fist, dramatic lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Pan left to right contrasting a hand voluntarily offering money versus a hand having assets seized by court order"
   },
   {
     "id": "P74",
     "scene": "Scene 15 - Conclusion",
-    "prompt": "a cracked mirror reflecting a fragmented image: one fragment shows past glory with a gleaming aircraft and a grand party, another shows an empty office and a closed gate, another shows a courtroom, all fragments cracked and displaced, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a cracked mirror reflecting a fragmented image: one fragment shows past glory with a gleaming aircraft and a grand party, another shows an empty office and a closed gate, another shows a courtroom, all fragments cracked and displaced, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow push in on a shattered mirror, each cracked shard reflecting a different period of the Kingfisher downfall story"
   },
   {
     "id": "P75",
     "scene": "Scene 15 - Conclusion",
-    "prompt": "a five-panel grid composition like a newspaper front page, each panel abstractly representing a claim being crossed out with a bold red mark, striking graphic composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a five-panel grid composition like a newspaper front page, each panel abstractly representing a claim being crossed out with a bold red mark, striking graphic composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, dramatic composition, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Pan left to right across a newspaper grid as big red X marks stamp down one by one across five defense claims"
   },
   {
     "id": "P76",
     "scene": "Scene 15 - Conclusion",
-    "prompt": "a quiet empty airport terminal at dusk, golden hour light streaming through large windows, dust motes floating in the air, a forgotten red airline uniform jacket hanging on the back of an empty chair, melancholic and final atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "a quiet empty airport terminal at dusk, golden hour light streaming through large windows, dust motes floating in the air, a forgotten red airline uniform jacket hanging on the back of an empty chair, melancholic and final atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Slow pull out from an abandoned red airline jacket hanging on a chair in a sunlit empty terminal corridor at sunset"
   },
   {
     "id": "P77",
     "scene": "Scene 15 - Conclusion",
-    "prompt": "dramatic dark background, center of frame empty and dark, a single amber spotlight from above illuminating nothing, silence implied by visual stillness, wide minimalist composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio"
+    "prompt": "dramatic dark background, center of frame empty and dark, a single amber spotlight from above illuminating nothing, silence implied by visual stillness, wide minimalist composition, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, strong rim lighting, deep shadow contrast, muted warm amber and cold steel blue palette, editorial illustration quality, no text, no watermarks, ultra-detailed, 16:9 aspect ratio",
+    "video_prompt": "Static final shot of an empty stage illuminated by a single warm spotlight fading slowly to black"
   }
 ]
