@@ -125,15 +125,8 @@ def main():
     # PHASE 1: GENERATE ALL PNG STILLS (FLUX.1-dev)
     # ─────────────────────────────────────────────
     log("\n>>> PHASE 1: GENERATING STILL IMAGES (FLUX.1-dev)")
-    torch.cuda.empty_cache()
-
-    flux_pipe = FluxPipeline.from_pretrained(
-        FLUX_MODEL_ID,
-        torch_dtype=torch.bfloat16,
-    )
-    flux_pipe.enable_model_cpu_offload()
-    flux_pipe.vae.enable_slicing()
-    flux_pipe.vae.enable_tiling()
+    
+    flux_pipe = load_flux_pipeline()
 
     for panel in tqdm(panels, desc="Phase 1 - Rendering PNG Stills"):
         panel_id = panel["id"]

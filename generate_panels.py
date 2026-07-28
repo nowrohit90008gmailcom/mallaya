@@ -91,26 +91,15 @@ def already_done(local_dir: Path, panel_id: str, variation: int) -> bool:
 
 
 def load_pipeline():
-    log("Loading FLUX.1-dev pipeline...")
-
-    # Free any lingering GPU memory before loading
+    log("Loading FLUX.1-dev pipeline (Sequential CPU Offload)...")
     torch.cuda.empty_cache()
-
     pipe = FluxPipeline.from_pretrained(
         MODEL_ID,
         torch_dtype=torch.bfloat16,
     )
-
-    # enable_model_cpu_offload() moves model to CUDA automatically per-layer
-    # Do NOT call pipe.to("cuda") — that tries to load everything at once
-    pipe.enable_model_cpu_offload()
+    pipe.enable_sequential_cpu_offload()
     pipe.vae.enable_slicing()
     pipe.vae.enable_tiling()
-
-    if USE_FP8:
-        pipe.transformer = pipe.transformer.to(torch.float8_e4m3fn)
-
-    log("Pipeline loaded successfully.")
     return pipe
 
 
