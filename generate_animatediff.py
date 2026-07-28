@@ -240,15 +240,23 @@ def main():
     torch.cuda.empty_cache()
 
     from diffusers import AnimateDiffPipeline, MotionAdapter, EulerDiscreteScheduler
+    from huggingface_hub import hf_hub_download
+    from safetensors.torch import load_file
     
-    # Step 1: Load AnimateDiff-Lightning MotionAdapter
+    # Step 1: Load base MotionAdapter config structure
     adapter = MotionAdapter.from_pretrained(
-        "ByteDance/AnimateDiff-Lightning",
-        weight_name="animatediff_lightning_4step_diffusers.safetensors",
+        "guoyww/animatediff-motion-adapter-v1-5-2",
         torch_dtype=torch.float16
     )
 
-    # Step 2: Load 2D cartoon-friendly SD1.5 base model with motion adapter
+    # Step 2: Download & load AnimateDiff-Lightning 4-step weights into adapter
+    ckpt = hf_hub_download(
+        repo_id="ByteDance/AnimateDiff-Lightning",
+        filename="animatediff_lightning_4step_diffusers.safetensors"
+    )
+    adapter.load_state_dict(load_file(ckpt))
+
+    # Step 3: Load 2D cartoon-friendly SD1.5 base model with motion adapter
     pipe = AnimateDiffPipeline.from_pretrained(
         BASE_MODEL_ID,
         motion_adapter=adapter,
