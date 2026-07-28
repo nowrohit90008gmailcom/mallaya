@@ -40,7 +40,7 @@ FAILED_FILE = "/workspace/failed_panels.txt"
 
 MODEL_ID          = "black-forest-labs/FLUX.1-dev"
 IMAGE_WIDTH       = 1920
-IMAGE_HEIGHT      = 1080
+IMAGE_HEIGHT      = 1088
 INFERENCE_STEPS   = 28
 GUIDANCE_SCALE    = 3.5
 VARIATIONS        = 2
