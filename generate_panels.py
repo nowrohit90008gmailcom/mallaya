@@ -19,6 +19,9 @@ from PIL import Image
 from diffusers import FluxPipeline
 from tqdm import tqdm
 
+# Fix CUDA memory fragmentation
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+
 # ─────────────────────────────────────────────
 # CONFIGURATION
 # ─────────────────────────────────────────────
@@ -82,19 +85,24 @@ def already_done(local_dir: Path, panel_id: str, variation: int) -> bool:
 
 
 def load_pipeline():
-    log("Loading FLUX.1-dev pipeline... (first run downloads ~23 GB)")
+    log("Loading FLUX.1-dev pipeline...")
+
+    # Free any lingering GPU memory before loading
+    torch.cuda.empty_cache()
+
     pipe = FluxPipeline.from_pretrained(
         MODEL_ID,
         torch_dtype=torch.bfloat16,
     )
-    pipe = pipe.to("cuda")
 
-    if USE_FP8:
-        pipe.transformer = pipe.transformer.to(torch.float8_e4m3fn)
-
+    # enable_model_cpu_offload() moves model to CUDA automatically per-layer
+    # Do NOT call pipe.to("cuda") — that tries to load everything at once
     pipe.enable_model_cpu_offload()
     pipe.vae.enable_slicing()
     pipe.vae.enable_tiling()
+
+    if USE_FP8:
+        pipe.transformer = pipe.transformer.to(torch.float8_e4m3fn)
 
     log("Pipeline loaded successfully.")
     return pipe
