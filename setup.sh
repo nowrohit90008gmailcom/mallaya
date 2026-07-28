@@ -62,6 +62,7 @@ pip install -q \
     safetensors \
     huggingface_hub \
     sentencepiece \
+    peft \
     Pillow \
     tqdm \
     imageio \
