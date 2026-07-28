@@ -34,12 +34,13 @@ else:
 LOG_FILE  = "/workspace/t2v_pipeline.log"
 FAIL_FILE = "/workspace/t2v_failed.txt"
 
-# Model: THUDM/CogVideoX-2b for fast, high-quality Text-to-Video
-MODEL_ID          = "THUDM/CogVideoX-2b"
-NUM_FRAMES        = 49         # Native CogVideoX frame count (~6-8 sec at 12/24 fps)
-INFERENCE_STEPS   = 30
+# Model: CogVideoX-5b — best quality open-source text-to-video model for 24 GB VRAM
+# Produces cinematic 6-8 second 720p clips with photorealistic motion
+MODEL_ID          = "THUDM/CogVideoX-5b"
+NUM_FRAMES        = 49          # Native CogVideoX frame count
+INFERENCE_STEPS   = 50          # Higher = better quality
 GUIDANCE_SCALE    = 6.0
-TARGET_FPS        = 24
+TARGET_FPS        = 8           # CogVideoX native output FPS (upsampled in export)
 
 # ─────────────────────────────────────────────
 # HELPERS
@@ -120,22 +121,24 @@ def main():
     log(f"STARTING PURE TEXT-TO-VIDEO PIPELINE: {len(panels)} Panels")
     log("=" * 60)
 
-    log("Loading CogVideoX-2b Text-to-Video Pipeline...")
+    log("Loading CogVideoX-5b pipeline (best quality, 24 GB VRAM, CPU offload)...")
     torch.cuda.empty_cache()
 
     from diffusers import CogVideoXPipeline
 
     pipe = CogVideoXPipeline.from_pretrained(
         MODEL_ID,
-        torch_dtype=torch.bfloat16
+        torch_dtype=torch.bfloat16,
     )
     pipe.enable_model_cpu_offload()
     pipe.vae.enable_slicing()
+    pipe.vae.enable_tiling()
 
-    log("Pipeline ready. Generating 8-second video clips directly from text prompts...")
+    log("CogVideoX-5b pipeline ready. Generating 8-second clips from detailed text prompts...")
 
-    for panel in tqdm(panels, desc="Generating Text-to-Video Clips"):
+    for panel in tqdm(panels, desc="CogVideoX-5b Text-to-Video"):
         panel_id   = panel["id"]
+        # Use the richly detailed text-to-video prompt
         v_prompt   = panel.get("text_to_video_prompt", panel.get("video_prompt", ""))
         scene      = panel.get("scene", "")
 

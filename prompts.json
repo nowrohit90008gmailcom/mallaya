@@ -3,9 +3,9 @@
     "id": "P01",
     "scene": "Scene 1 - Cold Open",
     "duration_seconds": 8.0,
-    "narration": "Koi narration nahi \u2014 sirf music. Cold open.",
+    "narration": "Koi narration nahi — sirf music. Cold open.",
     "image_prompt": "dramatic aerial view of an empty red-branded airline terminal, dust on the check-in counters, a single abandoned trolley bag, cold blue ambient light filtering through large windows, desolate and eerie atmosphere, wide establishing shot, color grading: cold steel-blue ambient light, deep navy shadows, sharp crimson red accent highlights, chiaroscuro contrast, atmospheric volumetric fog, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow cinematic push in on an empty, desolate red-branded airport terminal at dawn, subtle atmospheric dust floating in soft blue light. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Chiaroscuro, volumetric atmospheric fog, hard rim lighting. Color Palette: Cold steel-blue, deep navy, accent crimson red. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "A desolate, wide-angle aerial view of an empty red-branded Indian airline terminal interior at pre-dawn. Abandoned check-in counters stretch into darkness. Dust motes drift slowly through cold blue ambient light pouring through floor-to-ceiling windows. A single silver luggage trolley rests at an angle. The camera makes an ultra-slow cinematic push-in on 35mm lens. Deep chiaroscuro lighting — cold steel-blue shadows, accent crimson red emergency signage glowing softly. Atmosphere: eerie, forsaken, funeral stillness. Cinematic 8K documentary film, 16:9, 24fps, graphic novel photorealism, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -23,7 +23,7 @@
     "duration_seconds": 8.0,
     "narration": "\"2nd March, 2016. Mumbai ke Chhatrapati Shivaji Airport pe ek aadmi plane pe chadhta hai. Uske paas return ticket nahi tha.\"",
     "image_prompt": "nighttime airport departure terminal, a lone heavyset older man with a beard and dark-rimmed glasses, viewed from behind, walking through a glass-walled boarding gate, dramatic backlighting, long corridor receding into the distance, silhouette composition, color grading: cold steel-blue ambient light, deep navy shadows, sharp crimson red accent highlights, chiaroscuro contrast, atmospheric volumetric fog, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "A lone heavyset man with a beard and glasses walking slowly away down a long glass airport corridor, slow tracking shot from behind. Camera: Slow dolly-out / pull-out shot, wide lens, expanding scale. Lighting: Chiaroscuro, volumetric atmospheric fog, hard rim lighting. Color Palette: Cold steel-blue, deep navy, accent crimson red. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Nighttime Mumbai airport departure terminal. A heavyset elderly Indian man in his late 60s — salt-and-pepper full beard, dark-rimmed spectacles, navy suit — walks slowly away from camera down a long glass-walled corridor. His silhouette is framed against dramatic blue-white backlighting from the windows. The camera performs a slow, smooth dolly-out / pull-back, revealing the immense empty corridor receding into the distance behind him. Cold steel-blue palette with deep navy shadows and crimson red floor accent lights. Atmospheric fog. 8K cinematic, 24fps, graphic novel aesthetic, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_pull_out",
       "description": "Slow dolly-out / pull-out shot, wide lens, expanding scale"
@@ -41,7 +41,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Woh Indian banks ka hazaron crore rupaye le ke baitha tha. Aur Supreme Court ek din baad uska passport seize karne waali thi.\"",
     "image_prompt": "extreme close-up of a passport being stamped by an immigration officer's hand, dramatic downward lighting, steel blue tones, color grading: cold steel-blue ambient light, deep navy shadows, sharp crimson red accent highlights, chiaroscuro contrast, atmospheric volumetric fog, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Extreme close-up of an immigration officer hand forcefully stamping a passport page, sharp downward motion, dramatic shadows. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Chiaroscuro, volumetric atmospheric fog, hard rim lighting. Color Palette: Cold steel-blue, deep navy, accent crimson red. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Extreme macro close-up of an immigration officer's hand gripping an official red-stamped passport, a black ink stamp descending with force onto a white visa page. The stamp impact sends a tiny paper-dust ripple. Static locked-off camera with microscopic vibration on impact. Dramatic single downward spotlight from above — hard shadows, cold steel-blue ambient. The passport rotates slightly after the stamp. Chiaroscuro contrast, deep black shadows. 8K cinematic documentary, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -57,9 +57,9 @@
     "id": "P04",
     "scene": "Scene 1 - Cold Open",
     "duration_seconds": 8.0,
-    "narration": "\"Woh aadmi tha Vijay Mallya \u2014 jo kabhi apne aap ko 'King of Good Times' kehta tha. Aur naau saal baad, usne ek chaar ghante ka podcast diya \u2014 sirf yeh kehne ke liye ki woh chor nahi hai.\"",
+    "narration": "\"Woh aadmi tha Vijay Mallya — jo kabhi apne aap ko 'King of Good Times' kehta tha. Aur naau saal baad, usne ek chaar ghante ka podcast diya — sirf yeh kehne ke liye ki woh chor nahi hai.\"",
     "image_prompt": "a heavyset older Indian man in his late 60s with a salt-and-pepper full beard and dark-rimmed glasses, seated confidently in an ornate leather chair, a glass of champagne on the armrest, half in shadow, stylized semi-realistic portrait, dramatic rim lighting, color grading: cold steel-blue ambient light, deep navy shadows, sharp crimson red accent highlights, chiaroscuro contrast, atmospheric volumetric fog, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Heavyset bearded man in glasses leaning back in a leather armchair, slowly lifting a champagne glass with a confident expression, dramatic side lighting. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Chiaroscuro, volumetric atmospheric fog, hard rim lighting. Color Palette: Cold steel-blue, deep navy, accent crimson red. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "A heavyset Indian man in his late 60s — salt-and-pepper beard, dark-rimmed glasses — reclines confidently in an ornate leather high-back chair. He slowly raises a crystal champagne flute, swirling the liquid, his expression smug and self-assured. A single dramatic side-key rim light illuminates his profile while his face remains half in shadow. Slow cinematic push-in on 35mm lens. Cold steel-blue ambient with warm amber highlight on his face. Rich chiaroscuro. Graphic novel semi-realistic portrait. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -75,9 +75,9 @@
     "id": "P05",
     "scene": "Scene 1 - Cold Open",
     "duration_seconds": 8.0,
-    "narration": "\"Toh aaj hum ek-ek karke uske sab claims lenge \u2014 aur unhe documented facts ke saath compare karenge.\"",
+    "narration": "\"Toh aaj hum ek-ek karke uske sab claims lenge — aur unhe documented facts ke saath compare karenge.\"",
     "image_prompt": "a large corkboard covered in case files, printed articles, red string connecting documents and photographs, dramatic single lamp casting hard shadows, investigative journalism aesthetic, color grading: cold steel-blue ambient light, deep navy shadows, sharp crimson red accent highlights, chiaroscuro contrast, atmospheric volumetric fog, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow camera pan left to right across an investigative corkboard filled with case files, photos, and glowing red string connected across documents. Camera: Horizontal panning shot from left to right, steady fluid tracking. Lighting: Chiaroscuro, volumetric atmospheric fog, hard rim lighting. Color Palette: Cold steel-blue, deep navy, accent crimson red. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "A wide investigative corkboard fills the frame, covered in printed case files, newspaper clippings, red string connecting photos and documents. A single warm tungsten desk lamp casts a hard circular light. The camera makes a slow, fluid horizontal pan from left to right, revealing each document and connection. Red string glows softly in the lamplight. Deep navy blue shadow at the edges. Cold steel-blue ambient background. Documentary investigation aesthetic. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "pan_left_to_right",
       "description": "Horizontal panning shot from left to right, steady fluid tracking"
@@ -95,7 +95,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Iss story ko samajhne ke liye pehle yeh samajhna zaroori hai ki Vijay Mallya apni peak pe actually tha kaun.\"",
     "image_prompt": "a sprawling industrial distillery complex in India, amber liquid filling giant vats, workers in hard hats, wide shot from above, warm golden tones, color grading: rich warm amber gold, deep crimson red, opulent golden hour lighting, warm mahogany tones, high-end editorial illustration, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow tilt down aerial shot over a vast industrial distillery, golden liquid swirling in vats, steam rising, workers moving on catwalks. Camera: Vertical camera tilt down, 50mm lens, dramatic perspective shift. Lighting: Opulent golden hour sunlight, soft rim highlights. Color Palette: Rich warm amber gold, deep crimson red, mahogany brown. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Dramatic wide tilt-down aerial view of a sprawling Indian industrial distillery complex at golden hour. Enormous copper vats brim with swirling amber liquid. Steam rises from pipes. Workers in hard hats move on catwalks far below. The camera slowly tilts down from the sky to reveal the full scale of the factory. Rich warm amber gold lighting — opulent, industry at its peak. Deep shadows in the valleys between structures. 8K cinematic, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "tilt_down",
       "description": "Vertical camera tilt down, 50mm lens, dramatic perspective shift"
@@ -111,9 +111,9 @@
     "id": "P07",
     "scene": "Scene 2 - Who Is Mallya",
     "duration_seconds": 8.0,
-    "narration": "\"Sirf 28 saal ki umar mein, inhone apne baap se inherit kiya United Breweries \u2014 India ke sabse purane aur sabse bade alcohol conglomerates mein se ek.\"",
+    "narration": "\"Sirf 28 saal ki umar mein, inhone apne baap se inherit kiya United Breweries — India ke sabse purane aur sabse bade alcohol conglomerates mein se ek.\"",
     "image_prompt": "a young Indian man in a business suit standing before a vast corporate headquarters building, looking up at it with ambition, 1983-era aesthetic, warm amber tones, color grading: rich warm amber gold, deep crimson red, opulent golden hour lighting, warm mahogany tones, high-end editorial illustration, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow pull out from a young ambitious businessman in a suit gazing up at a towering corporate skyscraper, 1980s retro lighting. Camera: Slow dolly-out / pull-out shot, wide lens, expanding scale. Lighting: Opulent golden hour sunlight, soft rim highlights. Color Palette: Rich warm amber gold, deep crimson red, mahogany brown. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "A wide pull-out aerial shot high above the blue Arabian Sea off Goa's coastline at twilight. A magnificent white superyacht cuts smoothly through dark teal water, leaving a glowing white wake. Fireworks burst on the horizon. Warm golden champagne light reflects off the water surface. The camera pulls back slowly, making the yacht appear smaller against the vast ocean. Rich amber gold sky gradient, deep navy sea. 8K cinematic, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_pull_out",
       "description": "Slow dolly-out / pull-out shot, wide lens, expanding scale"
@@ -131,7 +131,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Unke leadership mein United Spirits duniya ki second-largest spirits company ban gayi volume ke hisaab se. IPL cricket team thi, Formula One team thi, multiple yachts the, aur private jet bhi.\"",
     "image_prompt": "a montage-style split panel: left side shows a cricket stadium at night with floodlights and cheering crowds, right side shows a Formula One racecar on a circuit, both rendered in bold graphic novel style, color grading: rich warm amber gold, deep crimson red, opulent golden hour lighting, warm mahogany tones, high-end editorial illustration, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Dynamic split screen: left side shows stadium floodlights flashing over a cheering crowd, right side shows an F1 racing car speeding past in a blur. Camera: Horizontal panning shot from left to right, steady fluid tracking. Lighting: Opulent golden hour sunlight, soft rim highlights. Color Palette: Rich warm amber gold, deep crimson red, mahogany brown. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "A wide smooth horizontal pan shot across an ornate ballroom interior — crystal chandeliers, white marble floors, tables draped in red and gold. Dozens of elegantly dressed Indian businessmen and politicians in suits and kurtas mingle and shake hands. The camera pans steadily left-to-right at eye level. Warm golden candlelight and chandelier glow — mahogany tones, deep crimson accents. High-end editorial, graphic novel aesthetic. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "pan_left_to_right",
       "description": "Horizontal panning shot from left to right, steady fluid tracking"
@@ -147,9 +147,9 @@
     "id": "P09",
     "scene": "Scene 2 - Who Is Mallya",
     "duration_seconds": 8.0,
-    "narration": "\"Woh Rajya Sabha ke member bhi the \u2014 yani Indian Parliament ke upper house mein seat thi unki. Aur unhone is diplomatic position ka pura faayda uthaya.\"",
+    "narration": "\"Woh Rajya Sabha ke member bhi the — yani Indian Parliament ke upper house mein seat thi unki. Aur unhone is diplomatic position ka pura faayda uthaya.\"",
     "image_prompt": "interior of an ornate Indian parliament chamber, circular rows of seats, high ceilings, a lone figure seated in the front rows, deep red and gold tones, wide establishing shot, color grading: rich warm amber gold, deep crimson red, opulent golden hour lighting, warm mahogany tones, high-end editorial illustration, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in across the grand circular parliament hall, dust particles in sunbeams, a single politician seated prominently in red leather benches. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Opulent golden hour sunlight, soft rim highlights. Color Palette: Rich warm amber gold, deep crimson red, mahogany brown. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow cinematic push-in on the grand circular interior of the Indian Parliament's Central Hall. Ornate stone arches, rows of wooden desks, high dome ceiling with amber light falling through. Suspended dust particles catch the light in slow motion. The camera moves steadily forward on a 35mm lens, deepening the sense of institutional gravity. Cold steel-blue ambient, warm amber ceiling light. Atmospheric reverence. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -165,9 +165,9 @@
     "id": "P10",
     "scene": "Scene 2 - Who Is Mallya",
     "duration_seconds": 8.0,
-    "narration": "\"2000s ke middle tak, yeh shayad India ka sabse flamboyant businessman tha. Media ne inhe 'King of Good Times' ka title diya \u2014 aur yeh banda iss title ko bade fakh se carry karta tha.\"",
+    "narration": "\"2000s ke middle tak, yeh shayad India ka sabse flamboyant businessman tha. Media ne inhe 'King of Good Times' ka title diya — aur yeh banda iss title ko bade fakh se carry karta tha.\"",
     "image_prompt": "a lavish poolside party at a cliff-edge Goan villa at sunset, silhouetted guests in formal wear, string lights, a DJ booth, fireworks beginning over the Arabian Sea, opulent excess rendered in graphic novel style, color grading: rich warm amber gold, deep crimson red, opulent golden hour lighting, warm mahogany tones, high-end editorial illustration, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow pull out aerial view of a cliffside Goan party at twilight, fireworks exploding over the ocean, glowing pool reflections and dancing silhouettes. Camera: Slow dolly-out / pull-out shot, wide lens, expanding scale. Lighting: Opulent golden hour sunlight, soft rim highlights. Color Palette: Rich warm amber gold, deep crimson red, mahogany brown. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow aerial pull-out over a luxury cliffside Goa beach resort at twilight. Colourful fireworks explode in arcs above the party below — tiny figures celebrate on illuminated terraces. The camera rises and pulls back, showing the bay, the dark sea, and the fireworks reflected in the water. Vibrant golden-amber fireworks glow, deep indigo night sky, crimson flashes. Festival atmosphere. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_pull_out",
       "description": "Slow dolly-out / pull-out shot, wide lens, expanding scale"
@@ -183,9 +183,9 @@
     "id": "P11",
     "scene": "Scene 3 - Kingfisher Dream",
     "duration_seconds": 8.0,
-    "narration": "\"2005 mein Mallya ne launch ki Kingfisher Airlines. Positioning thi premium \u2014 ek 'fun airline,' inspired by Virgin Atlantic.\"",
+    "narration": "\"2005 mein Mallya ne launch ki Kingfisher Airlines. Positioning thi premium — ek 'fun airline,' inspired by Virgin Atlantic.\"",
     "image_prompt": "exterior of a gleaming red-and-gold branded commercial aircraft on a sunny airport tarmac, ground crew in red uniforms, bright optimistic morning light, 2005-era aesthetic, color grading: rich warm amber gold, deep crimson red, opulent golden hour lighting, warm mahogany tones, high-end editorial illustration, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on a brand new red commercial passenger jet gleaming on a sunlit tarmac, ground crew walking past in red uniforms. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Opulent golden hour sunlight, soft rim highlights. Color Palette: Rich warm amber gold, deep crimson red, mahogany brown. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "A brand new Kingfisher red commercial passenger jet gleams under blazing midday sunlight on an airport tarmac. Slow cinematic push-in from a low wide-angle perspective. Ground crew in red uniforms move purposefully around the aircraft. The jet's livery shines deep crimson against a bright sky. Warm amber gold lighting from overhead. Pride and optimism in the atmosphere. Graphic novel realism. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -203,7 +203,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Cabin mein leather seats the, personal entertainment screens the, economy class mein bhi chef-prepared khana. India mein kisi airline ne pehle aisa nahi kiya tha.\"",
     "image_prompt": "interior of a luxury airline cabin, plush red leather seats with gold trim, personal screens on every headrest, a flight attendant serving food, warm cabin lighting, premium atmosphere, color grading: rich warm amber gold, deep crimson red, opulent golden hour lighting, warm mahogany tones, high-end editorial illustration, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Camera panning smoothly down the aisle of a luxury airline cabin with plush red seats, screens glowing, flight attendant serving champagne. Camera: Horizontal panning shot from left to right, steady fluid tracking. Lighting: Opulent golden hour sunlight, soft rim highlights. Color Palette: Rich warm amber gold, deep crimson red, mahogany brown. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "The camera slowly pans down the aisle of a luxurious Kingfisher First Class cabin — plush red leather seats, cream headrests, mood lighting in amber. No passengers yet. The aisle stretches ahead in perfect symmetry. Warm amber interior glow with soft rim highlights on every seat headrest. Aspirational, premium atmosphere. Slow smooth tracking pan. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "pan_left_to_right",
       "description": "Horizontal panning shot from left to right, steady fluid tracking"
@@ -219,9 +219,9 @@
     "id": "P13",
     "scene": "Scene 3 - Kingfisher Dream",
     "duration_seconds": 8.0,
-    "narration": "\"2007 mein Mallya ne ek aisa move kiya jo ultimately airline ko barbaad kar dega \u2014 unhone Air Deccan acquire ki, ek struggling budget carrier, roughly 550 crore rupaye mein.\"",
+    "narration": "\"2007 mein Mallya ne ek aisa move kiya jo ultimately airline ko barbaad kar dega — unhone Air Deccan acquire ki, ek struggling budget carrier, roughly 550 crore rupaye mein.\"",
     "image_prompt": "two aircraft on a tarmac side by side: one sleek red premium jet and one older worn budget airline plane, a handshake between two suited figures in the foreground, dramatic composition, color grading: rich warm amber gold, deep crimson red, opulent golden hour lighting, warm mahogany tones, high-end editorial illustration, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static dramatic hold on two executives shaking hands in front of a sleek red plane and a worn budget aircraft, subtle heat shimmer on tarmac. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Opulent golden hour sunlight, soft rim highlights. Color Palette: Rich warm amber gold, deep crimson red, mahogany brown. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static dramatic wide shot of two suited executives shaking hands in front of a gleaming red passenger jet on a sun-drenched tarmac. Camera locked, subtle environmental vibration. Hard midday sunlight creates crisp shadows. Warm golden-hour amber lighting. Both men smile confidently. The handshake is the focal point. Rich shadows, strong silhouette contrast. Editorial graphic novel style. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -237,9 +237,9 @@
     "id": "P14",
     "scene": "Scene 3 - Kingfisher Dream",
     "duration_seconds": 8.0,
-    "narration": "\"Bhai, aviation ek brutally capital-intensive business hai. Fuel, salaries, maintenance, landing fees \u2014 yeh sab kabhi band nahi hote. Jaise hi passenger revenue dips karta hai, countdown shuru ho jaata hai.\"",
+    "narration": "\"Bhai, aviation ek brutally capital-intensive business hai. Fuel, salaries, maintenance, landing fees — yeh sab kabhi band nahi hote. Jaise hi passenger revenue dips karta hai, countdown shuru ho jaata hai.\"",
     "image_prompt": "a cockpit instrument panel with warning lights illuminated, red and amber glow, flight gauges showing stress, a pilot's gloved hands gripping the controls, tense atmosphere, color grading: ominous crimson red and amber warning glow, deep shadow contrast, cold steel-blue undertones, dramatic tension lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Cockpit interior with red warning lights flashing across instruments, pilot hands gripping control yoke tightly, subtle cockpit vibration. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: High-contrast shadow, dramatic financial tension lighting. Color Palette: Ominous crimson red and amber warning glow. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Interior cockpit of a commercial jet. Red warning indicator lights flash rhythmically across a dark instrument panel — altitude, fuel, stall warnings. A pilot's hands grip the yoke. The camera is static with subtle shaking turbulence effect. Cold red warning glow dominates — crimson dashboard illumination against deep black. Dramatic tension. Graphic novel cinematic. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -257,7 +257,7 @@
     "duration_seconds": 8.0,
     "narration": "\"2010 tak Kingfisher Airlines cash bleed kar rahi thi jo sustain karna mushkil tha. Company ne already 1700 crore se zyada ka loss accumulate kar liya tha.\"",
     "image_prompt": "a dramatic downward-sloping financial chart rendered as a 3D landscape, a tiny airplane model falling off the edge of the chart cliff, dark storm clouds gathering, color grading: ominous crimson red and amber warning glow, deep shadow contrast, cold steel-blue undertones, dramatic tension lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Dramatic tilt down following a miniature red airplane tumbling down a collapsing 3D financial chart cliff into dark storm clouds. Camera: Vertical camera tilt down, 50mm lens, dramatic perspective shift. Lighting: High-contrast shadow, dramatic financial tension lighting. Color Palette: Ominous crimson red and amber warning glow. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Dramatic overhead tilt-down shot following a miniature red model airplane falling through the air and tumbling down along a crumbling stack of coins. The coins cascade and scatter in slow motion. The camera tilts down sharply to follow the fall. Cold steel-blue lighting from above, deep black shadow below. Crimson plane glowing. Symbolic financial collapse. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "tilt_down",
       "description": "Vertical camera tilt down, 50mm lens, dramatic perspective shift"
@@ -275,7 +275,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Airline ne kabhi profit nahi banaya. Ek bhi saal mein nahi. Shuru se leke end tak.\"",
     "image_prompt": "a stark ledger book open on a table, red ink filling column after column under an overhead lamp, dark dramatic lighting, close-up detail shot, color grading: ominous crimson red and amber warning glow, deep shadow contrast, cold steel-blue undertones, dramatic tension lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Close-up static shot of a financial ledger under a single hanging light, red ink bleeding down numbers, subtle light flickering. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: High-contrast shadow, dramatic financial tension lighting. Color Palette: Ominous crimson red and amber warning glow. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Extreme close-up static shot of an open financial ledger under a single hanging bare light bulb. Pages filled with handwritten numbers — red ink figures dominate the right column (losses). The light bulb sways almost imperceptibly, causing the shadows to shift slowly. Cold steel-blue ambient, warm amber bulb centre, crimson red ink. Hard chiaroscuro. Graphic novel realism. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -291,9 +291,9 @@
     "id": "P17",
     "scene": "Scene 4 - The Loans",
     "duration_seconds": 8.0,
-    "narration": "\"Airline ko uda ke rakhne ke liye Mallya ne borrowing shuru ki. Aur sirf ek bank se nahi \u2014 satrah banks se.\"",
+    "narration": "\"Airline ko uda ke rakhne ke liye Mallya ne borrowing shuru ki. Aur sirf ek bank se nahi — satrah banks se.\"",
     "image_prompt": "seventeen large stone bank buildings arranged in a semi-circle viewed from above, each with a different facade, connected by glowing lines converging on a single point at the center, aerial perspective, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Aerial pull out over seventeen bank facades, glowing amber lines of credit flowing from each bank into a single central point. Camera: Slow dolly-out / pull-out shot, wide lens, expanding scale. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Dramatic slow aerial pull-out over seventeen glowing Indian bank branch facades arranged in a semicircle on a dark financial district. Amber lines of credit — glowing filaments of light — flow from each facade toward a central point off-screen. The camera rises and expands to show all seventeen connections simultaneously. Dark navy background, glowing amber lines, cold blue building facades. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_pull_out",
       "description": "Slow dolly-out / pull-out shot, wide lens, expanding scale"
@@ -309,9 +309,9 @@
     "id": "P18",
     "scene": "Scene 4 - The Loans",
     "duration_seconds": 8.0,
-    "narration": "\"Akele State Bank of India ne Kingfisher Airlines ko 1600 crore se zyada diye. IDBI Bank ne karib 900 crore. Yeh choti raqam nahi thi \u2014 aur sabse important baat yeh hai ki yeh public ka paisa tha.\"",
+    "narration": "\"Akele State Bank of India ne Kingfisher Airlines ko 1600 crore se zyada diye. IDBI Bank ne karib 900 crore. Yeh choti raqam nahi thi — aur sabse important baat yeh hai ki yeh public ka paisa tha.\"",
     "image_prompt": "a grand neoclassical bank facade with massive stone pillars, architecture implying great institutional authority, a small figure standing at the entrance emphasizing scale, amber and steel blue tones, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Low-angle tilt up shot along massive stone columns of a grand state bank building against a dramatic steel blue twilight sky. Camera: Vertical camera tilt up, low angle, architectural elevation move. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Dramatic low-angle tilt-up shot from the base of massive stone columns of a grand Indian state bank building — the Reserve Bank or SBI facade. The columns rise impossibly tall, the camera tilting up slowly to reveal the ornate stone pediment above. Overcast sky behind, harsh overhead rim lighting in cold steel-blue and slate grey. Institutional power. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "tilt_up",
       "description": "Vertical camera tilt up, low angle, architectural elevation move"
@@ -327,9 +327,9 @@
     "id": "P19",
     "scene": "Scene 4 - The Loans",
     "duration_seconds": 8.0,
-    "narration": "\"Mallya ne yeh loans sirf ek corporate borrower ki tarah nahi liye the. Unhone personally guarantor ke roop mein sign kiya \u2014 matlab unka apna naam aur personal assets daanv pe the.\"",
+    "narration": "\"Mallya ne yeh loans sirf ek corporate borrower ki tarah nahi liye the. Unhone personally guarantor ke roop mein sign kiya — matlab unka apna naam aur personal assets daanv pe the.\"",
     "image_prompt": "extreme close-up of a hand signing a thick legal contract document, a fountain pen, official stamps and seals visible on the page, dramatic downward lighting, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Extreme macro close-up of a fountain pen signing a personal guarantee contract, ink spreading on paper, dramatic overhead lighting. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Extreme macro close-up of a hand holding a fountain pen signing a 'Personal Guarantee' document on heavy paper. The pen moves in slow motion, ink spreading. The camera inches forward as the signature is completed. A single overhead spot casts hard shadows on the document. Cold steel-blue ambient, warm ink-black pen. Ominous, deliberate, irreversible moment. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -347,7 +347,7 @@
     "duration_seconds": 8.0,
     "narration": "\"2012 mein Kingfisher Airlines ka operating license finally suspend ho gaya. Employees ko mahino se salary nahi mili thi. Fuel suppliers ko payment nahi. Airport authorities ko fees nahi.\"",
     "image_prompt": "a large red-branded airline office interior, empty desks, computer screens dark, personal items left behind, an abandoned red airline uniform jacket hanging on a chair, desolate and quiet, cool blue ambient light, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow camera pan across a silent abandoned airline headquarters, dark computer monitors, papers scattered, cold blue ambient light. Camera: Horizontal panning shot from left to right, steady fluid tracking. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow camera pan across a silent, abandoned airline headquarters interior. Dark computer monitors with dust covers, empty desks, overturned chairs. An airline calendar still on the wall. Emergency lighting gives a cold blue glow. The pan reveals progressive desolation — this was once a busy office. Desaturated cold blue and grey palette. Ghost-office atmosphere. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "pan_left_to_right",
       "description": "Horizontal panning shot from left to right, steady fluid tracking"
@@ -363,9 +363,9 @@
     "id": "P21",
     "scene": "Scene 4 - The Loans",
     "duration_seconds": 8.0,
-    "narration": "\"Chaar hazaar se zyada employees achanak na job ke rahe, na salary ke \u2014 aur koi jawab dene waala bhi nahi.\"",
+    "narration": "\"Chaar hazaar se zyada employees achanak na job ke rahe, na salary ke — aur koi jawab dene waala bhi nahi.\"",
     "image_prompt": "a large crowd of South Asian men and women in airline uniforms gathered outside a closed office building, holding handwritten signs, expressions of distress and confusion, grey overcast sky, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow pull out shot of a crowd of airline employees in red uniforms protesting outside locked glass gates under a gloomy sky. Camera: Slow dolly-out / pull-out shot, wide lens, expanding scale. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow pull-out shot of a large crowd of airline employees in red Kingfisher uniforms protesting outside an airport gate. They hold handwritten signs. Their faces are tired and angry. The camera slowly widens, revealing more and more protesters stretching down the road. Cold steel-blue overcast sky. Stark desaturated tones — only the red uniforms pop with color. Documentary realism. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_pull_out",
       "description": "Slow dolly-out / pull-out shot, wide lens, expanding scale"
@@ -381,9 +381,9 @@
     "id": "P22",
     "scene": "Scene 4 - The Loans",
     "duration_seconds": 8.0,
-    "narration": "\"Loans par interest badh raha tha. Banks ne accounts ko Non-Performing Assets \u2014 NPAs \u2014 declare kar diya. Debt publicly acknowledge kiye gaye se kahin zyada tezi se badh raha tha.\"",
+    "narration": "\"Loans par interest badh raha tha. Banks ne accounts ko Non-Performing Assets — NPAs — declare kar diya. Debt publicly acknowledge kiye gaye se kahin zyada tezi se badh raha tha.\"",
     "image_prompt": "a towering stack of glowing amber coins gradually transforming into a crumbling tower as it rises, interest accruing visualized as the stack tips and cracks, dark background, dramatic lighting, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Tilt up along a colossal tower of glowing coins that begins to sway and crack under immense debt pressure. Camera: Vertical camera tilt up, low angle, architectural elevation move. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Dramatic tilt-up along a colossal digital tower of glowing amber coins. The tower sways slowly and begins to crack from the base. Fissures spread. The camera tilts upward relentlessly as the top begins to tip. Cold blue background, glowing amber coin tower, crimson cracks spreading. Abstract financial ruin metaphor. Graphic novel style. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "tilt_up",
       "description": "Vertical camera tilt up, low angle, architectural elevation move"
@@ -399,9 +399,9 @@
     "id": "P23",
     "scene": "Scene 5 - Claim 1 Salary Freeze",
     "duration_seconds": 8.0,
-    "narration": "\"Ab chalte hain Mallya ke claims ki taraf \u2014 podcast mein jo unhone kaha. Shuru karte hain unki pehli baat se \u2014 employees ko salary kyun nahi mili.\"",
+    "narration": "\"Ab chalte hain Mallya ke claims ki taraf — podcast mein jo unhone kaha. Shuru karte hain unki pehli baat se — employees ko salary kyun nahi mili.\"",
     "image_prompt": "a modern podcast studio setup, two figures facing each other across microphones, ring light glow, casual atmosphere, one figure gesturing with hands, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on two podcasters seated across a studio desk, microphones glowing under warm ring lights, subtle hand gestures. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow cinematic push-in toward two podcasters seated across a studio desk — microphones in foreground, acoustic panels visible. One gestures expressively. Warm studio amber lighting with side rim highlights. The push-in narrows focus onto the microphones and the gesturing hand. Intimate, analytical atmosphere. Graphic novel semi-realism. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -417,9 +417,9 @@
     "id": "P24",
     "scene": "Scene 5 - Claim 1 Salary Freeze",
     "duration_seconds": 8.0,
-    "narration": "\"Unka claim yeh hai: Karnataka High Court ne woh funds freeze kar diye the jo specifically employees ki salaries ke liye the. Toh galti court ki thi \u2014 unki nahi.\"",
+    "narration": "\"Unka claim yeh hai: Karnataka High Court ne woh funds freeze kar diye the jo specifically employees ki salaries ke liye the. Toh galti court ki thi — unki nahi.\"",
     "image_prompt": "interior of a formal Indian courtroom, a judge in black robes holding a gavel, dramatic overhead lighting, deep red wooden benches, British colonial architecture detail, stern and serious atmosphere, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static dramatic shot inside a wooden high courtroom, a judge lowering a wooden gavel, spotlight illuminating the bench. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static wide shot inside a high-ceilinged Indian wooden courtroom. A judge in black robes lowers a large wooden gavel forcefully — the strike is in slow motion, gavel tip just touching the block. Natural cold light streams through tall courtroom windows. Dark wood panelling, cold blue ambient light, dramatic institutional gravity. Silence captured in motion. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -435,9 +435,9 @@
     "id": "P25",
     "scene": "Scene 5 - Claim 1 Salary Freeze",
     "duration_seconds": 8.0,
-    "narration": "\"Yeh sun ke logical lagta hai. Courts assets freeze karti hain \u2014 yeh sach hai. Toh dates check karte hain.\"",
+    "narration": "\"Yeh sun ke logical lagta hai. Courts assets freeze karti hain — yeh sach hai. Toh dates check karte hain.\"",
     "image_prompt": "a large calendar page with specific dates circled in red, dramatic lighting from one side casting long shadows, investigative documentary aesthetic, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on a desktop calendar with dates marked in bright red ink, shadows moving across the pages. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow cinematic push-in on a large desk calendar — pages marked and circled aggressively in bright red ink. As the camera creeps forward, the red markings become more intense. A shadow encroaches from the right side of the frame. Cold steel-blue ambient light on the desk surface. The red ink markings glow almost like warnings. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -453,9 +453,9 @@
     "id": "P26",
     "scene": "Scene 5 - Claim 1 Salary Freeze",
     "duration_seconds": 8.0,
-    "narration": "\"Kingfisher Airlines ke employees ki salaries mid-2012 ke aas-paas rukni shuru huyin. Karnataka High Court ne relevant funds 2013 mein freeze kiye \u2014 pura ek saal baad.\"",
+    "narration": "\"Kingfisher Airlines ke employees ki salaries mid-2012 ke aas-paas rukni shuru huyin. Karnataka High Court ne relevant funds 2013 mein freeze kiye — pura ek saal baad.\"",
     "image_prompt": "a horizontal glowing amber timeline bar with two markers at different positions, the gap between them glowing bright red, dark background, timeline visualization, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Camera pan left to right following a glowing timeline bar, an expanding red alert gap growing between two date markers. Camera: Horizontal panning shot from left to right, steady fluid tracking. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Camera pans left to right following a glowing horizontal timeline bar projected in 3D space. As the pan reaches a certain date, a pulsing crimson red alert icon expands from the timeline point. The pan is fluid and continuous. Dark navy virtual environment background. Glowing amber timeline with crimson alert pulse. Data visualization aesthetic. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "pan_left_to_right",
       "description": "Horizontal panning shot from left to right, steady fluid tracking"
@@ -473,7 +473,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Woh court un funds ko freeze nahi kar sakti thi jo employees ko mile hi nahi. Sequence hi kaam nahi karta.\"",
     "image_prompt": "a large red X stamped over a legal document, a gloved hand doing the stamping, hard dramatic lighting, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Hand slamming a bold red REJECTED stamp across a formal legal petition, paper vibrating under impact. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "A hand in black sleeve descends into frame and slams a large bold red REJECTED stamp forcefully onto a formal legal petition document. The paper visibly vibrates on impact. Tiny paper fibres lift. Static locked camera, single downward motion. Hard overhead spot lighting — cold steel blue ambient, bright white paper, crimson stamp ink spreading. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -491,7 +491,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Lekin ek aur baat hai. Jab Mallya ne Karnataka High Court mein petition daali, toh unhone sirf ek mahine ki salary ke liye funds release karne ki request ki.\"",
     "image_prompt": "a formal petition document with handwriting and a legal stamp, highlighted text implied by a glowing effect on one line, close-up documentary style, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Macro push in on a handwritten court petition document, a single sentence glowing bright gold while the rest dims. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Macro slow push-in on handwritten text on a court petition document. One specific clause — glowing in warm amber against the white paper — is highlighted. The camera eases forward until that single sentence fills the frame. A fingerprint is partially visible on the paper surface. Cold blue ambient light, warm amber highlight on the clause. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -507,9 +507,9 @@
     "id": "P29",
     "scene": "Scene 5 - Claim 1 Salary Freeze",
     "duration_seconds": 8.0,
-    "narration": "\"Us waqt tak total outstanding salaries karib aath mahine ki thi \u2014 roughly teen sau crore rupaye. Unhone sirf ek mahine ka maanga. Baaki saat mahine ka kya?\"",
+    "narration": "\"Us waqt tak total outstanding salaries karib aath mahine ki thi — roughly teen sau crore rupaye. Unhone sirf ek mahine ka maanga. Baaki saat mahine ka kya?\"",
     "image_prompt": "twelve identical coin stack columns on a dark surface, eleven of them tall and glowing amber, one is tiny and dim, a dramatic spotlight isolating the tiny one, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Camera pan across twelve stacked coin pillars, eleven tall glowing columns collapsing down into a single small stack under a spotlight. Camera: Horizontal panning shot from left to right, steady fluid tracking. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Wide camera pan across twelve stacked 3D coin columns arranged in a row. As the pan reaches the right, eleven columns begin to collapse in slow motion — coins cascading. Only one column remains standing at the far right. Dark slate grey background, cold blue ambient, glowing amber coins tumbling. Slow deliberate pan reveals the scale of the collapse. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "pan_left_to_right",
       "description": "Horizontal panning shot from left to right, steady fluid tracking"
@@ -527,7 +527,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Aur yeh salary aaj bhi unpaid hai. Partially nahi. Mostly nahi. Poori tarah se unpaid.\"",
     "image_prompt": "a line of South Asian people in airline crew uniforms standing in a queue outside a closed office window with a CLOSED sign implied visually, grey sky, tired defeated expressions, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow pull out from a line of exhausted airline crew members standing in silence outside a darkened closed office window. Camera: Slow dolly-out / pull-out shot, wide lens, expanding scale. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow pull-out from a line of exhausted airline crew members — pilots, air hostesses, ground staff — standing in rigid silence outside an empty Kingfisher Airlines gate. Their red uniforms contrast with the cold grey airport interior. The pull-out reveals more and more staff extending in both directions. Desaturated cold palette, crimson uniforms, grey steel airport. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_pull_out",
       "description": "Slow dolly-out / pull-out shot, wide lens, expanding scale"
@@ -543,9 +543,9 @@
     "id": "P31",
     "scene": "Scene 6 - Birthday Party",
     "duration_seconds": 8.0,
-    "narration": "\"Jab uske employees mahino se salary ka wait kar rahe the, Mallya ne Goa mein apna 60th birthday celebrate kiya \u2014 ek aisi party ke saath jo reportedly India ki sabse mehenga private events mein se ek thi.\"",
+    "narration": "\"Jab uske employees mahino se salary ka wait kar rahe the, Mallya ne Goa mein apna 60th birthday celebrate kiya — ek aisi party ke saath jo reportedly India ki sabse mehenga private events mein se ek thi.\"",
     "image_prompt": "aerial view of a massive beachside party on a Goan cliff estate at night, fireworks exploding over the sea, string lights covering the grounds, hundreds of silhouetted guests, luxury cars in a winding driveway, opulent and excessive, color grading: vibrant golden-amber party glow, deep indigo night sky, crimson firework reflections, high-contrast festive lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow pull out aerial shot over a vast luxury beach resort at night, fireworks bursting in gold and crimson over ocean waves. Camera: Slow dolly-out / pull-out shot, wide lens, expanding scale. Lighting: Dynamic high-contrast festive fireworks & spotlighting. Color Palette: Vibrant golden-amber party glow, deep indigo night sky, crimson flashes. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Dramatic slow aerial pull-out over a vast luxury beach resort at night — Goa, glittering with light. The curved bay is filled with party boats and fireworks bursting above. The camera rises steadily, making the celebration smaller and smaller against the dark sea. Vibrant golden-amber fireworks, deep indigo night sky, crimson red sparkles in the water. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_pull_out",
       "description": "Slow dolly-out / pull-out shot, wide lens, expanding scale"
@@ -563,7 +563,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Media reports ne party ki cost 13 crore rupaye se zyada estimate ki. International entertainers ko fly in karaya gaya. Guests ko five-star resorts mein rakha gaya.\"",
     "image_prompt": "a lavish stage with world-class lighting rigs, a live performance with a large audience of formally dressed guests, champagne towers, flower arrangements taller than people, warm golden light, color grading: vibrant golden-amber party glow, deep indigo night sky, crimson firework reflections, high-contrast festive lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Camera push in toward a glowing concert stage with laser lights, champagne pyros, and cheering tuxedo-clad guests. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Dynamic high-contrast festive fireworks & spotlighting. Color Palette: Vibrant golden-amber party glow, deep indigo night sky, crimson flashes. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Camera pushes in slowly toward a blazing outdoor concert stage — laser grids cut the air above the crowd, champagne pyrotechnics fire upward, silhouetted audience raises hands. The stage pulsates with golden-amber and crimson spotlights. The push-in builds anticipation. Festival energy, vibrant warm palette. Graphic novel motion. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -581,7 +581,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Podcast mein unki defence simple thi: Kingfisher Airlines unka sirf ek business tha. Unke paas aur bhi income streams the.\"",
     "image_prompt": "a heavyset older man with a beard and dark-rimmed glasses, leaning back in a chair with arms spread wide, calm and unapologetic expression, studio lighting, stylized semi-realistic illustrated portrait, color grading: vibrant golden-amber party glow, deep indigo night sky, crimson firework reflections, high-contrast festive lighting, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static portrait shot of a bearded businessman shrugging casually with open palms, studio rim lighting. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Dynamic high-contrast festive fireworks & spotlighting. Color Palette: Vibrant golden-amber party glow, deep indigo night sky, crimson flashes. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static portrait shot of a heavyset bearded man in an expensive suit, shrugging nonchalantly with open palms toward camera — an I-don't-know gesture. Half his face is in warm amber light, half in cold blue shadow. The background is dark and out of focus. No movement except the subtle rise and fall of his chest breathing and a slight tilt of his head. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -597,9 +597,9 @@
     "id": "P34",
     "scene": "Scene 6 - Birthday Party",
     "duration_seconds": 8.0,
-    "narration": "\"Lekin yahan moral weight bahut bhaari hai. Yeh wahi aadmi hai jo baad mein claim karega ki usne apne employees ko bachane ki bahut koshish ki \u2014 aur wahi ek birthday party pe itna kharch kiya jitna uske employees ek decade mein nahi kamaate.\"",
+    "narration": "\"Lekin yahan moral weight bahut bhaari hai. Yeh wahi aadmi hai jo baad mein claim karega ki usne apne employees ko bachane ki bahut koshish ki — aur wahi ek birthday party pe itna kharch kiya jitna uske employees ek decade mein nahi kamaate.\"",
     "image_prompt": "split composition: left half shows a lavish party in warm amber gold tones, right half shows an exhausted airline worker in uniform against a cold blue wall, a hard divide line down the center, symbolic and stark, color grading: striking dual-tone split, warm golden-amber party glow on left vs cold icy-blue shadow on right, intense color separation, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static split composition: left side glitters with golden party confetti, right side stays frozen in dark icy blue shadow. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Dynamic high-contrast festive fireworks & spotlighting. Color Palette: Vibrant golden-amber party glow, deep indigo night sky, crimson flashes. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static split-frame composition. Left half: golden-amber party confetti and fireworks, crystal glasses clinking, a celebration in warm light. Right half: cold dark blue shadow — workers in silence, an unpaid salary slip on a desk, no movement. The contrast between the two halves is stark and simultaneous. No camera movement. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -615,9 +615,9 @@
     "id": "P35",
     "scene": "Scene 7 - Claim 2 Guarantor",
     "duration_seconds": 8.0,
-    "narration": "\"Claim number do. Mallya kehte hain ki unhone personally koi loan nahi liya. Woh sirf guarantor the \u2014 aur unka argument hai ki guarantor hona debtor hone se alag hai.\"",
+    "narration": "\"Claim number do. Mallya kehte hain ki unhone personally koi loan nahi liya. Woh sirf guarantor the — aur unka argument hai ki guarantor hona debtor hone se alag hai.\"",
     "image_prompt": "a legal document with two signature lines, one line empty labeled by visual implication as borrower, the other line has a glowing signature, dramatic downward lighting, close-up illustrated style, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on a contract where one signature line glows brightly while the primary borrower line remains blank. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow cinematic push-in on a formal contract document on a desk. One signature line at the bottom glows with warm amber light — the guarantor's line. The primary signatory line above is dark and faded. The camera inches toward the glowing signature. Hard overhead spot lighting. Cold blue ambient. The document edges are in deep shadow. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -633,9 +633,9 @@
     "id": "P36",
     "scene": "Scene 7 - Claim 2 Guarantor",
     "duration_seconds": 8.0,
-    "narration": "\"Technically, yeh sach hai. Loans Kingfisher Airlines Limited ke naam pe liye gaye the. Mallya ne personal guarantor ke roop mein sign kiya \u2014 primary borrower ke roop mein nahi.\"",
+    "narration": "\"Technically, yeh sach hai. Loans Kingfisher Airlines Limited ke naam pe liye gaye the. Mallya ne personal guarantor ke roop mein sign kiya — primary borrower ke roop mein nahi.\"",
     "image_prompt": "a formal corporate structure diagram rendered as a glowing holographic chart, a company entity at the top, an individual name below as guarantor, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Pan right across a floating 3D holographic organizational tree, glowing data streams connecting company to individual guarantor. Camera: Horizontal panning shot from left to right, steady fluid tracking. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Wide pan to the right across a floating 3D holographic organizational tree. Glowing data streams connect corporate nodes — parent company links to subsidiaries. As the pan continues, more hidden nodes become visible in the edges of the frame. Dark moody navy background, amber and blue glowing nodes. Data visualization meets documentary. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "pan_left_to_right",
       "description": "Horizontal panning shot from left to right, steady fluid tracking"
@@ -653,7 +653,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Lekin guarantor hone ka matlab law mein yeh hota hai: agar borrower default kare, toh guarantor fully liable ho jaata hai. Guarantee ka yahi toh poora point hai.\"",
     "image_prompt": "interior of a courtroom, a judge pointing firmly at a stack of documents, dramatic lighting, deep shadows, an empty defendant's chair in the foreground, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static dramatic courtroom shot: judge pointing sternly toward an empty wooden defendant chair in the spotlight. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static dramatic courtroom shot — a judge in robes points sternly at an empty wooden defendant's dock. The dock is conspicuously vacant. Harsh overhead institutional lighting creates strong shadows from the judge's pointing arm. Cold steel-blue ambient. The emptiness of the dock is the dramatic focal point. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -669,9 +669,9 @@
     "id": "P38",
     "scene": "Scene 7 - Claim 2 Guarantor",
     "duration_seconds": 8.0,
-    "narration": "\"Indian courts aur UK High Court dono ne rule kiya hai ki Mallya, personal guarantor ke roop mein, defaulted loans ki full amount ke liye legally liable hain. Yeh settled law hai \u2014 koi interpretation nahi.\"",
+    "narration": "\"Indian courts aur UK High Court dono ne rule kiya hai ki Mallya, personal guarantor ke roop mein, defaulted loans ki full amount ke liye legally liable hain. Yeh settled law hai — koi interpretation nahi.\"",
     "image_prompt": "two courtroom gavels side by side on a dark surface, one with Indian flag colors in the background, one with a Union Jack backdrop, both casting hard shadows, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on two official gavels resting side by side, illuminated under Indian flag and UK Union Jack lighting. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow cinematic push-in on two official gavels resting side by side on a marble surface — one Indian Supreme Court gavel, one British court gavel — illuminated by twin overhead spotlights. The push-in narrows until both gavel heads fill the frame. Cold steel-blue ambient, warm amber spotlights. Symbolic bilateral legal weight. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -689,7 +689,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Yeh kehna ki 'main sirf guarantor tha' ek legal technicality hai jo outcome nahi badlti. Jab company default hui, liability unpe transfer ho gayi. Isliye toh unhone guarantee sign ki thi.\"",
     "image_prompt": "a thick legal document with a large official judgment stamp implied through visual design, a gavel resting beside it, hard dramatic lighting, color grading: stark cold steel-blue and slate grey palette, harsh overhead rim lighting, desaturated tones, deep black shadows, sharp contrast, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static dramatic close-up of a bound legal ruling document resting beside a judicial gavel, shadow shifting across paper. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Harsh overhead fluorescent rim lighting, desaturated shadows. Color Palette: Stark cold steel-blue, slate grey, deep black. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static dramatic close-up of a thick bound legal ruling document resting beside a judicial scale on a mahogany desktop. Both objects are perfectly still. A single spotlight from directly above casts crisp circular light. The scale's pans are perfectly balanced. Cold steel-blue ambient, warm amber document spine. Institutional gravity. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -705,9 +705,9 @@
     "id": "P40",
     "scene": "Scene 8 - Claim 3 No Criminal",
     "duration_seconds": 8.0,
-    "narration": "\"Claim teen. Mallya kehte hain unka maamla fundamentally ek civil matter hai \u2014 ek unpaid debt \u2014 criminal case nahi. Woh khud ko ek failed businessman kehte hain, criminal nahi.\"",
+    "narration": "\"Claim teen. Mallya kehte hain unka maamla fundamentally ek civil matter hai — ek unpaid debt — criminal case nahi. Woh khud ko ek failed businessman kehte hain, criminal nahi.\"",
     "image_prompt": "a heavyset older man with beard and glasses seated calmly, gesturing with one hand as if making a rational argument, stylized portrait, soft studio light from the side, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on a seated bearded executive speaking calmly in a podcast interview setting, soft side lighting. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow push-in on a bearded man in glasses seated in a podcast studio — speaking animatedly into a microphone, hands gesturing. The push-in slowly tightens from a medium shot toward a medium-close-up on his face and hands. Warm studio amber key light. Relaxed, confident, persuasive demeanor. Graphic novel realism. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -723,9 +723,9 @@
     "id": "P41",
     "scene": "Scene 8 - Claim 3 No Criminal",
     "duration_seconds": 8.0,
-    "narration": "\"Yeh claim seedha contradict hota hai Enforcement Directorate dwara \u2014 India ki financial crime investigation agency.\"",
+    "narration": "\"Yeh claim seedha contradict hota hai Enforcement Directorate dwara — India ki financial crime investigation agency.\"",
     "image_prompt": "exterior of a large government investigative agency building, official-looking architecture, Indian flag, serious-looking officers entering through glass doors, grey and steel blue tones, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static wide shot of a government financial investigation headquarters, officers walking up stone steps into dark glass doors. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static wide shot of a government financial investigation headquarters — uniformed officers at glowing monitor screens, evidence boxes stacked, printouts pinned to boards. The room is alive with quiet activity. Cold blue-green institutional lighting. Amber monitor glow. Systematic, methodical investigation atmosphere. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -743,7 +743,7 @@
     "duration_seconds": 8.0,
     "narration": "\"ED ne Mallya pe Prevention of Money Laundering Act ke under charges daale hain. Seized bank records aur corporate filings ke basis pe, unka allegation hai ki loan funds Kingfisher Airlines se divert kiye gaye.\"",
     "image_prompt": "a large evidence board with printed bank statements, highlighted transaction records, red arrows drawn between different account names, investigative documentary aesthetic, dramatic lamp lighting, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Pan left to right across a detailed crime investigation board with red string connecting offshore shell company accounts. Camera: Horizontal panning shot from left to right, steady fluid tracking. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow pan left to right across a large investigation board covered in red string connecting photographs, financial documents, bank transfer slips, and corporate logos. The string network is dense and complex. The pan reveals new connections as it moves. Single warm amber desk lamp illuminating the board against a dark background. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "pan_left_to_right",
       "description": "Horizontal panning shot from left to right, steady fluid tracking"
@@ -759,9 +759,9 @@
     "id": "P43",
     "scene": "Scene 8 - Claim 3 No Criminal",
     "duration_seconds": 8.0,
-    "narration": "\"Allegedly divert kiye gaye funds ka destination tha Force India \u2014 unki Formula One team \u2014 aur Royal Challengers Bangalore cricket franchise.\"",
+    "narration": "\"Allegedly divert kiye gaye funds ka destination tha Force India — unki Formula One team — aur Royal Challengers Bangalore cricket franchise.\"",
     "image_prompt": "two luxury sporting venues side by side: left shows a Formula One pit lane with a racing car, right shows a floodlit cricket stadium, connected by glowing red transaction lines flowing between them, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on glowing red transfer arrows flowing from an airline vault into an F1 pit lane and an IPL cricket stadium. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow push-in on a glowing 3D visualization of red arrows representing money flows — leaving an airline vault icon and entering a personal account icon. The arrows pulse and flow continuously. Deep dark navy background, crimson red flowing arrows, amber vault icon. Financial forensic visualization. Abstract graphic novel style. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -777,9 +777,9 @@
     "id": "P44",
     "scene": "Scene 8 - Claim 3 No Criminal",
     "duration_seconds": 8.0,
-    "narration": "\"ED ka yeh bhi allegation hai ki loans ke against pledged certain assets undervalued kiye gaye \u2014 matlab banks ko loan amounts se kum security mili.\"",
+    "narration": "\"ED ka yeh bhi allegation hai ki loans ke against pledged certain assets undervalued kiye gaye — matlab banks ko loan amounts se kum security mili.\"",
     "image_prompt": "two weighing scales side by side dramatically unbalanced, one side bearing a massive golden weight, the other side a tiny weight, dark background, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static dramatic shot of brass scales tipping heavily as a giant loan weight drops on one pan, lifting the collateral pan high. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static dramatic shot of a large ornate brass scale of justice. On one pan rests an enormous glowing 9000-crore debt weight — it drops suddenly, slamming down, causing the scale to tip violently. The opposite pan rises sharply. Static camera captures the entire motion. Cold steel-blue ambient, warm amber brass scale. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -797,7 +797,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Yeh allegations civil court ki nahi hain kisi unpaid bill pe. Yeh criminal charges hain jo ek statutory law enforcement agency ne documentary evidence ke saath file kiye hain.\"",
     "image_prompt": "a thick criminal charge sheet bound in red tape, an investigator's hands placing it on a desk, multiple file boxes stacked in the background, hard dramatic lighting, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on a criminal charge sheet bound in red ribbon being placed firmly on an investigator's wooden desk. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow push-in on a thick official criminal charge sheet bound in red ribbon. The document rests on a mahogany desk. The camera advances until the red ribbon and official stamp fill the frame. Single overhead spot. Cold steel-blue ambient, crimson red ribbon, warm amber stamp wax. The document's finality. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -813,9 +813,9 @@
     "id": "P46",
     "scene": "Scene 9 - Claim 4 Debt Numbers",
     "duration_seconds": 8.0,
-    "narration": "\"Claim chaar. Mallya ek specific figure consistently quote karte hain: 6203 crore rupaye \u2014 2017 ke debt recovery tribunal ruling se liya gaya number.\"",
+    "narration": "\"Claim chaar. Mallya ek specific figure consistently quote karte hain: 6203 crore rupaye — 2017 ke debt recovery tribunal ruling se liya gaya number.\"",
     "image_prompt": "a single tall glowing amber data column standing alone against a dark background, height implying a large value, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Tilt up along a single glowing amber 3D debt column rising against a dark virtual background. Camera: Vertical camera tilt up, low angle, architectural elevation move. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Low-angle dramatic tilt-up along a single glowing amber 3D debt column rising against a dark virtual grid background. The column rises as the camera tilts — numbers scrolling along its surface. Moody dark navy and charcoal background. The column reaches skyward beyond frame. Glowing amber data visualization. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "tilt_up",
       "description": "Vertical camera tilt up, low angle, architectural elevation move"
@@ -833,7 +833,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Alag alag banks aur media reports ne 9000 crore se lekar 14000 crore tak ke figures cite kiye hain. Mallya kehte hain yeh inflated hain. Toh sach kaun bolta hai?\"",
     "image_prompt": "three tall glowing columns of dramatically different heights on a dark stage, the leftmost column shorter in amber, the middle and right columns progressively taller in steel blue, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow pull out displaying three 3D debt columns growing upward at different rates to highlight competing financial figures. Camera: Slow dolly-out / pull-out shot, wide lens, expanding scale. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow pull-out displaying three 3D debt columns of different heights growing upward simultaneously. As the pull-out reveals all three, their tops become labelled. Dark navy virtual environment. Each column glows amber but at different intensities. The pull-out frames all three in comparison. Data visualization / graphic novel hybrid. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_pull_out",
       "description": "Slow dolly-out / pull-out shot, wide lens, expanding scale"
@@ -849,9 +849,9 @@
     "id": "P48",
     "scene": "Scene 9 - Claim 4 Debt Numbers",
     "duration_seconds": 8.0,
-    "narration": "\"Jawab yeh hai: dono figures sahi ho sakte hain \u2014 depends karta hai ki debt kab calculate ki gayi.\"",
+    "narration": "\"Jawab yeh hai: dono figures sahi ho sakte hain — depends karta hai ki debt kab calculate ki gayi.\"",
     "image_prompt": "a glowing clock face merged with a rising financial chart, time and money intertwined visually, amber tones warming as the chart rises, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on a glowing clockwork mechanism spinning inside a rising financial interest graph. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow push-in on an elegant glowing clockwork mechanism — interlocking cogs and gears spinning inside a rising financial counter display. The mechanism is beautiful but the counter shows accelerating debt growth. Warm amber gear glow, cold blue enclosure. The push-in reveals the inner workings. Macro detail. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -867,9 +867,9 @@
     "id": "P49",
     "scene": "Scene 9 - Claim 4 Debt Numbers",
     "duration_seconds": 8.0,
-    "narration": "\"Wohi 2017 tribunal ruling jo Mallya quote karte hain, wahi specify bhi karti hai ki outstanding amount par 11.5 percent annual interest lag raha hai \u2014 2013 se calculated.\"",
+    "narration": "\"Wohi 2017 tribunal ruling jo Mallya quote karte hain, wahi specify bhi karti hai ki outstanding amount par 11.5 percent annual interest lag raha hai — 2013 se calculated.\"",
     "image_prompt": "a legal document with a highlighted clause glowing amber, a percentage symbol implied through visual design, close-up of fine print being illuminated, documentary investigative aesthetic, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on legal document fine print, an 11.5% interest rate clause lighting up with a bright amber glow. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow push-in macro on legal document fine print. A specific clause — '11.5% compound interest per annum' — lights up in warm amber as the camera approaches. The rest of the text fades into the background. Cold blue ambient. The clause alone glows, drawing the eye. Legal paper texture. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -885,9 +885,9 @@
     "id": "P50",
     "scene": "Scene 9 - Claim 4 Debt Numbers",
     "duration_seconds": 8.0,
-    "narration": "\"6203 crore pe 11.5 percent compound interest lagao 2013 se 2025 tak \u2014 yani baarah saal \u2014 total 20000 crore se zyada ho jaata hai. Zyada figures fabrication nahi hain. Yeh sirf maths hai.\"",
+    "narration": "\"6203 crore pe 11.5 percent compound interest lagao 2013 se 2025 tak — yani baarah saal — total 20000 crore se zyada ho jaata hai. Zyada figures fabrication nahi hain. Yeh sirf maths hai.\"",
     "image_prompt": "an exponential growth curve rendered as a glowing 3D surface rising steeply, amber glow at the base transitioning to deep red at the peak, dramatic dark background, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Tilt up along a steep 3D exponential curve shooting upward as compound interest accumulates over time. Camera: Vertical camera tilt up, low angle, architectural elevation move. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Low-angle tilt-up along a steep glowing exponential curve — a 3D graph shooting upward at an impossible angle into the dark virtual sky. Compound interest visualization. The tilt-up is continuous, the curve extending further with each frame. Dark navy space, amber glowing curve line. Numbers annotate the curve. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "tilt_up",
       "description": "Vertical camera tilt up, low angle, architectural elevation move"
@@ -903,9 +903,9 @@
     "id": "P51",
     "scene": "Scene 9 - Claim 4 Debt Numbers",
     "duration_seconds": 8.0,
-    "narration": "\"Mallya 2017 tribunal figure use karte hain \u2014 aur wahan ruk jaate hain. Usi document mein interest clause ka koi zikr nahi karte. Yeh selective quotation hai usi document ki jo woh khud apna evidence bataate hain.\"",
+    "narration": "\"Mallya 2017 tribunal figure use karte hain — aur wahan ruk jaate hain. Usi document mein interest clause ka koi zikr nahi karte. Yeh selective quotation hai usi document ki jo woh khud apna evidence bataate hain.\"",
     "image_prompt": "a document with a hand covering the bottom half of the page, only the top portion visible and highlighted, the covered portion glowing through the paper trying to escape, symbolic composition, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static shot of a hand covering the lower interest clause of a document while the upper figure stays in bright spotlight. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static shot of a businessman's hand sliding across a document — deliberately covering the lower interest clause section with his palm. The visible upper section shows only the headline figure. The hand moves slowly and deliberately into frame. Cold steel-blue ambient, single hard downlight. The covered clause is barely visible at the edge of his palm. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -921,9 +921,9 @@
     "id": "P52",
     "scene": "Scene 10 - Claim 5 Settlements",
     "duration_seconds": 8.0,
-    "narration": "\"Claim paanch. Mallya kehte hain unhone 2012 aur 2015 ke beech banks ko chaar alag settlement offers diye \u2014 sab reject ho gaye. Woh khud ko aisa dikhate hain jisne sab theek karne ki koshish ki \u2014 aur ignore kiya gaya.\"",
+    "narration": "\"Claim paanch. Mallya kehte hain unhone 2012 aur 2015 ke beech banks ko chaar alag settlement offers diye — sab reject ho gaye. Woh khud ko aisa dikhate hain jisne sab theek karne ki koshish ki — aur ignore kiya gaya.\"",
     "image_prompt": "a negotiating table with two sides, one side with stacked documents and an extended hand, the other side with arms crossed and heads turned away, dramatic lighting splitting the scene, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in across a split negotiation table, bankers turning away with folded arms as a settlement paper is pushed forward. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow push-in across a split negotiation boardroom table. On the left side, bankers turn away, arms folded, pushing documents aside. On the right, a single chair sits empty. The camera advances from the foot of the table. Cold steel-blue institutional light. Tension and rejection. Moody documentary. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -939,9 +939,9 @@
     "id": "P53",
     "scene": "Scene 10 - Claim 5 Settlements",
     "duration_seconds": 8.0,
-    "narration": "\"Yeh claim verify karna bahut aasaan hona chahiye \u2014 is scale ke settlement offers newsworthy events hote hain, legal documentation chahiye hoti hai, board approvals, public filings.\"",
+    "narration": "\"Yeh claim verify karna bahut aasaan hona chahiye — is scale ke settlement offers newsworthy events hote hain, legal documentation chahiye hoti hai, board approvals, public filings.\"",
     "image_prompt": "a journalist at a desk with a newspaper archive on multiple screens, searching through old headlines, documentary investigative aesthetic, warm lamp light, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Pan right across an investigator reviewing old newspaper archives on multiple illuminated computer monitors. Camera: Horizontal panning shot from left to right, steady fluid tracking. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Wide camera pan right across a cramped investigator's office. Multiple illuminated screens display old newspaper archive scans. A researcher's hand flips through pages. The pan follows the hand across multiple screens and physical files. Warm amber monitor glow against cold blue office ambient. Documentary investigation realism. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "pan_left_to_right",
       "description": "Horizontal panning shot from left to right, steady fluid tracking"
@@ -959,7 +959,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Research teams ne 2012 se 2015 ke period mein in chaar offers ki koi contemporaneous news coverage nahi dhundhi.\"",
     "image_prompt": "a search result screen showing empty results, a magnifying glass held over blank space, a large question mark emerging from the empty area, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static shot of a digital news archive database displaying 'NO RESULTS FOUND' with a magnifying glass hovering over blank space. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static shot of a digital archive database monitor screen displaying bold text: 'NO RESULTS FOUND'. The cursor blinks. The screen's blue-white light illuminates a researcher's face in cold glow. Background is dark. The blinking cursor is the only motion. Cold blue screen ambient, deep black background. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -975,9 +975,9 @@
     "id": "P55",
     "scene": "Scene 10 - Claim 5 Settlements",
     "duration_seconds": 8.0,
-    "narration": "\"Jo documented hai woh yeh hai: Mallya ke public settlement proposals 2016 mein shuru hue \u2014 jab woh India chhod chuke the, aur Supreme Court action lene ki taiyari kar rahi thi.\"",
+    "narration": "\"Jo documented hai woh yeh hai: Mallya ke public settlement proposals 2016 mein shuru hue — jab woh India chhod chuke the, aur Supreme Court action lene ki taiyari kar rahi thi.\"",
     "image_prompt": "a timeline visualization with a clear dividing line, left side dark and empty, right side showing a single glowing event marker, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Camera pan left to right along a timeline, 2012-2015 section remains dark until a single bright node sparks at 2016. Camera: Horizontal panning shot from left to right, steady fluid tracking. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow camera pan left to right along a projected timeline visualization spanning 2012-2026. The 2012-2015 section is dark and blank. As the pan continues rightward, events begin appearing. The gap in the early section is conspicuous. Dark moody background, amber timeline glow, crimson gap highlighting. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "pan_left_to_right",
       "description": "Horizontal panning shot from left to right, steady fluid tracking"
@@ -993,9 +993,9 @@
     "id": "P56",
     "scene": "Scene 10 - Claim 5 Settlements",
     "duration_seconds": 8.0,
-    "narration": "\"Ek aadmi jo saalo se settle karne ki koshish karta raha \u2014 aur ek aadmi jo settle karne ke offers tabhi shuru karta hai jab woh safely pahunch chuka ho desh se bahut door \u2014 in dono mein bahut bada fark hai.\"",
+    "narration": "\"Ek aadmi jo saalo se settle karne ki koshish karta raha — aur ek aadmi jo settle karne ke offers tabhi shuru karta hai jab woh safely pahunch chuka ho desh se bahut door — in dono mein bahut bada fark hai.\"",
     "image_prompt": "a man silhouetted at a distance across a wide body of water looking back from the far shore, a formal negotiation table visible on the near shore, symbolic composition, steel blue tones, color grading: moody dark navy and slate grey, sharp glowing amber data highlights, cinematic rim lighting, deep shadows, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow pull out showing a lonely figure standing on the far misty shore of the English Channel looking back toward India. Camera: Slow dolly-out / pull-out shot, wide lens, expanding scale. Lighting: Cinematic side-key lighting, deep shadow contrast. Color Palette: Moody dark navy blue, charcoal grey, glowing amber data highlights. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow pull-out from a lone figure standing on the misty southern shore of the English Channel. The figure holds a British newspaper. Waves crash below. Grey English sky. The pull-out reveals more of the desolate shore. Rainy London grey palette, cold steel-blue sea, dim tungsten amber spotlight on the figure. Atmospheric isolation. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_pull_out",
       "description": "Slow dolly-out / pull-out shot, wide lens, expanding scale"
@@ -1013,7 +1013,7 @@
     "duration_seconds": 8.0,
     "narration": "\"March 2016. Supreme Court of India ek application sun ne waali thi Mallya ka passport seize karne ke liye. Yeh application State Bank of India ne file ki thi.\"",
     "image_prompt": "exterior of the Supreme Court of India building at dawn, Indian flag, grand stone circular architecture, dramatic low-angle shot, deep blue sky, color grading: rainy London moody grey and cold steel blue, dim tungsten streetlamp amber, atmospheric fog, desaturated cinematic palette, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on the domed Supreme Court building in New Delhi at dawn, early morning light gilding the pillars. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Atmospheric mist, diffused wet asphalt reflection. Color Palette: Rainy London grey, cold steel blue, dim tungsten streetlamp amber. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow cinematic push-in on the Supreme Court of India's grand domed building at early pre-dawn. Mist clings to the stone. The building is lit in cold institutional blue-white. No people. An Indian flag moves slowly in the breeze. The push-in makes the building loom larger with each frame. Atmospheric fog. Cold steel-blue and deep navy. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -1029,9 +1029,9 @@
     "id": "P58",
     "scene": "Scene 11 - The Escape",
     "duration_seconds": 8.0,
-    "narration": "\"Scheduled hearing se ek din pehle \u2014 2nd March ko \u2014 Vijay Mallya London ki flight pe chale gaye.\"",
+    "narration": "\"Scheduled hearing se ek din pehle — 2nd March ko — Vijay Mallya London ki flight pe chale gaye.\"",
     "image_prompt": "interior of a first-class aircraft cabin at night, a heavyset older man with beard and glasses settling into a wide seat, window showing city lights receding below, calm expression, color grading: rainy London moody grey and cold steel blue, dim tungsten streetlamp amber, atmospheric fog, desaturated cinematic palette, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow pull out inside a quiet first-class plane cabin at night, city airport lights shrinking outside the jet window. Camera: Slow dolly-out / pull-out shot, wide lens, expanding scale. Lighting: Atmospheric mist, diffused wet asphalt reflection. Color Palette: Rainy London grey, cold steel blue, dim tungsten streetlamp amber. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow pull-out inside a quiet first-class airline cabin at night. A single passenger seat is empty. Through the oval window, airport terminal lights blur past. The cabin is dim — only reading-light amber pools on empty seats. The pull-out retreats down the aisle. Cold blue cabin ambient, warm amber seat lights. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_pull_out",
       "description": "Slow dolly-out / pull-out shot, wide lens, expanding scale"
@@ -1049,7 +1049,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Unhone multiple interviews mein maintain kiya hai ki yeh deliberate escape nahi tha. Unka kehna hai ki London jaane ke legitimate business reasons the, aur unhe bilkul nahi pata tha ki banks unke passport ke against move karne waale hain.\"",
     "image_prompt": "a heavy iron door closing on one side with a figure on the other side standing in London rain, looking back through the closing gap, symbolic composition, color grading: rainy London moody grey and cold steel blue, dim tungsten streetlamp amber, atmospheric fog, desaturated cinematic palette, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static symbolic shot: heavy iron gates slowly swinging shut, sealing a figure standing in rain on the outside. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Atmospheric mist, diffused wet asphalt reflection. Color Palette: Rainy London grey, cold steel blue, dim tungsten streetlamp amber. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static symbolic wide shot — heavy wrought-iron gates slowly swing shut, their shadow closing across the ground. A lone male silhouette stands on the outside of the gates as they seal. Cold steel-blue moonlight. The gates clang shut at the midpoint of the clip. Dramatic threshold symbolism. Graphic novel realism. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -1065,9 +1065,9 @@
     "id": "P60",
     "scene": "Scene 11 - The Escape",
     "duration_seconds": 8.0,
-    "narration": "\"Timing \u2014 Supreme Court hearing se ek din pehle \u2014 zyaadatar logon ke liye coincidence maanna bahut mushkil raha hai.\"",
+    "narration": "\"Timing — Supreme Court hearing se ek din pehle — zyaadatar logon ke liye coincidence maanna bahut mushkil raha hai.\"",
     "image_prompt": "a courtroom calendar on a wall with one date circled in red, a departure board on the facing wall with a flight listed the day before, the two images connected by a red dotted line, color grading: rainy London moody grey and cold steel blue, dim tungsten streetlamp amber, atmospheric fog, desaturated cinematic palette, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in showing a red dotted line connecting a March 3 courtroom calendar date to a March 2 flight departure board. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Atmospheric mist, diffused wet asphalt reflection. Color Palette: Rainy London grey, cold steel blue, dim tungsten streetlamp amber. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow push-in on a March 3 date on a glowing courtroom calendar. A dotted red line draws itself from the calendar date to an airport departure board — the animation reveals the connection in slow motion. Cold steel-blue ambient, crimson red connecting line pulsing. Calendar paper texture. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -1085,7 +1085,7 @@
     "duration_seconds": 8.0,
     "narration": "\"India ne February 2017 mein United Kingdom se Mallya ki extradition formally request ki. Jo follow hua woh tha British court system ke multiple tiers mein ek multi-year legal battle.\"",
     "image_prompt": "exterior of a British court building in grey winter light, stone columns, UK flag, a formal official envelope floating symbolically in the foreground, color grading: rainy London moody grey and cold steel blue, dim tungsten streetlamp amber, atmospheric fog, desaturated cinematic palette, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in toward a grey London court facade in winter rain, a diplomatic extradition request envelope suspended in fog. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Atmospheric mist, diffused wet asphalt reflection. Color Palette: Rainy London grey, cold steel blue, dim tungsten streetlamp amber. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow cinematic push-in toward a grey London courthouse facade in heavy winter rain. Wet stone, foggy breath visible, bare trees. The building looms larger as the camera advances on 35mm. Rainy London grey palette. Dim tungsten amber streetlamps reflect on the wet pavement. Cold, institutional, inevitable. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -1103,7 +1103,7 @@
     "duration_seconds": 8.0,
     "narration": "\"December 2018 mein, Westminster Magistrates Court ke judge ne rule kiya ki Mallya ko extradite kiya jaana chahiye. Judge ko fraud aur money laundering ka prima facie case mila.\"",
     "image_prompt": "interior of a British magistrates courtroom, oak-panelled walls, a judge in formal robes and white collar reviewing documents, a gavel about to come down, dramatic overhead lighting, color grading: rainy London moody grey and cold steel blue, dim tungsten streetlamp amber, atmospheric fog, desaturated cinematic palette, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static shot inside a Westminster court, a UK judge signing an extradition order under heavy oak panelling. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Atmospheric mist, diffused wet asphalt reflection. Color Palette: Rainy London grey, cold steel blue, dim tungsten streetlamp amber. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static interior shot inside Westminster Magistrates Court. A UK judge in grey wig and robes signs an official extradition order on parchment paper. The pen moves in slow motion. Hard institutional downlight. Cold grey and steel-blue ambient. The signature is the focal point. Formal, historic gravity. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -1119,9 +1119,9 @@
     "id": "P63",
     "scene": "Scene 12 - UK Extradition",
     "duration_seconds": 8.0,
-    "narration": "\"Mallya ne appeal ki. UK High Court ne April 2020 mein extradition order uphold kiya. Unhone phir Supreme Court of UK mein appeal ki \u2014 aur July 2020 mein leave to appeal refuse ho gaya.\"",
+    "narration": "\"Mallya ne appeal ki. UK High Court ne April 2020 mein extradition order uphold kiya. Unhone phir Supreme Court of UK mein appeal ki — aur July 2020 mein leave to appeal refuse ho gaya.\"",
     "image_prompt": "a tall tower of stacked court documents with rejection stamps, each successive level marked and dismissed, the tower growing with each level more definitive, color grading: rainy London moody grey and cold steel blue, dim tungsten streetlamp amber, atmospheric fog, desaturated cinematic palette, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Tilt up along a rising stack of legal appeals, each level getting stamped with a bold red APPEAL DISMISSED seal. Camera: Vertical camera tilt up, low angle, architectural elevation move. Lighting: Atmospheric mist, diffused wet asphalt reflection. Color Palette: Rainy London grey, cold steel blue, dim tungsten streetlamp amber. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Dramatic tilt-up along a rising tower of legal appeal documents, each a thick bound filing. Each level gets stamped DISMISSED mid-tilt. The stamps fall in sequence as the camera tilts upward. Cold steel-blue ambient, amber document spines, crimson red DISMISSED stamps. The height of the stack grows beyond the frame. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "tilt_up",
       "description": "Vertical camera tilt up, low angle, architectural elevation move"
@@ -1137,9 +1137,9 @@
     "id": "P64",
     "scene": "Scene 12 - UK Extradition",
     "duration_seconds": 8.0,
-    "narration": "\"2026 ke shuru tak, unki extradition execute nahi hui hai. Woh UK mein apni bankruptcy se related ongoing legal proceedings cite karte hain \u2014 unhone argument diya hai ki extradition se pehle yeh proceedings complete honi chahiye.\"",
+    "narration": "\"2026 ke shuru tak, unki extradition execute nahi hui hai. Woh UK mein apni bankruptcy se related ongoing legal proceedings cite karte hain — unhone argument diya hai ki extradition se pehle yeh proceedings complete honi chahiye.\"",
     "image_prompt": "a large door with a heavy padlock on it, paper chains of legal documents wrapped around the handles, a courtroom interior visible through a crack, color grading: rainy London moody grey and cold steel blue, dim tungsten streetlamp amber, atmospheric fog, desaturated cinematic palette, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on a heavy courthouse door chained shut with layers of legal stays and bankruptcy injunctions. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Atmospheric mist, diffused wet asphalt reflection. Color Palette: Rainy London grey, cold steel blue, dim tungsten streetlamp amber. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow push-in on a heavy courthouse door sealed with multiple thick chains and padlocks. Legal stay-of-execution notices are pinned across the door surface, layered atop one another. The camera inches closer, revealing more notices layered beneath. Cold stone corridor ambient, amber notice paper, dark shadows. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -1155,9 +1155,9 @@
     "id": "P65",
     "scene": "Scene 12 - UK Extradition",
     "duration_seconds": 8.0,
-    "narration": "\"Banks ne seized assets ke zariye outstanding debt ka karib 7000 crore rupaye recover kar liya hai \u2014 jisme United Spirits mein unki stake, properties, aur doosri holdings shaamil hain.\"",
+    "narration": "\"Banks ne seized assets ke zariye outstanding debt ka karib 7000 crore rupaye recover kar liya hai — jisme United Spirits mein unki stake, properties, aur doosri holdings shaamil hain.\"",
     "image_prompt": "a bank vault door open, inside showing stacks of recovered assets including property deeds, share certificates, luxury car keys, warm amber light, color grading: rainy London moody grey and cold steel blue, dim tungsten streetlamp amber, atmospheric fog, desaturated cinematic palette, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow pull out from an open bank vault filled with seized assets, share certificates, and property titles under warm light. Camera: Slow dolly-out / pull-out shot, wide lens, expanding scale. Lighting: Atmospheric mist, diffused wet asphalt reflection. Color Palette: Rainy London grey, cold steel blue, dim tungsten streetlamp amber. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow pull-out from inside a large open bank vault. The vault is mostly emptied — only sealed evidence bags and stacks of share certificates remain. The vault door frames the pull-out exit shot. Cold steel-blue vault interior, amber document stacks, hard overhead institutional lighting. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_pull_out",
       "description": "Slow dolly-out / pull-out shot, wide lens, expanding scale"
@@ -1175,7 +1175,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Toh 2026 mein aaj situation kahan hai?\"",
     "image_prompt": "a large world map with two glowing dots one over London one over New Delhi, a dotted red line of tension connecting them, dark background, color grading: rainy London moody grey and cold steel blue, dim tungsten streetlamp amber, atmospheric fog, desaturated cinematic palette, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow pull out over a dark tactical world map, a pulsing red laser line connecting London to New Delhi. Camera: Slow dolly-out / pull-out shot, wide lens, expanding scale. Lighting: Atmospheric mist, diffused wet asphalt reflection. Color Palette: Rainy London grey, cold steel blue, dim tungsten streetlamp amber. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow pull-out over a dark world map on a tactical operations table. A pulsing red laser line draws itself from Mumbai to London — animated, glowing. Supporting markers appear along the route. Cold navy blue table surface, crimson red route line, amber city markers. Strategic intelligence room aesthetic. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_pull_out",
       "description": "Slow dolly-out / pull-out shot, wide lens, expanding scale"
@@ -1193,7 +1193,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Mallya United Kingdom mein rehte hain, jahan woh simultaneously extradition aur bankruptcy proceedings dono ko contest kar rahe hain.\"",
     "image_prompt": "a figure in a dark coat walking along a rainy London street, grey stone buildings, a black umbrella overhead, looking ahead with a neutral expression, color grading: rainy London moody grey and cold steel blue, dim tungsten streetlamp amber, atmospheric fog, desaturated cinematic palette, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Pan left to right following a silhouetted figure with a black umbrella walking down a rainy London street at dusk. Camera: Horizontal panning shot from left to right, steady fluid tracking. Lighting: Atmospheric mist, diffused wet asphalt reflection. Color Palette: Rainy London grey, cold steel blue, dim tungsten streetlamp amber. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow pan left to right following a silhouetted tall male figure with a black umbrella walking down a rain-slicked London street at night. He walks away from camera, his reflection in puddles on the pavement. Dim amber streetlamps above. Cold dark blue rain atmosphere. Rainy London grey, tungsten amber reflections. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "pan_left_to_right",
       "description": "Horizontal panning shot from left to right, steady fluid tracking"
@@ -1211,7 +1211,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Indian courts ne unhe wilful defaulter declare kiya hai. Indian agencies ne multiple jurisdictions mein unki properties aur assets attach ki hain. Unka Indian passport expire ho chuka hai.\"",
     "image_prompt": "a set of official legal notices pinned to a board, red seizure stamps on property documents, an expired passport visible at the bottom of the pile, dramatic lamp lighting, color grading: rainy London moody grey and cold steel blue, dim tungsten streetlamp amber, atmospheric fog, desaturated cinematic palette, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static shot of a bulletin board with property seizure notices and an expired Indian passport pinned under a desk lamp. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Atmospheric mist, diffused wet asphalt reflection. Color Palette: Rainy London grey, cold steel blue, dim tungsten streetlamp amber. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static shot of a cluttered bulletin board — property seizure notices, an expired Indian passport photocopy, Interpol red notice printout, all pinned together haphazardly. A single desk fan slowly oscillates, causing the papers to flutter gently. Cold office blue-white fluorescent ambient. Worn papers, crimson-stamped notices. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -1229,7 +1229,7 @@
     "duration_seconds": 8.0,
     "narration": "\"Kingfisher Airlines mein kaam karne waale employees ko aaj bhi unki unpaid wages ka koi resolution nahi mila. Kuch retire ho gaye. Kuch guzar gaye. Unka yeh debt officially kisi ki priority list mein nahi hai.\"",
     "image_prompt": "a long empty corridor with a single older South Asian figure sitting on a bench alone, waiting, a closed office door at the end of the hall, grey and cold lighting, deeply melancholic atmosphere, color grading: rainy London moody grey and cold steel blue, dim tungsten streetlamp amber, atmospheric fog, desaturated cinematic palette, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in down a long quiet government corridor toward a single retired airline worker sitting on a bench waiting. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Atmospheric mist, diffused wet asphalt reflection. Color Palette: Rainy London grey, cold steel blue, dim tungsten streetlamp amber. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow push-in down a long quiet government corridor toward a single framed Kingfisher Airlines poster mounted on the far wall — the only colour in an otherwise grey institutional hallway. The camera moves steadily toward it. Cold grey institutional fluorescent lighting. The red Kingfisher poster glows at the end. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -1245,9 +1245,9 @@
     "id": "P70",
     "scene": "Scene 14 - Recovery Logic",
     "duration_seconds": 8.0,
-    "narration": "\"Podcast mein Mallya ka sabse striking argument yeh hai: banks ne paisa ka ek bada hissa recover kar liya hai \u2014 isliye woh traditional sense mein defaulter nahi hain \u2014 aur certainly chor toh bilkul nahi.\"",
+    "narration": "\"Podcast mein Mallya ka sabse striking argument yeh hai: banks ne paisa ka ek bada hissa recover kar liya hai — isliye woh traditional sense mein defaulter nahi hain — aur certainly chor toh bilkul nahi.\"",
     "image_prompt": "a heavyset older man with beard and glasses, both palms extended outward in an exasperated gesture, confident expression, stylized illustrated portrait, dramatic side lighting, color grading: deep midnight blue, single warm amber spotlight, dramatic chiaroscuro lighting, high contrast, melancholic cinematic atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static portrait of a bearded businessman holding out his hands in an expressive gesture of innocence. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Dramatic chiaroscuro, strong rim lighting. Color Palette: Curated warm amber and cold steel blue, high contrast. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static portrait shot of a heavyset bearded man in an expensive suit, hands extended toward camera expressively — palms up, the universal gesture of explaining himself. His face shows controlled conviction. Warm amber single key light on his face, cold blue shadow side. Dark out-of-focus background. Graphic novel realism. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -1263,9 +1263,9 @@
     "id": "P71",
     "scene": "Scene 14 - Recovery Logic",
     "duration_seconds": 8.0,
-    "narration": "\"Iss logic ko thoda dhyaan se socho. Agar koi bank loot karta hai, aur police stolen money recover kar leti hai \u2014 toh kya money recover hone ka matlab yeh hai ki robbery hui hi nahi?\"",
+    "narration": "\"Iss logic ko thoda dhyaan se socho. Agar koi bank loot karta hai, aur police stolen money recover kar leti hai — toh kya money recover hone ka matlab yeh hai ki robbery hui hi nahi?\"",
     "image_prompt": "a police officer handing a bag of recovered money back to a bank teller while in the background a handcuffed figure is still being led away by officers, the act and the crime shown as separate events, color grading: deep midnight blue, single warm amber spotlight, dramatic chiaroscuro lighting, high contrast, melancholic cinematic atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on a police officer returning stolen cash to a bank vault while officers lead a suspect away in handcuffs in the background. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Dramatic chiaroscuro, strong rim lighting. Color Palette: Curated warm amber and cold steel blue, high contrast. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow push-in on a police officer's gloved hands returning a sealed evidence bag of cash to a bank vault. An official in background observes and signs a receipt clipboard. Cold institutional fluorescent ambient, amber vault interior. Deliberate, methodical. Legal recovery in motion. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -1281,9 +1281,9 @@
     "id": "P72",
     "scene": "Scene 14 - Recovery Logic",
     "duration_seconds": 8.0,
-    "narration": "\"Act aur recovery \u2014 yeh legally alag events hain. Courts innocence assess nahi karte iss basis pe ki assets eventually seize hue ya nahi. Woh assess karte hain ki original conduct fraudulent tha ya criminal.\"",
+    "narration": "\"Act aur recovery — yeh legally alag events hain. Courts innocence assess nahi karte iss basis pe ki assets eventually seize hue ya nahi. Woh assess karte hain ki original conduct fraudulent tha ya criminal.\"",
     "image_prompt": "a scale of justice with two pans deliberately separated and unconnected, each pan hanging independently, dark background, symbolic composition, color grading: deep midnight blue, single warm amber spotlight, dramatic chiaroscuro lighting, high contrast, melancholic cinematic atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static symbolic shot of brass scales of justice severed in half, each side hanging independently in dramatic shadow. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Dramatic chiaroscuro, strong rim lighting. Color Palette: Curated warm amber and cold steel blue, high contrast. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static symbolic shot of brass scales of justice — the central pillar has been cleanly severed. Both pans hang at oblique angles, slowly swaying. On one pan: a stack of stamped legal documents. On the other: nothing. Cold steel-blue ambient, warm amber brass. The swaying is hypnotic, the symbolism complete. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
@@ -1299,9 +1299,9 @@
     "id": "P73",
     "scene": "Scene 14 - Recovery Logic",
     "duration_seconds": 8.0,
-    "narration": "\"Aur ek baat \u2014 banks aur government agencies dwara assets seizure, Mallya ke voluntarily debt repay karne se alag hai. Assets liye gaye \u2014 returned nahi kiye gaye.\"",
+    "narration": "\"Aur ek baat — banks aur government agencies dwara assets seizure, Mallya ke voluntarily debt repay karne se alag hai. Assets liye gaye — returned nahi kiye gaye.\"",
     "image_prompt": "two hands in symbolic contrast: one willingly offering a coin forward open-palmed, the other with something being forcibly pulled from a closed fist, dramatic lighting, color grading: deep midnight blue, single warm amber spotlight, dramatic chiaroscuro lighting, high contrast, melancholic cinematic atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Pan left to right contrasting a hand voluntarily offering money versus a hand having assets seized by court order. Camera: Horizontal panning shot from left to right, steady fluid tracking. Lighting: Dramatic chiaroscuro, strong rim lighting. Color Palette: Curated warm amber and cold steel blue, high contrast. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Wide slow pan left to right. Left side: an open hand voluntarily offering a stack of currency notes toward camera. Right side: a uniformed enforcement officer's hand physically removing documents from a filing cabinet. Two contrasting actions on the same table, pan reveals both. Warm amber left, cold blue right. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "pan_left_to_right",
       "description": "Horizontal panning shot from left to right, steady fluid tracking"
@@ -1317,9 +1317,9 @@
     "id": "P74",
     "scene": "Scene 15 - Conclusion",
     "duration_seconds": 8.0,
-    "narration": "\"Vijay Mallya ek complex figure hai. Unhone real cheezein banai \u2014 airlines, sports teams, brands. Hazaron logo ko employ kiya. Lekin documented facts yeh support nahi karte jo narrative woh abhi bech rahe hain.\"",
+    "narration": "\"Vijay Mallya ek complex figure hai. Unhone real cheezein banai — airlines, sports teams, brands. Hazaron logo ko employ kiya. Lekin documented facts yeh support nahi karte jo narrative woh abhi bech rahe hain.\"",
     "image_prompt": "a cracked mirror reflecting a fragmented image: one fragment shows past glory with a gleaming aircraft and a grand party, another shows an empty office and a closed gate, another shows a courtroom, all fragments cracked and displaced, color grading: deep midnight blue, single warm amber spotlight, dramatic chiaroscuro lighting, high contrast, melancholic cinematic atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow push in on a shattered mirror, each cracked shard reflecting a different period of the Kingfisher downfall story. Camera: Slow cinematic push-in shot, 35mm lens, smooth camera move. Lighting: Dramatic chiaroscuro, strong rim lighting. Color Palette: Curated warm amber and cold steel blue, high contrast. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow push-in on a large shattered floor mirror, each jagged shard reflecting a different perspective of the same bearded man — one shows him with a champagne glass, one shows courtroom walls, one shows an empty airline seat, one shows London rain. The push-in brings the composite reflection closer. Deep midnight blue ambient, single warm amber spotlight from above. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_push_in",
       "description": "Slow cinematic push-in shot, 35mm lens, smooth camera move"
@@ -1335,9 +1335,9 @@
     "id": "P75",
     "scene": "Scene 15 - Conclusion",
     "duration_seconds": 8.0,
-    "narration": "\"Salaries court ke kuch freeze karne se pehle nahi di gayi thi. Guarantor clause legally binding hai. Criminal charges real aur documented hain. Debt figures compound interest se explain hote hain \u2014 usi document mein jo woh cite karte hain. Aur settlement offers ka koi contemporaneous record nahi hai.\"",
+    "narration": "\"Salaries court ke kuch freeze karne se pehle nahi di gayi thi. Guarantor clause legally binding hai. Criminal charges real aur documented hain. Debt figures compound interest se explain hote hain — usi document mein jo woh cite karte hain. Aur settlement offers ka koi contemporaneous record nahi hai.\"",
     "image_prompt": "a five-panel grid composition like a newspaper front page, each panel abstractly representing a claim being crossed out with a bold red mark, striking graphic composition, color grading: deep midnight blue, single warm amber spotlight, dramatic chiaroscuro lighting, high contrast, melancholic cinematic atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Pan left to right across a newspaper grid as big red X marks stamp down one by one across five defense claims. Camera: Horizontal panning shot from left to right, steady fluid tracking. Lighting: Dramatic chiaroscuro, strong rim lighting. Color Palette: Curated warm amber and cold steel blue, high contrast. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Wide slow pan left to right across a large newspaper front-page grid. One by one as the pan moves, large bold crimson red X marks stamp down across each headline — Kingfisher, loans, escape, extradition. Each stamp has a paper impact vibration. Cold blue newsprint ambient, crimson red stamps. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "pan_left_to_right",
       "description": "Horizontal panning shot from left to right, steady fluid tracking"
@@ -1353,9 +1353,9 @@
     "id": "P76",
     "scene": "Scene 15 - Conclusion",
     "duration_seconds": 8.0,
-    "narration": "\"Chaar hazaar employees aaj bhi us salary ka intezaar kar rahe hain jo unhone ek decade se zyada pehle earn ki thi. Yeh fact nahi badlta \u2014 chahe yeh story kaise bhi sunai jaaye.\"",
+    "narration": "\"Chaar hazaar employees aaj bhi us salary ka intezaar kar rahe hain jo unhone ek decade se zyada pehle earn ki thi. Yeh fact nahi badlta — chahe yeh story kaise bhi sunai jaaye.\"",
     "image_prompt": "a quiet empty airport terminal at dusk, golden hour light streaming through large windows, dust motes floating in the air, a forgotten red airline uniform jacket hanging on the back of an empty chair, melancholic and final atmosphere, color grading: deep midnight blue, single warm amber spotlight, dramatic chiaroscuro lighting, high contrast, melancholic cinematic atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Slow pull out from an abandoned red airline jacket hanging on a chair in a sunlit empty terminal corridor at sunset. Camera: Slow dolly-out / pull-out shot, wide lens, expanding scale. Lighting: Dramatic chiaroscuro, strong rim lighting. Color Palette: Curated warm amber and cold steel blue, high contrast. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Slow pull-out from an abandoned red Kingfisher Airlines uniform jacket hanging alone on a chair in a sunlit empty office. The window behind lets in late afternoon amber sunlight. Dust motes float in the beam. The pull-out reveals the full room — completely vacant. Warm amber window light, deep blue shadows. Melancholy and finality. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "slow_pull_out",
       "description": "Slow dolly-out / pull-out shot, wide lens, expanding scale"
@@ -1373,7 +1373,7 @@
     "duration_seconds": 8.0,
     "narration": "No narration",
     "image_prompt": "dramatic dark background, center of frame empty and dark, a single amber spotlight from above illuminating nothing, silence implied by visual stillness, wide minimalist composition, color grading: deep midnight blue, single warm amber spotlight, dramatic chiaroscuro lighting, high contrast, melancholic cinematic atmosphere, cinematic illustrated documentary panel, graphic novel art style, semi-realistic digital painting, 8k resolution, highly detailed, 16:9 aspect ratio, no text, no watermarks, no logos",
-    "text_to_video_prompt": "Static final shot of an empty stage illuminated by a single warm spotlight fading slowly to black. Camera: Static tripod shot, locked-off camera, subtle micro-movements. Lighting: Dramatic chiaroscuro, strong rim lighting. Color Palette: Curated warm amber and cold steel blue, high contrast. Style: Cinematic 8k documentary film, 16:9 aspect ratio, 24fps, photo-realistic graphic novel aesthetic, no text, no watermarks, 8 seconds duration.",
+    "text_to_video_prompt": "Static final shot of an empty stage — a single warm amber spotlight shines downward onto nothing, the stage bare. The light slowly dims over 6 seconds until the frame is almost completely black. A faint haze of spotlight remains visible. Deep midnight blue, warm amber spotlight fading. Conclusive silence. Graphic novel cinematic. 8K, 24fps, no text, 8 seconds.",
     "camera_movement": {
       "type": "static_hold",
       "description": "Static tripod shot, locked-off camera, subtle micro-movements"
