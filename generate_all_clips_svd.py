@@ -38,7 +38,7 @@ else:
 LOG_FILE   = "/workspace/svd_log.txt"
 FAIL_FILE  = "/workspace/svd_failed.txt"
 
-VARIATIONS         = 2
+VARIATIONS         = 1
 SVD_FRAMES         = 25
 TARGET_DURATION    = 8.0
 TARGET_FPS         = 30
