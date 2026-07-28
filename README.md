@@ -1,7 +1,7 @@
-# 🎬 Mallya Documentary — AI Text-to-Video Pipeline
+# 🎬 Mallaya Documentary — AnimateDiff 2D Animated Pipeline
 
 > **"I Am Not a Chor" — The Vijay Mallya Documentary**
-> 77 panels × 8-second video clips generated purely from text prompts using CogVideoX-2b.
+> 77 panels × 8-second 2D animated clips in DOKIO documentary style.
 
 ---
 
@@ -9,42 +9,44 @@
 
 | File | Purpose |
 |------|---------|
-| `prompts.json` | **Master source of truth** — 77 panels with full text-to-video prompts, camera movements, color & lighting specs, narration |
-| `generate_text_to_video.py` | **Main pipeline** — generates 77 × 8-second MP4 clips via CogVideoX-2b and uploads to Google Drive |
-| `setup.sh` | One-click VPS setup (installs dependencies, authenticates HuggingFace, configures Google Drive) |
-| `text_to_video_prompts.md` | Human-readable prompt guide for each panel (for manual use with Luma/Runway/Kling/Pika) |
-| `master_narration_and_prompts.md` | Full Hinglish voiceover script aligned to all 77 panels |
-| `voiceover_script_hinglish.md` | Standalone voiceover script |
-| `style_bible.md` | Visual style guide for the documentary |
-| `pipeline_setup_guide.md` | Detailed VPS deployment guide |
+| `prompts.json` | **Master source** — 77 panels with detailed text-to-video prompts, camera, color, narration |
+| `generate_animatediff.py` | **Main pipeline** — AnimateDiff-Lightning + epiCRealism → 2D animated 8-sec MP4s |
+| `setup.sh` | One-click VPS setup |
+| `README.md` | This file |
 
 ---
 
 ## Quick Start (VPS — vast.ai RTX 3090)
 
 ```bash
-# 1. Clone the repo
+# 1. Clone
 git clone https://github.com/nowrohit90008gmailcom/mallaya.git
 cd mallaya
 
-# 2. Run one-click setup
+# 2. Setup
 export HF_TOKEN=hf_your_token_here
 bash setup.sh
 
-# 3. Run the Text-to-Video pipeline
-python generate_text_to_video.py
+# 3. Run
+python generate_animatediff.py
 ```
+
+---
+
+## Model Stack
+
+| Component | Model |
+|-----------|-------|
+| **Motion Module** | AnimateDiff-Lightning (ByteDance) |
+| **Base Model** | epiCRealism (cartoon-friendly) |
+| **Style** | 2D animated documentary — DOKIO / Indian graphic novel |
+| **Speed** | 4 inference steps — ultra fast |
+| **VRAM** | ~10 GB — comfortable on RTX 3090 |
+| **Output** | 1920×1080, H.264 CRF 17, 24fps, 8 seconds |
 
 ---
 
 ## Output
 
-- **77 × 8-second MP4 video clips** generated directly from text prompts
-- Automatically uploaded to Google Drive: `📁 Mallya Documentary / Video Clips T2V`
-- **Resolution:** Full HD 1920×1080, H.264 CRF 17, 24fps
-
----
-
-## Model
-
-**CogVideoX-2b** (THUDM/CogVideoX-2b) — Open source text-to-video model running on RTX 3090 (24 GB VRAM) with CPU offloading enabled.
+- **77 × 8-second 2D animated MP4 clips**
+- Uploaded to Google Drive: `📁 Mallaya Documentary / Video Clips Animated`
